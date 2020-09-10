@@ -1,7 +1,7 @@
-<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="89574616-bb96-4234-acbf-79cba33c0843">
+<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="5db04a8b-c6a1-4fa8-85c9-bcd070a2f45f">
   <metadata>
     <title>FedRAMP System Security Plan (SSP)</title>
-    <last-modified>2020-09-09T00:44:56.23+00:00</last-modified>
+    <last-modified>2020-09-10T00:41:32.57+00:00</last-modified>
     <version>0.0.1</version>
     <oscal-version>1.0.0-milestone2</oscal-version>
   </metadata>
@@ -38,80 +38,80 @@
     </authorization-boundary>
   </system-characteristics>
   <system-implementation>
-    <user uuid="3b905afc-9b2a-4340-a2b9-222549932215">
+    <user uuid="d32d1933-ac22-4f29-bac1-a8c27a36f2ec">
       <role-id>generator</role-id>
     </user>
   </system-implementation>
   <control-implementation>
     <description><p>FedRAMP SSP Template Section 13</p></description>
-    <implemented-requirement uuid="3b36ff9f-2bc7-4c9a-82e1-12e277e80f1e" control-id="ac-1">
+    <implemented-requirement uuid="e1f76f94-a2cd-4fab-b344-78297b47dcd1" control-id="ac-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-1_stmt.a" uuid="a0434c70-f2d2-4e23-b819-64b605f992af">
+      <statement statement-id="ac-1_stmt.a" uuid="bba2899a-d386-473c-ace1-98dfe562170c">
         <description><p>AC-1(a) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-1_stmt.b" uuid="97edf0f4-8cd7-45b2-8fde-0c6c24002738">
+      <statement statement-id="ac-1_stmt.b" uuid="9401aea9-0d26-422d-9080-1f58cb2c04cc">
         <description><p>AC-1(b) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b0a84277-07c6-455e-aac8-efc21d24bd65" control-id="ac-2">
+    <implemented-requirement uuid="300912a9-dac3-4f0f-abf3-83cb400b335b" control-id="ac-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-2_stmt.a" uuid="3d3d807b-e2ba-4054-bf48-d4f9a6d016d4">
+      <statement statement-id="ac-2_stmt.a" uuid="adac241d-bbca-46cb-8a67-beb52050c6fb">
         <description><p>AC-2(a) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.b" uuid="bd5b87e0-b148-403c-87cd-99842b0550cf">
+      <statement statement-id="ac-2_stmt.b" uuid="95c39699-cadc-4ed8-9682-7884c7039006">
         <description><p>AC-2(b) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.c" uuid="949d75c1-8f6d-4078-bcd7-84d37df769d4">
+      <statement statement-id="ac-2_stmt.c" uuid="1b1cd8a1-61e0-4d7c-b5a2-e8c50940d2f7">
         <description><p>AC-2(c) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.d" uuid="8d0359e1-94ed-447c-938d-646de41a39e0">
+      <statement statement-id="ac-2_stmt.d" uuid="116b07c2-ace8-49f1-a3a6-49d000acc0f9">
         <description><p>AC-2(d) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.e" uuid="fd91d82b-4a82-4c58-930b-fd4cb1e29a8d">
+      <statement statement-id="ac-2_stmt.e" uuid="b9479034-5866-48a5-8fb4-3d33232a7b33">
         <description><p>AC-2(e) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.f" uuid="ba071f73-dac4-4648-99e7-86d41a6b1bfa">
+      <statement statement-id="ac-2_stmt.f" uuid="80f39261-d3b9-48a5-917e-c3e371e45a34">
         <description><p>AC-2(f) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.g" uuid="7f8bc6c2-b048-4421-a290-e5bcf157a3b8">
+      <statement statement-id="ac-2_stmt.g" uuid="f4404f76-c448-413b-8167-654e2b5547f2">
         <description><p>AC-2(g) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.h" uuid="943ba436-ed1b-45b2-bce9-f27c554d573b">
+      <statement statement-id="ac-2_stmt.h" uuid="01117ece-6f86-4c0d-95c8-e88bf62c4113">
         <description><p>AC-2(h) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.i" uuid="100a2b05-9fbd-4ecf-8781-831d232f6f5e">
+      <statement statement-id="ac-2_stmt.i" uuid="97b3a203-ef95-4400-944c-389c93c36b39">
         <description><p>AC-2(i) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.j" uuid="86903a35-0e16-437f-96ad-f1d767c7ea99">
+      <statement statement-id="ac-2_stmt.j" uuid="43770d12-1421-426d-b00b-f277d7a6dd53">
         <description><p>AC-2(j) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.k" uuid="1d024d95-5e6d-4e00-af61-76d573232f74">
+      <statement statement-id="ac-2_stmt.k" uuid="0d0917cf-e624-409b-b634-bb1720b280ea">
         <description><p>AC-2(k) is an organizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8fdf11f6-b61a-4554-8066-3ca74339f111" control-id="ac-3">
+    <implemented-requirement uuid="a97f18c8-8b1c-46c0-bf23-557e66fd444a" control-id="ac-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="ac-3_stmt" uuid="294fea42-870c-46c5-adc2-e2a732917b2e">
+      <statement statement-id="ac-3_stmt" uuid="c90479ba-9ef9-4cf3-b051-e32e24938946">
         <description><p>This control is met by CoreOS when SELinux is in Enforcing mode
 and configured against the SELinux Targeted policy.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a95070be-af65-49a4-90b8-ad243930ae44" control-id="ac-7">
+    <implemented-requirement uuid="958c614b-abd9-4e22-ad40-99f3e655e9ed" control-id="ac-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ac-7_stmt.a" uuid="6ab0efd8-9f1c-450b-b49f-dbdc33881721">
+      <statement statement-id="ac-7_stmt.a" uuid="ef529e8d-c849-4269-9ed5-e28249d0daf5">
         <description><p>The customer will be responsible for enforcing a limit on consecutive
 failed login attempts.
 
@@ -120,7 +120,7 @@ A control response is planned. Progress can be tracked via:
 https://issues.redhat.com/browse/CMP-124
 </p></description>
       </statement>
-      <statement statement-id="ac-7_stmt.b" uuid="ab51fc5d-e8eb-4815-8abd-67195a2ff2b8">
+      <statement statement-id="ac-7_stmt.b" uuid="ee568932-8732-41ad-b061-ea353de83367">
         <description><p>The customer will be responsible for taking required
 actions defined by the customer, upon account lockout.
 
@@ -130,9 +130,9 @@ https://issues.redhat.com/browse/CMP-124
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="750faaec-0762-461e-87db-9561103d52c5" control-id="ac-8">
+    <implemented-requirement uuid="f1b6a2bf-07b8-48b3-8c33-70406eb72cfd" control-id="ac-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ac-8_stmt.a" uuid="96dad3c0-9c1b-47e7-9c51-caa0cdd35e95">
+      <statement statement-id="ac-8_stmt.a" uuid="f5d0de73-14dc-40e4-b2d9-f5162569bd99">
         <description><p>The customer will be responsible for displaying a system use
 notification banner to users. A successful control response will need
 to address the conditions under which the banner will be displayed
@@ -150,7 +150,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.b" uuid="77547a7f-c1e4-48c8-b9be-0db46de0113d">
+      <statement statement-id="ac-8_stmt.b" uuid="3ac27c2f-41e9-4840-81e1-521cfdbed88f">
         <description><p>The customer will be responsible for displaying the use notification
 banner until the user acknowledges the usage condition and takes
 explicit actions to further access the system. A successful control
@@ -163,7 +163,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c" uuid="6ad25e32-6217-4f28-893a-51e30877dff8">
+      <statement statement-id="ac-8_stmt.c" uuid="5cd1cea5-a182-4c06-8440-c73bd9f00b9c">
         <description><p>The customer will be responsible for displaying a system use
 information message to users. A successful control response will need
 to address the conditions under which the message will be
@@ -179,7 +179,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.1" uuid="28897754-2373-419d-bdfe-c04b3bf93d03">
+      <statement statement-id="ac-8_stmt.c.1" uuid="1b3ae22f-80f3-406d-8050-24a51ae3a0fc">
         <description><p>The customer will be responsible for determining the conditions
 under which the system use notification will be displayed. These
 conditions must be reviewed and accepted by the FedRAMP JAB.
@@ -190,7 +190,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.2" uuid="6a2c74d1-664a-4486-be26-e2d7282a611a">
+      <statement statement-id="ac-8_stmt.c.2" uuid="bfacda7d-acb7-426b-9755-d789d231f651">
         <description><p>The customer will be responsible for how the system use notification
 will be verified and how often it should be re-displayed and
 re-verified. These conditions must be reviewed an accepted by the
@@ -202,7 +202,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.3" uuid="40ce85db-b6ed-41c6-9ba0-7a1fac369513">
+      <statement statement-id="ac-8_stmt.c.3" uuid="db1f7d1e-ba5f-42ac-871f-705b5a49ff47">
         <description><p>The customer will be responsible for verifying that the system use
 notification is being displayed as required, either through a
 configuration baseline check or via other means. If this verification
@@ -216,9 +216,9 @@ https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9ee24d83-fd86-43f7-bb07-d8ef9499c036" control-id="ac-14">
+    <implemented-requirement uuid="0e9250a8-7faa-4789-9e70-c76852bb97f9" control-id="ac-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-14_stmt" uuid="a79361d1-7a37-4ccc-a79d-94c1e6462da0">
+      <statement statement-id="ac-14_stmt" uuid="0bfea818-0ad0-4381-b94e-01e584286095">
         <description><p>Regardless of access mechanism, such as the CoreOS Console or remote
 access attempts through SSH, unauthenticated users will only be shown the
 system use notifications (as defined in AC-8) and login prompt. This is
@@ -226,54 +226,54 @@ non-confiurable behavior.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c8f4a492-e93b-401e-ba09-c633a706192b" control-id="ac-17">
+    <implemented-requirement uuid="3177e8cd-deda-4adc-825c-713a26d4c8b0" control-id="ac-17">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-17_stmt.a" uuid="3a055cc8-2fed-45e2-80f4-55f27d1ccea3">
+      <statement statement-id="ac-17_stmt.a" uuid="2c2d451e-6874-4cdf-aced-b966705b8178">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ac-17_stmt.b" uuid="28ae6f1f-17c5-499f-a456-0e003bdd2842">
+      <statement statement-id="ac-17_stmt.b" uuid="00db75a7-59b1-4bc9-97d1-9b98030fec21">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1aaae4e4-9619-4a6c-a6f5-7b62a5e271e1" control-id="ac-18">
+    <implemented-requirement uuid="253e3e98-66f9-47d3-9be5-0188b6f64cce" control-id="ac-18">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-18_stmt.a" uuid="130cb75e-5194-4581-b31f-2dfa7cc4e0ba">
+      <statement statement-id="ac-18_stmt.a" uuid="a499c380-c23d-4a0e-8a9d-350972261a3a">
         <description><p>Organizational processes regarding the establishment of wireless
 access usage restrictions are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-18_stmt.b" uuid="e121de40-7a2b-47cd-a099-ddfacb69530e">
+      <statement statement-id="ac-18_stmt.b" uuid="0b45f9f8-fe70-4784-95db-51805d27e393">
         <description><p>Organizational processes regarding wireless access to the information
 system are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2bb30c33-ec43-4b09-a9d3-28dc9a840e74" control-id="ac-19">
+    <implemented-requirement uuid="735229b5-e605-4f6c-a344-1038f96b1f0b" control-id="ac-19">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-19_stmt.a" uuid="4b725a90-5845-476b-979c-4f23d6c618ca">
+      <statement statement-id="ac-19_stmt.a" uuid="68e709ee-f7ef-4ba9-876b-bc2eda60070d">
         <description><p>Establishing organizational usage restrictions for mobile devices is outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-19_stmt.b" uuid="f19ca388-2ca9-43b9-a65e-57906bf9808f">
+      <statement statement-id="ac-19_stmt.b" uuid="0120a5c2-dc22-4754-b14d-cfec6281da07">
         <description><p>Authorization of mobile devices is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="01ca6d5a-9010-410f-b8fd-b3b8ab68d4fd" control-id="ac-20">
+    <implemented-requirement uuid="00fc8993-11b9-4449-b697-a31eee6d850e" control-id="ac-20">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-20_stmt.a" uuid="4b0d1f9d-7d4b-44ce-be79-786f54de0113">
+      <statement statement-id="ac-20_stmt.a" uuid="05502580-ab9b-46f6-8b65-105d899a0fa2">
         <description><p>Organizational processes for establishing terms and conditions
 for accessing the information system from external information
 systems is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-20_stmt.b" uuid="dc36aa14-044a-4afc-bbac-a64082f837cd">
+      <statement statement-id="ac-20_stmt.b" uuid="2a6371e8-12a2-447f-a915-45ddc1b6b55b">
         <description><p>Organizational processes for establishing terms and conditions
 for the processing, storage, or transmission of organization-controlled
 information using external information systems is outside the scope
@@ -281,28 +281,28 @@ of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ab3ec481-2205-4e7e-8a52-bbb57fb6166a" control-id="ac-22">
+    <implemented-requirement uuid="7d1b90ad-4476-4137-8e26-9e0f481e8243" control-id="ac-22">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-22_stmt.a" uuid="a42fb055-e0bb-4dfe-b370-7922da35bf36">
+      <statement statement-id="ac-22_stmt.a" uuid="f9b6670b-4120-4118-83fc-6fa96d016a08">
         <description><p>Organizational processes regarding the designation of individuals
 authorized to post information onto a publicly accessible information
 system is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.b" uuid="1d2635c2-bc4d-4f05-8373-93b0c47b9f10">
+      <statement statement-id="ac-22_stmt.b" uuid="6c8df62b-c7f3-4eb7-b999-620bb9bd8044">
         <description><p>Training authorized individuals to ensure that publicly accessible
 information does not contain nonpublic information is outside the
 scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.c" uuid="1501e40a-619e-4cae-939d-5515e25cb603">
+      <statement statement-id="ac-22_stmt.c" uuid="7b743129-1611-4729-8a27-934452d0bf35">
         <description><p>Reviewing the proposed content of information prior to posting onto
 the publicly accessible information system to ensure that nonpublic
 information is not included is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.d" uuid="d49309f8-7d46-42fd-99ea-67f584a9be9a">
+      <statement statement-id="ac-22_stmt.d" uuid="9a49d83a-6994-48de-bcb9-62167ecf3426">
         <description><p>Reviewing content on the publicly accessible information system
 for nonpublic information at an organization-defined frequency and
 removal of such information, if discovered, is outside the scope of
@@ -310,86 +310,86 @@ CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="fab48554-d2ca-4bd4-9551-0a01d347919b" control-id="at-1">
+    <implemented-requirement uuid="ab946677-f065-44d7-af7e-a13c039e75f0" control-id="at-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-1_stmt.a" uuid="24013374-75b8-417a-b676-87795a253972">
+      <statement statement-id="at-1_stmt.a" uuid="b15feef7-b782-4b32-b117-03b7e52d2774">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-1_stmt.b" uuid="8c703673-e228-4fac-a910-0228ba3468a7">
+      <statement statement-id="at-1_stmt.b" uuid="c80bf1c8-2ee5-4ca8-ab2b-9e20047666e7">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d982e5e2-a182-4842-9f00-0d71e1be9a32" control-id="at-2">
+    <implemented-requirement uuid="f7567b6c-507b-492d-aeeb-06bb7268aa83" control-id="at-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-2_stmt.a" uuid="0d45b436-7361-4b88-a74f-d15716191e62">
+      <statement statement-id="at-2_stmt.a" uuid="960b99b4-aee8-4f3c-a07a-768a59f4ce5a">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.b" uuid="84812ca2-f5c7-4d1a-9a89-cf0f6699fcfb">
+      <statement statement-id="at-2_stmt.b" uuid="f8f024e3-59e3-4cc4-bfc9-fedd8055a7e8">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.c" uuid="4d4616b0-1006-467a-9a03-aa24d957d0ff">
+      <statement statement-id="at-2_stmt.c" uuid="4c0e8e33-2a0e-4afc-ae48-4a788a1db9e4">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e2123c30-be00-4357-99dc-de216c7ff67a" control-id="at-3">
+    <implemented-requirement uuid="ba2a1b20-3d10-4aed-ac6a-096969df01e7" control-id="at-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-3_stmt.a" uuid="7cafe7eb-9806-41d0-94a9-9e1f93f8a08d">
+      <statement statement-id="at-3_stmt.a" uuid="86ad1e62-c3ed-4529-a031-2733b7b7b879">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.b" uuid="17c41812-9c9c-4638-b9b2-2ad4928cedcc">
+      <statement statement-id="at-3_stmt.b" uuid="13dab1e1-0986-46d9-82d8-797b69f818b2">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.c" uuid="94fea679-c2d8-453a-8225-fd685415193b">
+      <statement statement-id="at-3_stmt.c" uuid="97170f8f-c87a-43c0-a58a-f5a994c37165">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="261e4cfe-871c-4a64-98e4-869e19b9262e" control-id="at-4">
+    <implemented-requirement uuid="9b251658-28b0-4d52-98b4-e55c0595053b" control-id="at-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-4_stmt.a" uuid="64b5a9ff-7680-43d9-aa1b-a872bbed12e9">
+      <statement statement-id="at-4_stmt.a" uuid="db6579ff-a449-4c43-aae0-a4a44b1d57cf">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-4_stmt.b" uuid="84ad473e-f2cb-4f14-ac54-27203c7a3d54">
+      <statement statement-id="at-4_stmt.b" uuid="389daa4e-84a2-40d7-a728-3d7cbe023790">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="cf736f9f-0586-4dc4-8aa3-4f0fa25188ec" control-id="au-1">
+    <implemented-requirement uuid="5bacbbb3-5c37-4f90-ac9a-9343ad1ae059" control-id="au-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="au-1_stmt.a" uuid="ab3e4d5e-f2fb-41cb-9094-7e481eadd63b">
+      <statement statement-id="au-1_stmt.a" uuid="dfabd9ea-af12-4ad9-b63e-8eba6685e50e">
         <description><p>Developing, documenting, and disseminating an organization-level
 audit and accountability policy is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-1_stmt.b" uuid="57f9cced-7f2c-455d-8309-71ac174ba3d7">
+      <statement statement-id="au-1_stmt.b" uuid="bb080e7c-6d63-450b-b467-937396c35897">
         <description><p>Review and updating an organizational-level audit and
 accountability policy is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="37173f13-b0b4-45b6-8712-ca0a0334f7c9" control-id="au-2">
+    <implemented-requirement uuid="e58465f1-a158-4627-bf9c-22fb5464d29c" control-id="au-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="au-2_stmt.a" uuid="cc03b79f-6c06-4f8e-8315-03d8068d1cfd">
+      <statement statement-id="au-2_stmt.a" uuid="c6ec6c98-b0c9-4076-b36c-c67a69bd7f2f">
         <description><p>CoreOS was designed to satisfy the audit requirements outlined
 in the Configuration Annex to the Protection Profile for General
 Purpose Operating Systems available at
@@ -440,13 +440,13 @@ Selected audit events from ICS 500-27 include:
     (Success/Failure)
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.b" uuid="ae7faba2-62f5-4339-86cb-7a2e80692349">
+      <statement statement-id="au-2_stmt.b" uuid="5cda96ef-449b-4496-b110-875074a622d8">
         <description><p>Coordinating the security audit function with other
 organizational entities is outside the scope of
 system configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.c" uuid="32a14d1b-c8a9-4f35-bf0f-9526a4d3bdbe">
+      <statement statement-id="au-2_stmt.c" uuid="bd8a0eef-a1d1-4c45-87b4-ebed1bdc2f7c">
         <description><p>Red Hat did not express judgement in the rationale for why auditable
 events are deemed to be adequate to support after-the-fact
 investigations of security incidents.
@@ -459,7 +459,7 @@ representative:
 https://www.commoncriteriaportal.org/ccra/members/
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.d" uuid="c169c63b-0b3d-46f7-8b84-b07612023387">
+      <statement statement-id="au-2_stmt.d" uuid="687174a8-be70-450e-a34e-d0e114f75f33">
         <description><p>Determination of which events are to be audited within CoreOS from
 the subset of auditable events defined in AU-2(a) is an organizational
 control outside the scope of CoreOS configuration guidance.
@@ -475,9 +475,9 @@ realtime (e.g. immediately upon an audited event occuring).
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="df3ec56f-79b1-449f-997e-b1163cd0823e" control-id="au-3">
+    <implemented-requirement uuid="4c77076d-8e09-4056-b100-bdea1a9584f9" control-id="au-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="au-3_stmt" uuid="836762fd-2b28-4f86-b024-4cfc9b55e12f">
+      <statement statement-id="au-3_stmt" uuid="b3a4c26f-c00a-4719-896c-599a47e67595">
         <description><p>AU-3 is satisfied when the following configuration checks have been
 implemented:
    * CCE-82463-1: Enable auditd Service
@@ -487,55 +487,55 @@ for OpenShift 4.x.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="62ea3ed1-0216-4e80-899a-d4dedf0ba3e8" control-id="au-4">
+    <implemented-requirement uuid="a8a33d8f-f50d-42e2-bb48-bd4c75494bfc" control-id="au-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="au-4_stmt" uuid="8c831032-0859-40cc-920d-4386b49fd101">
+      <statement statement-id="au-4_stmt" uuid="a1ab287c-197a-480b-836f-63b020fb0689">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-159
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b16c7a2a-288f-43cd-aec3-a0070bdd278e" control-id="au-5">
+    <implemented-requirement uuid="14bc5abc-116d-49bc-9ac8-ae332a1e9a4a" control-id="au-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-5_stmt.a" uuid="b6b958cc-17b7-4571-81d8-0d00be46628d">
+      <statement statement-id="au-5_stmt.a" uuid="c558d397-6870-4e06-bd48-63687e7a46c0">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-161
 </p></description>
       </statement>
-      <statement statement-id="au-5_stmt.b" uuid="95c33a77-38a9-40aa-a90e-c73207e8d56f">
+      <statement statement-id="au-5_stmt.b" uuid="6abfc8e9-1069-4beb-bf8b-42047f842414">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-161
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3deec8d1-36ec-4757-9adc-4d6a947e1b6e" control-id="au-6">
+    <implemented-requirement uuid="8ea0e513-12c8-4579-bc6f-b6ec8611fc65" control-id="au-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="au-6_stmt.a" uuid="16a08f15-b73d-4436-917c-5548b2e7b430">
+      <statement statement-id="au-6_stmt.a" uuid="3dc2e2cd-f0af-40dd-86ab-debc46bd9fa3">
         <description><p>Organizational review and analysis of information system
 audit records for indications of organization-defined
 inappropriate or unusual activity is outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-6_stmt.b" uuid="4c91bfe0-1b23-4bb4-b453-5c3bf2d2bb20">
+      <statement statement-id="au-6_stmt.b" uuid="8cc94237-df66-4f2b-abbb-cdab699229f4">
         <description><p>Reporting findings of organization-defined inappropriate or
 unusual activity to organization-defined personnel or roles is
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1b51d618-7efd-419d-b7ed-bc65186164f3" control-id="au-8">
+    <implemented-requirement uuid="dfbfe9af-9096-4b86-89e6-f16a4446381d" control-id="au-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="au-8_stmt.a" uuid="af9dde46-c147-44a9-9f9a-6ac4365ab05f">
+      <statement statement-id="au-8_stmt.a" uuid="fb3b2dbd-d341-4b9f-8ccf-2a32f47ef9fe">
         <description><p>By default, CoreOS auditing uses the internal system clocks to generate
 time stamps for audit records. At the code level, this is accomplished
 through the use of the C programming language time.h which is part of the
 C Standard Library.</p></description>
       </statement>
-      <statement statement-id="au-8_stmt.b" uuid="d79c820d-c1ae-4335-84b4-b3b324cad2ad">
+      <statement statement-id="au-8_stmt.b" uuid="8dae9e9b-da0f-490c-8344-c87995b95ac0">
         <description><p>By default, the CoreOS auditing records time stamps for audit records
 that can be mapped to Coordinated Universal Time (UTC). For example
 in the following node audit record:
@@ -554,115 +554,115 @@ See https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/htm
 for more example and explanation of auditing.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a3327bdc-8c66-4beb-882b-a0110f8bf4fe" control-id="au-9">
+    <implemented-requirement uuid="84775c5e-2e6f-4ec5-8975-d04a408ab9bb" control-id="au-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-9_stmt" uuid="bd6d8c0e-104a-41f0-8120-3118d9919e21">
+      <statement statement-id="au-9_stmt" uuid="0ca69d35-c28c-4353-b581-38d2f62f4a5e">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-232
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="af0ce2b9-432f-4ba9-9561-483b749826aa" control-id="au-11">
+    <implemented-requirement uuid="9e81c34e-e1d7-4c92-ae41-e2d17574d7f6" control-id="au-11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-11_stmt" uuid="f46c7a02-285e-4c22-bd4f-88db4567c539">
+      <statement statement-id="au-11_stmt" uuid="4d71680c-53f3-4815-8a1f-aecb955798de">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-243
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="74fa3fbc-459a-4e61-8357-ff1541e1b873" control-id="au-12">
+    <implemented-requirement uuid="630280d0-b569-4521-ab43-8effe570cd76" control-id="au-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-12_stmt.a" uuid="df4e1b73-acac-4e36-bf2d-fcee03d39923">
+      <statement statement-id="au-12_stmt.a" uuid="c429ac21-0d36-403a-827c-8954c1477068">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
-      <statement statement-id="au-12_stmt.b" uuid="7b2ce915-8252-4ae7-a7d8-7b8f32717b51">
+      <statement statement-id="au-12_stmt.b" uuid="739a611e-5289-486c-85e1-43d97f487708">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
-      <statement statement-id="au-12_stmt.c" uuid="cc6145ad-29a7-49b4-a913-3f3f93001476">
+      <statement statement-id="au-12_stmt.c" uuid="dd546c95-da10-49e7-b2e2-4c4a0f029a83">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4980fbe7-a9b6-4406-a5aa-c573640c723d" control-id="ca-1">
+    <implemented-requirement uuid="c869b06b-8f15-40ea-9f4c-027e0658a59d" control-id="ca-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-1_stmt.a" uuid="06682695-eab3-436b-9c7a-0ce70b0390c2">
+      <statement statement-id="ca-1_stmt.a" uuid="72641220-ebbd-4829-8439-26c144f98a24">
         <description><p>Establishing organizational security assessment and
 authorization policy and procedures is outside
 the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-1_stmt.b" uuid="d67fb8b2-5698-4223-90fa-ef1243f86bdb">
+      <statement statement-id="ca-1_stmt.b" uuid="652152f7-5dc9-4eb8-a1e0-ea6bb63e2f7a">
         <description><p>Establishing organizational security assessment and
 authorization policy and procedures is outside
 the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f1f6ca38-9bc0-4232-8f27-e3b3eb6ea0ea" control-id="ca-2">
+    <implemented-requirement uuid="50aa7980-db97-424d-9e8c-a3fef679d4b2" control-id="ca-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-2_stmt.a" uuid="c1859c3f-a8da-41d7-bf98-350ef02d2fb2">
+      <statement statement-id="ca-2_stmt.a" uuid="167c8daf-9261-4259-97b9-6c01b5552c38">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.b" uuid="b5867664-cd58-40ef-a250-8baf37e470ae">
+      <statement statement-id="ca-2_stmt.b" uuid="30822fa7-233a-416a-91b1-5f4507ff819d">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.c" uuid="66dfd7d5-2948-4efa-9f8b-0d985ca84fcc">
+      <statement statement-id="ca-2_stmt.c" uuid="e86e7904-c5ae-4e56-90d9-574a3891fc3e">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.d" uuid="a0999e8e-5e98-4d82-95a4-4aab80fe5c55">
+      <statement statement-id="ca-2_stmt.d" uuid="be25f908-534c-48f8-9108-9f6566b833fe">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3b0a8350-963a-4164-b4be-896a1db744e7" control-id="ca-2.1">
+    <implemented-requirement uuid="30b6de20-b0f0-4422-b5c5-676b56e6275c" control-id="ca-2.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-2.1_stmt" uuid="c0175436-7c76-423a-8c76-66de260e7d80">
+      <statement statement-id="ca-2.1_stmt" uuid="a6bee2cb-20b4-4c73-af7e-3c67423ef600">
         <description><p>Employment of independent assessors or assessment teams
 is outside the scope of CoreOS configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3d129f73-9060-4b83-ab0d-ab2dff3bd496" control-id="ca-3">
+    <implemented-requirement uuid="e988d1ac-fb51-44ac-87b4-7dfba4a169f5" control-id="ca-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-3_stmt.a" uuid="6182aa97-29e8-427d-ba7e-4477b444cecc">
+      <statement statement-id="ca-3_stmt.a" uuid="11f19fca-e7ec-499c-9797-3ec5ea9cea1a">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of CoreOS configuration
 guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-3_stmt.b" uuid="5072b1dc-d83a-462a-b831-780a043e83e5">
+      <statement statement-id="ca-3_stmt.b" uuid="ca9246e5-4396-4d2a-8d53-514732233302">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of CoreOS configuration
 guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-3_stmt.c" uuid="86b5ac92-3403-40bd-aa26-22319e10f943">
+      <statement statement-id="ca-3_stmt.c" uuid="3ce23e57-33f1-4315-adfd-1b1dd6a5569b">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of CoreOS configuration
 guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="75c8a69f-eb1a-44f2-8534-c898e1a25342" control-id="ca-5">
+    <implemented-requirement uuid="c3acbe9b-3ff1-4011-b477-e59f4d5a0606" control-id="ca-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ca-5_stmt.a" uuid="3f57b8ab-bc04-4d48-98b8-4d4e13dca66b">
+      <statement statement-id="ca-5_stmt.a" uuid="543efe80-e6c9-490f-b12c-41e32e4a3472">
         <description><p>Creating an information system-level Plan of Action
 and Milestones (POA&amp;M) is outside the scope of CoreOS
 configuration processes.
@@ -677,7 +677,7 @@ Engineering progress can be tracked at:
 https://issues.redhat.com/browse/CMP-254
 </p></description>
       </statement>
-      <statement statement-id="ca-5_stmt.b" uuid="309de0e0-13fe-4b96-a81e-0a69e7132a51">
+      <statement statement-id="ca-5_stmt.b" uuid="bbbb67fa-87a9-404e-b75f-7599ecab9023">
         <description><p>Organizational processes relating to updating and the maintenance
 of an information system-level Plan of Action and Milestones (POA&amp;M)
 is outside the scope of CoreOS configuration processes.
@@ -689,102 +689,102 @@ https://issues.redhat.com/browse/CMP-254
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6abce7e4-8123-4042-ba8e-0caca9f59583" control-id="ca-6">
+    <implemented-requirement uuid="6d9c22ca-81ef-4d0f-a435-adfd869df6ad" control-id="ca-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-6_stmt.a" uuid="3b33003a-213c-4e02-965d-a3cf7c4b7f64">
+      <statement statement-id="ca-6_stmt.a" uuid="527fa6b9-4209-4066-8210-e41c59a18159">
         <description><p>This control reflects organizational processes outside the scope
 of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-6_stmt.b" uuid="de1b51be-7e44-4014-9e21-0c8261586b5a">
+      <statement statement-id="ca-6_stmt.b" uuid="61ed88a4-f03e-48f2-961c-82cd8e6ce5df">
         <description><p>This control reflects organizational processes outside the scope
 of CoreOS configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-6_stmt.c" uuid="b3b4b7a2-764f-4bd8-9762-ec1d4fc6f87d">
+      <statement statement-id="ca-6_stmt.c" uuid="e12159dc-1f90-49e3-a6cf-6e37debb254c">
         <description><p>This control reflects organizational processes outside the scope
 of CoreOS configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="cf05d40d-f2f9-4a82-bafb-14e8a4c5d4ce" control-id="ca-7">
+    <implemented-requirement uuid="9f6f497e-9841-40cd-8aeb-78ac85b0346b" control-id="ca-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-7_stmt.a" uuid="a190d4f9-bebb-4eaf-b91d-f61130e8decf">
+      <statement statement-id="ca-7_stmt.a" uuid="925cd829-11f3-4497-916d-642b54eb09b3">
         <description><p>The development and implementation of a continuous monitoring program
 that includes the establishement of organization-defined metrics to be
 monitored is an organizational control outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.b" uuid="d3765383-446e-44cc-aa99-4b0c19f5eb19">
+      <statement statement-id="ca-7_stmt.b" uuid="0125cd2a-00f9-470f-bb4e-471a8521c6e8">
         <description><p>The development and implementation of a continuous monitoring program
 that includes the establishement of organization-defined frequencies for
 monitoring and assessment of such monitoring is an organizational control
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.c" uuid="8cdf1776-a846-45ab-8a26-f7f9a0f159da">
+      <statement statement-id="ca-7_stmt.c" uuid="6444577a-ea18-42b7-9c52-ef1a51d3e11f">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.d" uuid="ed5927d2-bb9d-45c5-888f-5e81c52e8138">
+      <statement statement-id="ca-7_stmt.d" uuid="e6260c41-cd54-4e2d-9ae6-62819a10b1a5">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.e" uuid="a5c2d7b5-ee67-45f4-994d-07d54e55401d">
+      <statement statement-id="ca-7_stmt.e" uuid="2a3b17a9-a80a-437b-8b8b-50fae18dc27d">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.f" uuid="8fa07907-5da9-4ba5-8db0-0e891f3a99b7">
+      <statement statement-id="ca-7_stmt.f" uuid="fd9771c0-7bc8-4836-8075-623675667a4d">
         <description><p>Response actions to address results of the analysis of security-related
 information is an organizational control outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.g" uuid="604628a5-5441-4186-a61e-206068096ab1">
+      <statement statement-id="ca-7_stmt.g" uuid="da9a352c-4244-4871-abe8-b3408392a9ae">
         <description><p>Reporting the security status of organization and the information system
 to organization-defined personnel or roles at a specified organization-defined
 frequency is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2fa4ea3b-5689-45c0-9019-4d9e06aad502" control-id="ca-9">
+    <implemented-requirement uuid="05aacb6c-94cd-4b90-88e7-89a485a58289" control-id="ca-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ca-9_stmt.a" uuid="3ab513ae-34f9-4cad-80c1-791613949a7f">
+      <statement statement-id="ca-9_stmt.a" uuid="12c62cc3-f34c-4c5d-bcb4-47a3d579cbfb">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-256
 </p></description>
       </statement>
-      <statement statement-id="ca-9_stmt.b" uuid="6d9ad440-c365-42d9-96d0-745509ff09c0">
+      <statement statement-id="ca-9_stmt.b" uuid="b0bc820a-cadb-48c1-b544-3d544001a507">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-256
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9e2149e0-0d6a-4e55-920a-0c206699c672" control-id="cm-1">
+    <implemented-requirement uuid="68e3495e-225b-4aa6-9e8a-0440966d6aad" control-id="cm-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-1_stmt.a" uuid="422f85fc-0ac9-4f89-ac27-08c6516fa264">
+      <statement statement-id="cm-1_stmt.a" uuid="e8801ce9-4cf4-454b-a1e4-ed94fe3900f7">
         <description><p>Developing, documenting, and disseminating an organizational configuration
 management policy is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cm-1_stmt.b" uuid="89620a58-7bac-4294-868c-bc055176b78f">
+      <statement statement-id="cm-1_stmt.b" uuid="94b50377-340d-40e7-a3f9-375056c1af9e">
         <description><p>Review and update procedures to the organizational configuration
 management policy is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c1d2dc31-388b-43f6-8e15-7c0a4de32042" control-id="cm-2">
+    <implemented-requirement uuid="2c348b0a-2a2c-4086-bee7-bda63e6c15ce" control-id="cm-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-2_stmt" uuid="ec943dd8-db33-4a0d-ae4f-3ceb377a4e7f">
+      <statement statement-id="cm-2_stmt" uuid="1fcdec7d-dc99-46f7-87fc-bf218257914c">
         <description><p>Configuration management is enforced through Ignition configurations
 and Operators.
 
@@ -811,39 +811,39 @@ https://docs.openshift.com/container-platform/latest/installing/install_config/i
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="97e39f0b-0b4b-49db-adb4-e79e6566128b" control-id="cm-4">
+    <implemented-requirement uuid="1ec38357-6cca-45bd-be7c-a0a95926bae2" control-id="cm-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-4_stmt" uuid="db690b52-81b6-486d-965e-3d36727ef8b7">
+      <statement statement-id="cm-4_stmt" uuid="1687ec3e-a454-4228-83fe-1e2defdf77ba">
         <description><p>Organizational analysis of changes to the information system to
 determine potential security impacts prior to change implementation
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c67fa5f2-610a-4cd1-a1ce-30a4d8c8dcdc" control-id="cm-6">
+    <implemented-requirement uuid="40fb8854-52d9-49d9-9966-ab5fd74586f6" control-id="cm-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="cm-6_stmt.a" uuid="966e7136-8e0e-485d-84bb-f0c3b9bad50b">
+      <statement statement-id="cm-6_stmt.a" uuid="23f971a4-8b05-4492-ac17-eec209afca28">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.b" uuid="212bb6a5-e5dd-4667-a5d8-5b378139d18a">
+      <statement statement-id="cm-6_stmt.b" uuid="966584f5-be24-4544-a5d0-7dd0a0375692">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.c" uuid="50155d19-d39b-4c1c-8e8e-d5637f15ba27">
+      <statement statement-id="cm-6_stmt.c" uuid="ba57af33-59c8-4a1c-a0b3-b3823ad3d973">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.d" uuid="048cd3ab-904d-4371-960b-eedcfa32a560">
+      <statement statement-id="cm-6_stmt.d" uuid="09b3b73f-15ec-4573-a954-f6d08c963b90">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -851,16 +851,16 @@ https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3938467a-93d2-4626-84eb-14a2c5af19e3" control-id="cm-7">
+    <implemented-requirement uuid="3346d5ea-7387-45e8-a0ca-39de654a01c0" control-id="cm-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-7_stmt.a" uuid="6274097f-c090-4154-a31a-2d85aeac0988">
+      <statement statement-id="cm-7_stmt.a" uuid="bdb3f41b-bc51-4f0f-9947-16c3d7f11e5c">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-273
 </p></description>
       </statement>
-      <statement statement-id="cm-7_stmt.b" uuid="b7ab7847-c1f5-4ebf-9abf-7d90bb4c2b02">
+      <statement statement-id="cm-7_stmt.b" uuid="403d7efe-20f8-4890-a091-e73d55d37990">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -868,16 +868,16 @@ https://issues.redhat.com/browse/CMP-273
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e96f5fae-2c4d-43f5-bc89-c79815664486" control-id="cm-8">
+    <implemented-requirement uuid="9302a7ff-86f0-4e45-8ab9-283e0bf76c6c" control-id="cm-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-8_stmt.a" uuid="2bc61c99-33c8-4bb9-afc9-e5103e98eca2">
+      <statement statement-id="cm-8_stmt.a" uuid="4c7e57b1-fd9d-4b09-a90e-b190fc411ea6">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-277
 </p></description>
       </statement>
-      <statement statement-id="cm-8_stmt.b" uuid="65d8bab8-d9bb-4531-b57c-a0aadb53d4fd">
+      <statement statement-id="cm-8_stmt.b" uuid="44413d07-995b-477e-b4f4-7c5fab956b45">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -885,9 +885,9 @@ https://issues.redhat.com/browse/CMP-277
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4c78299c-7a6f-408c-b135-07554edf3384" control-id="cm-10">
+    <implemented-requirement uuid="177aa005-e50a-4de1-a979-a8077aeeb66b" control-id="cm-10">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-10_stmt.a" uuid="ac7e9be8-f444-4815-b9c9-c28efa73166c">
+      <statement statement-id="cm-10_stmt.a" uuid="cfc901c2-4401-450e-be27-0c697016001c">
         <description><p>Ensuring that the organization uses software and associated
 documentation in accordance with contract agreements and copyright laws
 is the complete responsiblity of the organization. Red Hat's
@@ -897,7 +897,7 @@ with all applicable contracts and agreements established for the
 project with the organization.
 </p></description>
       </statement>
-      <statement statement-id="cm-10_stmt.b" uuid="4b42c071-3413-423e-8ecb-a9884bc3748d">
+      <statement statement-id="cm-10_stmt.b" uuid="70d23e74-897c-480c-a3d8-a1f69661ba5b">
         <description><p>Tracking the use of software and associated documentation protected by
 quantity licenses to control copying and distribution is an
 organizational control outside the scope of CoreOS.
@@ -915,7 +915,7 @@ register their disconnected clusters with OpenShift Cluster Manager
 following the instructions at https://access.redhat.com/solutions/4930131
 </p></description>
       </statement>
-      <statement statement-id="cm-10_stmt.c" uuid="2a447e5e-3297-4d44-8af7-6a51cf978bed">
+      <statement statement-id="cm-10_stmt.c" uuid="207f4647-213c-42a8-b80a-931b450d3c52">
         <description><p>Controlling and documenting the use of peer-to-peer file sharing
 technology to ensure that this capability is not used for the
 unauthorized distribution, display, performance, or reproduction
@@ -924,23 +924,23 @@ of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e4676f8e-0c87-4cf7-bad7-e034c763cb0b" control-id="cm-11">
+    <implemented-requirement uuid="74438fde-c178-4aa5-aaae-f95cc25cd6dc" control-id="cm-11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-11_stmt.a" uuid="f444ca81-6251-4c15-845b-6eb1bfcccd20">
+      <statement statement-id="cm-11_stmt.a" uuid="12f13da2-92c5-43bb-80bf-80067ab13031">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
-      <statement statement-id="cm-11_stmt.b" uuid="02569ca0-36df-4f56-941c-13b071f4e6a4">
+      <statement statement-id="cm-11_stmt.b" uuid="8986f8c9-f971-4d71-939c-be743ee6e7dc">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
-      <statement statement-id="cm-11_stmt.c" uuid="a7c63529-f0d0-4982-a713-967f6cac49cf">
+      <statement statement-id="cm-11_stmt.c" uuid="d0aaddc7-1c16-4b0f-aa0d-ac27ca830f54">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
@@ -948,22 +948,22 @@ https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f54375d1-cea7-4277-86b6-e6c1f24e99f2" control-id="cp-1">
+    <implemented-requirement uuid="6fe832d1-f5d2-43d2-b47e-56c097f3db74" control-id="cp-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-1_stmt.a" uuid="e8276d8c-fd6c-4b0e-b73f-ddf5d6a69218">
+      <statement statement-id="cp-1_stmt.a" uuid="64f89fd9-0ba9-43c3-9ee8-8d8450f1660a">
         <description><p>Developing an organization-level contingency planning policy is
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-1_stmt.b" uuid="8eb34d75-5372-4486-a9d3-965e8fffe511">
+      <statement statement-id="cp-1_stmt.b" uuid="e3390cbd-b379-4a71-946a-aa42c219075d">
         <description><p>Review and updating an organizational-level contingency planning
 policy is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="af37d5e0-461e-4bf2-a90d-3aba74cc8231" control-id="cp-2">
+    <implemented-requirement uuid="fd59f31a-25f5-4ea8-8758-445c6c6c5bc5" control-id="cp-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-2_stmt.a" uuid="f3d49eb8-2b11-4247-84d8-890ac498cb5d">
+      <statement statement-id="cp-2_stmt.a" uuid="8aff6442-dcb1-4302-b009-82e31173aece">
         <description><p>Developing an organization-level contingency planning policy is
 outside the scope of CoreOS configuration.
 
@@ -974,63 +974,63 @@ Because of this, CoreOS nodes can be added/removed as necessary to fully
 recover/restore the CoreOS environment.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.b" uuid="775b693e-6ae5-4a7f-b13a-10742d6b88e0">
+      <statement statement-id="cp-2_stmt.b" uuid="ebda86c6-6875-456b-8067-7aa533c32c57">
         <description><p>Distribution of an organizational-level contingency planning
 policy is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.c" uuid="0019461f-2dd1-4c4a-9a50-6bcffd3c0a05">
+      <statement statement-id="cp-2_stmt.c" uuid="447cf7e3-b346-4ca4-b1b6-2b2f8ac418a4">
         <description><p>Coordinating contingency planning activities with incident handling
 activities is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.d" uuid="ac1c9376-42f9-4d91-b7fc-2043ff523451">
+      <statement statement-id="cp-2_stmt.d" uuid="93f4089b-1c61-408a-9231-ce5a6945abd2">
         <description><p>Reviewing organizational contingency plans for the information system
 at an organization-defined frequency is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.e" uuid="7594bbb6-0cf7-4a94-8c05-dd647edff39c">
+      <statement statement-id="cp-2_stmt.e" uuid="78ef4951-9a79-4a1c-a777-4b24f53b0176">
         <description><p>Organizational processes to update the contingency plan are outside the
 scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.f" uuid="0e349847-dec4-4bcc-ad83-a58dd0d9eb37">
+      <statement statement-id="cp-2_stmt.f" uuid="910e7931-b683-40d6-b1e2-a630f57260e6">
         <description><p>Organizational communication plans regarding the contingency plan are outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.g" uuid="23b83c81-4b54-4d5c-8dee-69e8969aa1e4">
+      <statement statement-id="cp-2_stmt.g" uuid="c713d13e-7d02-4af0-a6fd-2bc02a371364">
         <description><p>Protection of the contingency plan from unauthorized disclosure and
 modification is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1adfce44-e242-4bc8-a511-9299981f449c" control-id="cp-3">
+    <implemented-requirement uuid="d5728bff-c465-480c-9dab-87519151ebb7" control-id="cp-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-3_stmt.a" uuid="a893059b-8019-4558-9cc5-8189d4036278">
+      <statement statement-id="cp-3_stmt.a" uuid="267b7a3e-4f4f-4a12-bf0d-0febc2e61681">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities within an organization-defined
 time period of assuming a contingency role or responsibility is outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-3_stmt.b" uuid="4bc4a01e-5281-4d26-8cff-0862390eb7f2">
+      <statement statement-id="cp-3_stmt.b" uuid="3a280cf3-afd6-4554-a899-991d8e5134bb">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities when required by information
 system changes is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-3_stmt.c" uuid="7fbdb9b9-c8b4-4e8b-bfc6-1adaa98e1337">
+      <statement statement-id="cp-3_stmt.c" uuid="b9eecd4e-6738-4b7e-90e7-2d45480818f7">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities at an organization-defined
 frequency is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f1a7d562-e3b5-40ac-b0fc-c600781b338f" control-id="cp-4">
+    <implemented-requirement uuid="708130e1-3e4a-4b69-8071-90eed2330964" control-id="cp-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-4_stmt.a" uuid="5e2ee1dd-72e8-47ec-9b0d-0cbcadceccfc">
+      <statement statement-id="cp-4_stmt.a" uuid="0e69ad3f-77c9-471f-9928-211ac1addf04">
         <description><p>Testing the contingency plan for the information system at an
 organization-defined frequency using organization-defined tests
 to determine the effectiveness of the plan and the organizational
@@ -1038,20 +1038,20 @@ readiness to execute the plan is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-4_stmt.b" uuid="f034fd4a-781b-4b44-9dbc-f8335721d281">
+      <statement statement-id="cp-4_stmt.b" uuid="a8e662a5-7431-406d-aa9a-e8eb37a7f6f0">
         <description><p>Organizational reviews of the contingency plan test results is outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-4_stmt.c" uuid="1022ec8d-30e0-4f58-bfa1-6ad43d2300bf">
+      <statement statement-id="cp-4_stmt.c" uuid="074f223c-d765-4709-adae-712e6a453d1f">
         <description><p>Organizational process to intiate corrective actions, if needed,
 are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="80954689-bd42-41b6-a092-3b335f347a4c" control-id="cp-9">
+    <implemented-requirement uuid="2db0d290-f5a1-4a11-8dac-75c2a1513952" control-id="cp-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-9_stmt.a" uuid="69538594-fad7-4925-8359-a42655ef5702">
+      <statement statement-id="cp-9_stmt.a" uuid="2d07be50-16ea-4f0e-b18a-dfe453e5c068">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of user-level information contained in the
 information system. Additional requirements and guidance include
@@ -1081,7 +1081,7 @@ Node handling such as adding and removing CoreOS nodes can be viewed at:
 https://docs.openshift.com/container-platform/latest/nodes/nodes/nodes-nodes-working.html
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.b" uuid="ac0a4e99-e517-412b-9aee-906e067848f8">
+      <statement statement-id="cp-9_stmt.b" uuid="164b84e5-54fd-4d7e-bbef-e647bc0aee07">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of system-level information contained in the
 information system. Additional requirements and guidance include
@@ -1110,7 +1110,7 @@ Node handling such as adding and removing CoreOS nodes can be viewed at:
 https://docs.openshift.com/container-platform/latest/nodes/nodes/nodes-nodes-working.html
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.c" uuid="41185271-1128-4173-a681-99998ccb4fa3">
+      <statement statement-id="cp-9_stmt.c" uuid="3bd01f91-3430-4e74-8e86-d04fb9e8f68c">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of information system documentation including
 security-related documentation.
@@ -1119,7 +1119,7 @@ Conducting backups on information system and security-related documentation
 is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.d" uuid="0c7ad6c4-fe76-49dd-8f35-4d3da1c413b7">
+      <statement statement-id="cp-9_stmt.d" uuid="2908e17f-712d-40f1-a2c4-f29e8ee4656d">
         <description><p>The customer will be responsible for protecting the confidentiality,
 integrity, and available of backup information at storage locations.
 Additional requirements and guidance include determining
@@ -1134,9 +1134,9 @@ scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="94881d60-4e4f-4d66-99ac-f23596b5a2eb" control-id="cp-10">
+    <implemented-requirement uuid="407c849a-ecfb-4e01-a97e-fcc729a5d437" control-id="cp-10">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-10_stmt" uuid="21b44877-55bd-454f-9f09-d3606508ccfa">
+      <statement statement-id="cp-10_stmt" uuid="ea294564-eb72-45ed-8039-c3c142f5c0ff">
         <description><p>The customer will be responsible for documenting how to reconstitute
 their CoreOS environment. A successful control response will detail
 processes used to fully recover/restore the CoreOS environment.
@@ -1158,227 +1158,227 @@ https://docs.openshift.com/container-platform/4.5/nodes/nodes/nodes-nodes-workin
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6e462fcc-44fe-49bb-9eb5-bac89a9a712a" control-id="ia-1">
+    <implemented-requirement uuid="9749f520-2eb6-41ed-8c96-9ed76f7cc815" control-id="ia-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-1_stmt.a" uuid="c768821a-acf8-4ce9-9016-3d0bacd19a85">
+      <statement statement-id="ia-1_stmt.a" uuid="3fc95bd0-171f-44d8-9986-bf655e5781ad">
         <description><p>Developing organization-level identification and authentication
 policy and procedures are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-1_stmt.b" uuid="81a742b1-369f-4646-853f-54451cc0f758">
+      <statement statement-id="ia-1_stmt.b" uuid="48b27779-762c-4fae-9e73-c83e537b4a5f">
         <description><p>Review and updating an organizational-level identification and authentication
 policy and procedures are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7adcf14d-98b5-49f5-a056-fc3a717ce4c1" control-id="ia-2">
+    <implemented-requirement uuid="c6477238-e2c7-4449-a083-00d035eb1320" control-id="ia-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-2_stmt" uuid="d03502b4-2687-461b-a29c-fd2fc381d842">
+      <statement statement-id="ia-2_stmt" uuid="713e02cc-1412-4cd8-8e9f-7a515c210d28">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-299
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f358d854-0a39-4ed0-851e-9ba2c7936abe" control-id="ia-2.1">
+    <implemented-requirement uuid="f0c54c0a-7e3a-4ed0-b833-fdd9bd486c53" control-id="ia-2.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-2.1_stmt" uuid="0eb1672d-28c0-4554-9156-9a2ec775c300">
+      <statement statement-id="ia-2.1_stmt" uuid="6d167abd-dccd-480d-83fd-004fbbd477ed">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-300
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e64753c5-843e-4be5-98a0-e4f456de10c1" control-id="ia-2.12">
+    <implemented-requirement uuid="1b9c3099-52b9-4c4b-a093-3f03189cda08" control-id="ia-2.12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-2.12_stmt" uuid="f66ef4ca-ea78-4699-b335-941515201da4">
+      <statement statement-id="ia-2.12_stmt" uuid="392016cb-6b81-4594-97f3-d9f3832a331f">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-317
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="028ab12f-c283-4610-9b30-fb2d18b87ef4" control-id="ia-4">
+    <implemented-requirement uuid="b1c70d64-7614-455d-96f3-3673cf6bbed8" control-id="ia-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-4_stmt.a" uuid="fc7f629e-3c8e-461c-87ec-fca883299573">
+      <statement statement-id="ia-4_stmt.a" uuid="9438b7cb-12fd-4595-9d8b-23cefc95191c">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.b" uuid="f886b635-a32e-457d-abcb-1e32f1af8262">
+      <statement statement-id="ia-4_stmt.b" uuid="3a52d1d6-b89b-4d85-bbe2-c3e65cdcad65">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.c" uuid="e8094da6-e259-46c3-9116-cdaf0933c7c5">
+      <statement statement-id="ia-4_stmt.c" uuid="a2a0e802-97ad-4cf8-a556-27b5a861d4ac">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.d" uuid="257d2199-2488-427d-8455-c87752c8f2b3">
+      <statement statement-id="ia-4_stmt.d" uuid="0392f4f6-9cbf-4ad9-9c5d-14148d2f0c34">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-321
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.e" uuid="f6c272d9-3adb-43a3-968f-04479e86bf53">
+      <statement statement-id="ia-4_stmt.e" uuid="1d3838b2-a985-44e9-8438-77d2cc54a87c">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-321
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="63758bb5-61c3-4a39-b35b-906b9cd76323" control-id="ia-5">
+    <implemented-requirement uuid="924214c4-42f7-4465-8265-7e7a8e103095" control-id="ia-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-5_stmt.a" uuid="bd5c1de5-dc6f-4df3-be76-d3e47cb60af0">
+      <statement statement-id="ia-5_stmt.a" uuid="4214061d-ce38-4487-8240-45708a3edc3a">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.b" uuid="5c8a6fd6-827b-4b89-9eef-6f8a3462ae56">
+      <statement statement-id="ia-5_stmt.b" uuid="598c83a6-9a97-45a2-95f6-f96a66b2e954">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.c" uuid="21ca4540-bb9d-4453-9698-debb1c14baf2">
+      <statement statement-id="ia-5_stmt.c" uuid="640b1a8d-9b96-4ad1-b1aa-172dfde1a123">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.d" uuid="c073bd11-972a-4c28-becf-905d58b5e19f">
+      <statement statement-id="ia-5_stmt.d" uuid="8e5a5b15-e5c8-4a6a-a1f1-b94fe0f718d7">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.e" uuid="5093c6f5-f936-4a5c-8b4e-6c59c847b163">
+      <statement statement-id="ia-5_stmt.e" uuid="e3899868-f139-4b6a-b83f-febdfcc6a258">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.f" uuid="601e56fc-e63b-4b61-a89b-bc158750dc87">
+      <statement statement-id="ia-5_stmt.f" uuid="3863e644-6f33-43d8-9687-9b3fda66119f">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.g" uuid="2411775e-fccf-4117-a5ba-df6e8154437d">
+      <statement statement-id="ia-5_stmt.g" uuid="6cb0d510-1a03-4532-b763-07a031afebb7">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.h" uuid="d67df456-8bf3-475c-a8d5-20d82d6c5009">
+      <statement statement-id="ia-5_stmt.h" uuid="ffbe454b-9913-4d0b-9555-0548c8e47d6d">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.i" uuid="e66efbe0-2f19-4b35-a15d-af0a755638c0">
+      <statement statement-id="ia-5_stmt.i" uuid="463f1bc4-92d6-46f6-9c92-1056de142f76">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.j" uuid="5cbfeda8-c53a-46e2-8c16-f511da9691f5">
+      <statement statement-id="ia-5_stmt.j" uuid="6641b223-89aa-4057-84fd-74040752b87a">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c65876a9-938d-48be-a52e-40640b3553e0" control-id="ia-5.1">
+    <implemented-requirement uuid="f5327452-205c-4a1c-8a2d-bf011f4609d6" control-id="ia-5.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-5.1_stmt.a" uuid="c775f866-5588-4868-9bb4-f04e735d9779">
+      <statement statement-id="ia-5.1_stmt.a" uuid="428bf7be-3ba3-4c69-9b8a-f96c9f94447d">
         <description><p>This is an organizational procedural requirement
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.b" uuid="54248424-4a05-47a0-ba4c-0b9c473877d0">
+      <statement statement-id="ia-5.1_stmt.b" uuid="e1df5748-251a-4f31-a61e-80401bbe6e0f">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.c" uuid="f1703f41-3fc6-4573-965a-b277c18761d4">
+      <statement statement-id="ia-5.1_stmt.c" uuid="bc3b2f0a-1076-42d9-881d-c7409328b489">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.d" uuid="6da4e3c2-af14-4c7d-9471-f199aba57216">
+      <statement statement-id="ia-5.1_stmt.d" uuid="561685c0-1c60-45e4-9111-465e1119098d">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.e" uuid="d5771f2a-5c8c-486f-b529-6a6a8f0798d7">
+      <statement statement-id="ia-5.1_stmt.e" uuid="284850ef-028d-4905-aa82-63d01529ea81">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.f" uuid="d0f0538c-4bcc-449b-ad9d-fbc03a1892cb">
+      <statement statement-id="ia-5.1_stmt.f" uuid="de1a67f6-9319-4f58-808c-2aeda9e73dc1">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5e1cfff6-2050-4873-b984-0811c33904ac" control-id="ia-5.11">
+    <implemented-requirement uuid="a2b02c17-9070-4a8b-932a-246439683e4a" control-id="ia-5.11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-5.11_stmt" uuid="dc58b368-7c82-4c5f-94bf-409fba4eccd3">
+      <statement statement-id="ia-5.11_stmt" uuid="2d05e374-c358-46dd-8979-a1a9a8fab022">
         <description><p>Employment of mechanisms that satisfy organization-defined
 token quality requirements is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="641c96e8-7928-4930-b3c0-52a44d490e69" control-id="ia-6">
+    <implemented-requirement uuid="1bcfe96f-3845-4dfa-81af-21f752a81479" control-id="ia-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-6_stmt" uuid="7442f057-ec71-4e8f-9680-056aea42dfbe">
+      <statement statement-id="ia-6_stmt" uuid="e81d2e62-1eaf-47af-8f2b-9549420edd82">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-333
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6bc500e3-7437-4351-8326-94514b5af066" control-id="ia-7">
+    <implemented-requirement uuid="b45ac14f-228a-424d-a5f4-bb58e73a61ca" control-id="ia-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-7_stmt" uuid="71578940-8a69-4c1e-8b6b-21fd205aa828">
+      <statement statement-id="ia-7_stmt" uuid="19c5c284-9409-4490-ab00-26e487536efa">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-334
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8f05c2be-70eb-4e5c-af4e-b2edc24e933a" control-id="ia-8">
+    <implemented-requirement uuid="42489c07-2ed8-4650-b527-9392ccea086c" control-id="ia-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="ia-8_stmt" uuid="27db63cb-157d-406c-82ec-0005db62f131">
+      <statement statement-id="ia-8_stmt" uuid="a8fe949e-b874-46d7-929d-9c9f18946069">
         <description><p>A control response for IA-8 is planned.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="60e385fc-b09f-455e-b969-c12611291b97" control-id="ia-8.1">
+    <implemented-requirement uuid="f88f50ce-519f-4ae5-bceb-066865230253" control-id="ia-8.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-8.1_stmt" uuid="8e1ab0d0-edda-4392-bfcd-48e1f61ea4d9">
+      <statement statement-id="ia-8.1_stmt" uuid="98395450-efd2-4483-89ee-f1068492bc51">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-370
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="60aadaf1-0fca-44f1-acbf-597819cd69d0" control-id="ia-8.2">
+    <implemented-requirement uuid="affc5e94-c66b-44e7-bb97-ac0255cd2c75" control-id="ia-8.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-8.2_stmt" uuid="f4104849-a2c3-4025-9c05-1b914eb81e78">
+      <statement statement-id="ia-8.2_stmt" uuid="8a70322f-e943-43b3-8a81-ed0eecf201c8">
         <description><p>Acceptance of FICAM-approved third-party credentials
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6c61e83c-ce1a-46cf-ae7c-bab07fdc0e42" control-id="ia-8.3">
+    <implemented-requirement uuid="f94c356c-dcf8-4ce6-9ead-fef1ec466c76" control-id="ia-8.3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-8.3_stmt" uuid="cdc7ff28-46f1-4e6d-b54d-f61dd1cf24c8">
+      <statement statement-id="ia-8.3_stmt" uuid="ed93d529-f95f-4dda-b8c2-96741e53b23f">
         <description><p>Employment of only FICAM-approved information system
 components (e.g. cards, card holders, physical access
 control system components) in organization-defined
@@ -1387,165 +1387,163 @@ is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="483cae63-c685-4359-9818-ef2e22ea5528" control-id="ia-8.4">
+    <implemented-requirement uuid="40703f5c-95c1-438b-8d32-f17997d8aee1" control-id="ia-8.4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ia-8.4_stmt" uuid="46bbac41-2989-42d2-ad44-28b11432ea33">
+      <statement statement-id="ia-8.4_stmt" uuid="da8a917a-1280-4886-8154-3b408fa9608e">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-335
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b1807fee-64a5-478d-b038-7ec9c11a1b5a" control-id="ir-1">
+    <implemented-requirement uuid="dadfb38e-9335-4231-b876-76dc458b45d8" control-id="ir-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-1_stmt" uuid="ce69bb97-83b9-47a1-83d0-79f9ccf49625">
+      <statement statement-id="ir-1_stmt" uuid="5de0bc1b-6691-46a8-bd67-73f43078d0fc">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3dc4f857-2e0a-41d5-98ed-f0c02353f988" control-id="ir-2">
+    <implemented-requirement uuid="fddaf0e1-e972-4c16-bd07-f67fe0673084" control-id="ir-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-2_stmt" uuid="771c9426-58cf-4246-9cb2-e77981a4fe75">
+      <statement statement-id="ir-2_stmt" uuid="ada3de4d-cf9e-4154-a6e2-70c10c133f3f">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1d49af97-24c0-4613-a6c2-8aa16720bedc" control-id="ir-4">
+    <implemented-requirement uuid="79ed57fd-13bd-4fe9-8436-3f1f2e2e24ea" control-id="ir-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-4_stmt" uuid="3ec41d08-ee43-4440-b794-0562153ffb19">
+      <statement statement-id="ir-4_stmt" uuid="04b51085-0d93-49bd-b965-a66d7b4d9917">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="63f354b2-c336-4bd5-990d-657ec2eeed5a" control-id="ir-5">
+    <implemented-requirement uuid="beca7816-e95b-451f-b94c-5d879927a5f9" control-id="ir-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-5_stmt" uuid="37998649-9be4-4084-a699-9c6497dbbe67">
+      <statement statement-id="ir-5_stmt" uuid="dd8ed5f0-69bc-48fe-95b7-ab8ddb34f6e7">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="85b25e41-bce7-4036-a3e2-70bedf759880" control-id="ir-6">
+    <implemented-requirement uuid="a708e881-ef1f-4eeb-8455-278bd47542cc" control-id="ir-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-6_stmt" uuid="5f293d5f-5288-4495-b281-ab44c6f8d1bd">
+      <statement statement-id="ir-6_stmt" uuid="0b8bd111-de74-4c07-a8e9-cfac759b5512">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e2439adc-35e7-4d58-baa8-a679226b5a5d" control-id="ir-7">
+    <implemented-requirement uuid="46a128b2-ab91-4fe6-a788-63f7dd9d2d1b" control-id="ir-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7_stmt" uuid="4bd6126f-a961-43ae-a76f-2a9c943f633a">
+      <statement statement-id="ir-7_stmt" uuid="c8d359b2-f8e1-4f4b-b663-d8636f5e5186">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="180cab8a-d5b0-47e8-a5f5-3df04e386c3f" control-id="ir-8">
+    <implemented-requirement uuid="a3943b09-8f2a-4b36-9ef0-9bdc4742d959" control-id="ir-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-8_stmt" uuid="411aa32e-094e-4012-ba2f-0fc4d865cb30">
+      <statement statement-id="ir-8_stmt" uuid="901d6ac3-39d8-4364-a331-e3f440016959">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c616ba13-42b4-43f9-a91d-a826a3271f6f" control-id="ma-1">
+    <implemented-requirement uuid="384e17d7-f2b9-4a0d-a170-c9db1fe19573" control-id="ma-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-1_stmt.a" uuid="d0ecaa25-14c8-4f76-b4f1-20e743929cb5">
+      <statement statement-id="ma-1_stmt.a" uuid="06432528-d8a6-4b8a-9f0d-35e1279036e3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-1_stmt.b" uuid="7e64e0f3-0e52-4f7b-860c-91681b564d09">
+      <statement statement-id="ma-1_stmt.b" uuid="f0593834-af97-41e9-87de-92fe24e19549">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5664142a-6163-415e-9bed-b6c07fdaf3dc" control-id="ma-2">
+    <implemented-requirement uuid="e43e5a16-f3c8-48a7-a8d5-8367a281c09e" control-id="ma-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-2_stmt.a" uuid="5d68dc82-0b5b-4205-acf1-bdfb41c15e17">
+      <statement statement-id="ma-2_stmt.a" uuid="2d30e449-1645-4b24-b06e-40480af9bd74">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.b" uuid="583de7a5-a355-4313-a038-713369b2de1d">
+      <statement statement-id="ma-2_stmt.b" uuid="a6da5c62-7482-4e35-93a0-aaaf43a0a005">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.c" uuid="709a2136-9a42-4c37-8829-05425fce43e2">
+      <statement statement-id="ma-2_stmt.c" uuid="01826c99-bc7d-44d4-a374-b4e8fa460473">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.d" uuid="a2d07f59-de8a-4eff-ac3a-449d21250f2e">
+      <statement statement-id="ma-2_stmt.d" uuid="9597b361-81c4-4b92-95dd-1d65e2eabe1d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.e" uuid="27dd8c74-b832-4f6f-b96f-1025bf1ca28d">
+      <statement statement-id="ma-2_stmt.e" uuid="fce167b6-6a22-40f2-a12f-8e27e5966dd8">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.f" uuid="2b78c029-1555-45d0-ac6b-560e87541780">
+      <statement statement-id="ma-2_stmt.f" uuid="f6e66419-5d98-42b1-8ea5-fa609c967138">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="24ca7fcb-d12b-4f71-a18f-30e659660f58" control-id="ma-4">
+    <implemented-requirement uuid="596ac2e1-e04c-4d90-a94b-b0688cea6f7b" control-id="ma-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ma-4_stmt.a" uuid="c6653091-890f-472f-9747-ca49e88eb6f1">
+      <statement statement-id="ma-4_stmt.a" uuid="40312687-8708-434b-bff1-ea82604f02e7">
+        <description><p>Approving and monitoring nonlocal maintenance and diagnostic activities is an
+orgnaizational control outside the scope of CoreOS configuration.
+</p></description>
+      </statement>
+      <statement statement-id="ma-4_stmt.b" uuid="35b80e23-33c1-4e64-b9f0-422b764a902f">
+        <description><p>Allowing the use of nonlocal maintenance and diagnostic tools only as consistent with
+organizational policy and documented in the security plan for the information system is an
+orgnaizational control outside the scope of CoreOS configuration.
+</p></description>
+      </statement>
+      <statement statement-id="ma-4_stmt.c" uuid="cc1f7ce6-2264-4315-ae72-eea534220637">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-343
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.b" uuid="9634d624-e76e-4a80-8398-d9b8974e80ac">
-        <description><p>A control response is planned. Engineering progress can be tracked via:
-
-https://issues.redhat.com/browse/CMP-343
+      <statement statement-id="ma-4_stmt.d" uuid="8d9daa58-5d0e-49c4-aea7-c8e99acc4a2a">
+        <description><p>The maintaining of records for nonlocal maintenance and diagnostic activities is an
+orgnaizational control outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.c" uuid="9c3083de-939a-4895-b9a3-6801b529a10f">
-        <description><p>A control response is planned. Engineering progress can be tracked via:
-
-https://issues.redhat.com/browse/CMP-343
-</p></description>
-      </statement>
-      <statement statement-id="ma-4_stmt.d" uuid="86a030ed-b094-4e5a-a76e-937daaba7b80">
-        <description><p>A control response is planned. Engineering progress can be tracked via:
-
-https://issues.redhat.com/browse/CMP-343
-</p></description>
-      </statement>
-      <statement statement-id="ma-4_stmt.e" uuid="e3863785-c180-41f7-b51e-233a5ea66a17">
+      <statement statement-id="ma-4_stmt.e" uuid="97e05756-b835-4a34-971c-7d769c1bacc8">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-343
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b72f8bd9-4df6-45e5-bdf2-7ceb27dbf130" control-id="ma-5">
+    <implemented-requirement uuid="2f112d07-b230-4994-9771-d3fa4cf36806" control-id="ma-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-5_stmt.a" uuid="93c32639-1b31-4515-a927-39d58e5e5734">
+      <statement statement-id="ma-5_stmt.a" uuid="7bd14ea4-9566-414d-90fe-1ecde42b3b89">
         <description><p>Establishing a process for maintenance personnel authorization and
 maintaining a list of authorized maintenance organizations or personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-5_stmt.b" uuid="07e2770d-ab34-46b4-8554-faa8b6f1373a">
+      <statement statement-id="ma-5_stmt.b" uuid="85a5343e-955a-4dab-a299-69d773264ec8">
         <description><p>Ensuring that non-escorted personnel performing maintenance on
 the information system have required access authorizations is
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-5_stmt.c" uuid="7951e69b-095b-402c-8e74-410cdae0b0ce">
+      <statement statement-id="ma-5_stmt.c" uuid="1a45c5e7-52aa-4f3e-9372-87258c6eb642">
         <description><p>Designating organizational personnel with required access
 authorizations and technical competence to supervise the
 maintenance activities of personnel who do not possess
@@ -1554,42 +1552,42 @@ scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="742f0a4d-30ce-4199-b775-34725b62f2e3" control-id="mp-1">
+    <implemented-requirement uuid="f65cbe88-82c5-491e-bd97-4a15b53c6787" control-id="mp-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-1_stmt.a" uuid="c91b080a-7053-4fe8-8883-4bfab476c1b2">
+      <statement statement-id="mp-1_stmt.a" uuid="b4d1b9dc-98da-433e-bb02-bff35682a91b">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="mp-1_stmt.b" uuid="b9a0418d-7b72-4229-bd87-ab463b44a1d2">
+      <statement statement-id="mp-1_stmt.b" uuid="8062caa5-bc3c-4f71-ab21-92f5c75a3580">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="588ad018-1be9-4e77-b115-dc674b895559" control-id="mp-2">
+    <implemented-requirement uuid="697cc0ab-7f90-4588-96aa-a01952a79359" control-id="mp-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-2_stmt" uuid="afb86615-d525-48bb-b77c-fb065286042e">
+      <statement statement-id="mp-2_stmt" uuid="518ed9af-87fa-4d74-90da-d4de712e9d6b">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c5e6def7-c04e-4bcb-9d53-58abe526611b" control-id="mp-6">
+    <implemented-requirement uuid="a5717690-dbbe-4797-bf39-94ddd3b45216" control-id="mp-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-6_stmt.a" uuid="4ec1343e-2ca6-4749-96fe-5d91f9e87506">
+      <statement statement-id="mp-6_stmt.a" uuid="3d004916-90c0-486a-933c-ff912f452773">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="mp-6_stmt.b" uuid="45ee2dd0-758b-4c07-9ef6-e8fe15c09689">
+      <statement statement-id="mp-6_stmt.b" uuid="b166bbb7-d18e-4bac-87f4-65158b2537af">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ca495103-9d8a-4e32-994d-8c27a82a8753" control-id="mp-7">
+    <implemented-requirement uuid="09efad5d-c82a-420f-93a6-ff0ee60d2ca5" control-id="mp-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="mp-7_stmt" uuid="a2db6bf9-a41e-4c30-a800-005aad0ed7c3">
+      <statement statement-id="mp-7_stmt" uuid="1f7779e3-35f5-4eb6-b1ae-67318cde71ea">
         <description><p>This control is applicable to CoreOS configuration through such
 actions as kernel module blacklisting. A full control
 response is planned.
@@ -1599,16 +1597,16 @@ A control response is planned. Engineering progress can be tracked via:
 https://issues.redhat.com/browse/CMP-351</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c19fbd18-0539-44ac-af71-bc72462bd673" control-id="pe-1">
+    <implemented-requirement uuid="e5ebe466-373e-4660-8a11-1e3db643f2a6" control-id="pe-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-1_stmt.a" uuid="bff6908d-0261-47a3-a3b2-245f93924224">
+      <statement statement-id="pe-1_stmt.a" uuid="f67dd26d-7556-476b-aa95-332faa2b49fc">
         <description><p>Development, documentation, and dissemination of a physical
 and environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-1_stmt.b" uuid="eb1a1cbf-fbaf-4e04-8d4a-4bafd6f724b5">
+      <statement statement-id="pe-1_stmt.b" uuid="353d0cc2-c0e2-4ce9-b494-78aea81e0141">
         <description><p>Organizational review and updates to the physical and
 environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
@@ -1616,9 +1614,9 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2bc80406-dff8-4b6b-9f6e-8a735b861e27" control-id="pe-2">
+    <implemented-requirement uuid="23d5fe5e-970d-48b1-b840-463e0c5cd784" control-id="pe-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-2_stmt.a" uuid="5632d8fe-1f9f-4866-ade6-ad1e6f6cb9ea">
+      <statement statement-id="pe-2_stmt.a" uuid="2096b2e3-2277-4601-8538-79c88f1c3635">
         <description><p>Development, approval, and maintenance of a list
 of individuals with authorized access to the facility
 where the information system resides reflects organizational
@@ -1626,69 +1624,69 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.b" uuid="8b7e216c-e1a7-4fd1-92d9-fa3034b1efd6">
+      <statement statement-id="pe-2_stmt.b" uuid="3c92d643-5320-4f03-887b-00d80a760c39">
         <description><p>Issuing authorization credentials for facility access
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.c" uuid="4b5d398a-26c3-45b3-965b-65b0172c94d0">
+      <statement statement-id="pe-2_stmt.c" uuid="6c1dc158-3e17-425b-8071-9b8d5071e745">
         <description><p>Reviewing the access list detailing authorized facility
 access by individuals at an organization-defined frequency
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.d" uuid="c64292d4-de2c-4e0c-96c5-70db310ede2e">
+      <statement statement-id="pe-2_stmt.d" uuid="dd7de4bc-cbf7-4d14-8cc0-d3bf094a4e0d">
         <description><p>Removal of individuals from the facility access list when access
 is no longer required reflects organizational procedure/policy
 and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="dee9c457-149a-4634-a088-f61303b74b74" control-id="pe-3">
+    <implemented-requirement uuid="4c530fff-aaaa-4e9f-8628-32f7165e5aa6" control-id="pe-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-3_stmt.a" uuid="130dd2ba-1241-43c2-b6ad-bbefda8fa4c8">
+      <statement statement-id="pe-3_stmt.a" uuid="8880625a-49a5-473f-a11a-40bc42074fd4">
         <description><p>Enforcing physical access authorizations at organization-defined
 entry/exit points to the facility where the information system resides
 reflects organizational procedure/policy and is not applicable to
 component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.b" uuid="7a53a111-070e-4db7-9b71-ef8f07f2df36">
+      <statement statement-id="pe-3_stmt.b" uuid="6a2f6ca2-6d18-4f43-920f-6423b94d2c8e">
         <description><p>Maintaining physical access audit logs for organization-defined
 entry/exit points reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.c" uuid="a64eaeab-6f16-4a37-81d8-5376ffbeda81">
+      <statement statement-id="pe-3_stmt.c" uuid="acdc8e78-a02b-4118-acca-e7afb5c9ff2a">
         <description><p>Providing organization-defined security safeguards to control access
 to areas within the facility officially designated as publicly
 accessible reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.d" uuid="f18e3fb8-9a73-4c1e-b8e4-83a502886403">
+      <statement statement-id="pe-3_stmt.d" uuid="b69e9972-694c-4bc5-b822-c525dff58b1d">
         <description><p>Escorting visitors and monitoring visitor activity during
 organization-defined circumstances requiring visitor escorts
 and monitoring reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.e" uuid="57c4a9ec-a501-42f2-bd64-948685ab52ae">
+      <statement statement-id="pe-3_stmt.e" uuid="4f95c31d-2c10-4c63-91e5-c82fd8c734cd">
         <description><p>Securing keys, combinations, and other physical access devices
 reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.f" uuid="c6c694e9-1b01-4a4c-a7fc-aa140d18893f">
+      <statement statement-id="pe-3_stmt.f" uuid="4eccec24-9db1-4504-850a-6dc77df523be">
         <description><p>Inventory of organization-defined physical access devices
 at an organization-defined frequency reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.g" uuid="0e70355a-3945-468e-9218-845a49c3ad82">
+      <statement statement-id="pe-3_stmt.g" uuid="750f0558-f113-4ab0-ad5d-fd301b85daa4">
         <description><p>Changing combinations and keys at an organization-defined frequency
 and/or when keys are lost, combinations are compromised, or individuals
 are transferred or terminated, reflects organizational procedure/policy
@@ -1696,16 +1694,16 @@ and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d35d6f63-f20b-454a-9f54-113b2f284cfc" control-id="pe-6">
+    <implemented-requirement uuid="9b017f3c-fe0a-4291-a68d-baba6097ee3a" control-id="pe-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-6_stmt.a" uuid="744c817c-13a3-4474-8b6b-126d4c6548e7">
+      <statement statement-id="pe-6_stmt.a" uuid="4f764323-6725-42d5-a733-cfdf3c427812">
         <description><p>Monitoring physical access to the facility where the information
 system resides to detect and respond to physical security incidents
 reflects organizational procedure/policy and is outside the scope
 of component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.b" uuid="2cd9f0b0-f8df-4d27-bea6-31e77cf9797d">
+      <statement statement-id="pe-6_stmt.b" uuid="b91a93a3-2cc6-48ae-8761-075d69ca9b81">
         <description><p>Reviewing physical access logs at an organization-defined
 frequency and upon occurence of organization-defined events
 or potential indications of events, reflects organizational
@@ -1713,7 +1711,7 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.c" uuid="fa88a45d-5c40-4633-851e-5eb430a9a86b">
+      <statement statement-id="pe-6_stmt.c" uuid="1ce0ae71-acaf-442b-aa9b-fa9f54927ddb">
         <description><p>Coordinating results of reviews and investigations with
 the organizational incident response capability reflects
 organizational procedure/policy and is not applicable to
@@ -1721,134 +1719,134 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c486ee5a-ebc7-4adc-8eca-1c73560a9e5c" control-id="pe-8">
+    <implemented-requirement uuid="305b51a1-1c22-44a1-96d6-fd1d0b7e3da7" control-id="pe-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-8_stmt" uuid="dc77ca8d-7c92-4b35-bb49-936bbfb54788">
+      <statement statement-id="pe-8_stmt" uuid="215bd4ea-704f-44f6-b974-bb3225d331cd">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a907067d-77e6-45c1-916c-35b04559737e" control-id="pe-12">
+    <implemented-requirement uuid="57bd2860-af1e-41f5-849b-0903d4ec6ea7" control-id="pe-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-12_stmt" uuid="054321e2-25fc-413a-9eeb-e3dbe3788551">
+      <statement statement-id="pe-12_stmt" uuid="16cfbe80-e29c-4a2c-b403-a90d80b5af27">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b571dcb0-7e8c-4a4b-bdf2-0acce32f5699" control-id="pe-13">
+    <implemented-requirement uuid="7e400baa-18d3-4d8e-8caa-a7b9823f880c" control-id="pe-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13_stmt" uuid="2d1138fd-2450-4092-940a-4f04fa9cc97c">
+      <statement statement-id="pe-13_stmt" uuid="7575ad01-6789-47dc-baa1-ec59a9f9b618">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b9c2f21e-5b70-4c09-ad96-4b1e2597ef84" control-id="pe-14">
+    <implemented-requirement uuid="0c3d82fe-0fd6-4b70-a5b7-65c850a789d9" control-id="pe-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-14_stmt" uuid="ac5bda6b-933d-484a-9191-386eda81a888">
+      <statement statement-id="pe-14_stmt" uuid="3c48ce9a-6c24-4a5c-acaa-19e56850c9c1">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6e07b0af-435d-4463-9950-cb4fd3aedb50" control-id="pe-15">
+    <implemented-requirement uuid="ef05c5d4-b82b-4e92-8699-2a55a3602bf5" control-id="pe-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-15_stmt" uuid="5f84b288-0471-4a8d-a9bb-2b294cf88df8">
+      <statement statement-id="pe-15_stmt" uuid="276ce5fd-8195-47fc-a3a2-ff242e278181">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b3baea3a-bff2-4fa2-b447-8d98d7fe6371" control-id="pe-16">
+    <implemented-requirement uuid="23965d3c-08af-4f51-b596-d2961b4f038f" control-id="pe-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-16_stmt" uuid="d8f0ea5b-be9e-44d4-8811-9dd2ea623a9b">
+      <statement statement-id="pe-16_stmt" uuid="969fc327-c8ae-43da-8e0e-7640845c3054">
         <description><p>This control is outside the scope of CoreOS configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e952389f-7536-43a5-af95-3e5ad0f12bef" control-id="pl-1">
+    <implemented-requirement uuid="5515ff4a-4c2a-46c3-a41f-b9edd02d1bc0" control-id="pl-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-1_stmt" uuid="2dd60876-2f36-4b92-a67f-4aa4e1be6284">
+      <statement statement-id="pl-1_stmt" uuid="551faeb5-b608-4da9-bfc0-510f840d5396">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8e11d6aa-cd99-415e-99e7-0e21efcf9ba0" control-id="pl-2">
+    <implemented-requirement uuid="af8eebd6-f79b-435b-9ddf-46d87df965c1" control-id="pl-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-2_stmt" uuid="6548e28d-3eb5-4dfb-b2ad-d9fb14191fcf">
+      <statement statement-id="pl-2_stmt" uuid="9b068ae6-8a8a-4a47-8ed3-6975f9e3b185">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b6323947-9c43-4949-bb3a-effc1e65e711" control-id="pl-4">
+    <implemented-requirement uuid="5d94eb19-e7b3-46c0-8d91-73bdfb3005bc" control-id="pl-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-4_stmt" uuid="d96ca15a-f9d3-428f-b1b6-1a69be4958d4">
+      <statement statement-id="pl-4_stmt" uuid="f84a9b54-5ce9-44db-bf29-afd737557b88">
         <description><p>'This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.'
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="35eac165-aade-4537-8448-8418a9c41460" control-id="ps-1">
+    <implemented-requirement uuid="669d5f5d-c6d3-4a3d-a756-fcc98631b55f" control-id="ps-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-1_stmt.a" uuid="60ce4063-3b0f-4b81-8600-c3e1c0b4c881">
+      <statement statement-id="ps-1_stmt.a" uuid="8f3abc7c-f242-40bc-9e72-dc2d4aa3c26e">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.1" uuid="6fc9bcb0-b874-45bb-9849-f9852e156680">
+      <statement statement-id="ps-1_stmt.a.1" uuid="463411c3-e206-4002-b153-ed9c72ee0166">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.2" uuid="6ed99833-68ad-4ad3-8b89-86585eef4719">
+      <statement statement-id="ps-1_stmt.a.2" uuid="14ceb92a-c788-4c5c-8621-a0819b573bfe">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b" uuid="8f3c7caf-bfbf-4a53-96e6-2e0552af7325">
+      <statement statement-id="ps-1_stmt.b" uuid="09f2eae7-278a-4056-ad14-28d02af1dc71">
         <description><p>Organizational reviews and updates to the personnel security policy
 and personnel security procedures at an organization-defined frequency
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.1" uuid="14d96ffa-224e-4fd7-8160-38d4e13b2606">
+      <statement statement-id="ps-1_stmt.b.1" uuid="c0c9bce6-544f-4f1c-a0bf-5a4c69151d0e">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.2" uuid="9ef47bb7-d719-4e61-a9b7-ab1645d03b8b">
+      <statement statement-id="ps-1_stmt.b.2" uuid="cc3710ba-5be2-405c-94a6-fbe7864e1239">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7334dc66-6a44-48fc-acbb-e718d71b82ae" control-id="ps-2">
+    <implemented-requirement uuid="2c7c352b-b474-4492-b01e-b8a83f34e498" control-id="ps-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-2_stmt.a" uuid="a6f0d758-0c32-4540-b6af-5111ed507b57">
+      <statement statement-id="ps-2_stmt.a" uuid="d3d79be9-8d9b-4ca8-80ae-536ac0547884">
         <description><p>Organizational assignment of a risk designation to all organizational
 positions is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.b" uuid="7a2f62ab-78db-4910-8afa-7aebfea286b3">
+      <statement statement-id="ps-2_stmt.b" uuid="1c7e0e85-46fc-4959-8e11-82213b0f4b78">
         <description><p>Organizational establishment of screening criteria for individuals
 filling those positions is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.c" uuid="179df6a6-7007-4f48-9765-a0499d4c1728">
+      <statement statement-id="ps-2_stmt.c" uuid="57d86a45-3050-49ff-acad-554d949d0328">
         <description><p>Organizational review and updating of position risk
 designations at an organization-defined frequency is outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6840b87b-93d5-473d-b7e2-79e3f6f36dcc" control-id="ps-3">
+    <implemented-requirement uuid="34ccd916-2c09-4cd9-b0a1-e0f9f96c70c8" control-id="ps-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-3_stmt.a" uuid="cf2d2c6b-449b-43a4-ad51-421117119a07">
+      <statement statement-id="ps-3_stmt.a" uuid="7cc69fc3-8cb6-4edd-851e-5fa8485a5ec5">
         <description><p>Organizational screening of individuals prior to authorizing access
 to the information system is outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-3_stmt.b" uuid="97d39c1d-380f-4bb4-9231-1b500d3ce210">
+      <statement statement-id="ps-3_stmt.b" uuid="135f65a4-1f99-4ee9-b5ac-66507048e4b2">
         <description><p>Organizational processes to rescreen individuals according to
 organization-defined conditions requiring rescreening and,
 where rescreening is so indicated, the frequency of such
@@ -1857,44 +1855,44 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7f812616-bb5f-4b28-bf77-f7e30501efa2" control-id="ps-4">
+    <implemented-requirement uuid="27e1e0db-32de-427f-960c-1d76b4e84426" control-id="ps-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-4_stmt.a" uuid="61a4737a-3e21-4a24-a30a-ac448fd72ef3">
+      <statement statement-id="ps-4_stmt.a" uuid="8b1681ec-e931-43f6-9953-3ffc631238ab">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, information system access is disabled within an
 organization-defined time period, are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.b" uuid="9c63cee7-425b-48ea-8c1f-af4e670d00f6">
+      <statement statement-id="ps-4_stmt.b" uuid="a2b0e7b7-6df5-4c55-932f-175f4999e24c">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, any authenticators/credentials associated with the individual
 are terminated/revoked, are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.c" uuid="bc501fd6-f9a4-4afe-a7a3-ce6a7e66d76c">
+      <statement statement-id="ps-4_stmt.c" uuid="9d2d80ad-faaf-4f4b-bd52-0a338a8e67df">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, exit interviews are conducted that include a discussion of
 organization-defined information security topics, are outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.d" uuid="8b6d78b6-ba70-4272-8f41-9030025275f2">
+      <statement statement-id="ps-4_stmt.d" uuid="1c4aa8f6-83cf-4fcc-baca-6043ac81f56e">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, all security-related organizational information
 system-related property is retrieved, are outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.e" uuid="591b6ae2-ee9b-4747-a2bb-d7a34df2717b">
+      <statement statement-id="ps-4_stmt.e" uuid="3199b495-fab8-461b-833c-9315500700da">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization retains access to organizational
 information systems formerly controlled by the terminated individual,
 are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.f" uuid="c5bbea12-45aa-46df-b04d-8d10d3c5ad9b">
+      <statement statement-id="ps-4_stmt.f" uuid="d384726c-4c7c-4579-94f8-6f2fbc9cd70e">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization notifies organization-defined personnel
 or roles within an organization-defined time period, are outside
@@ -1902,9 +1900,9 @@ the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f0a57e76-3c56-4aec-9de1-44842c392cd8" control-id="ps-5">
+    <implemented-requirement uuid="a86d4ceb-7e49-40fa-a8ac-16c676fdb136" control-id="ps-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-5_stmt.a" uuid="2e4aca1f-9934-4430-b66a-31545769b5a0">
+      <statement statement-id="ps-5_stmt.a" uuid="f6e5b0e6-c619-4e5e-9dba-6bbd6f7e873a">
         <description><p>Organizational processes to review and confirm ongoing operational
 need for current logical and physical access authorizations to
 information systems/facilities when individuals are reassigned or
@@ -1912,79 +1910,79 @@ transferred to other positions within the organization are
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.b" uuid="f2988336-c272-49ba-a5d6-7f7bb75aedb7">
+      <statement statement-id="ps-5_stmt.b" uuid="7917c82b-6dfb-4ffc-a6a0-1b72b830c150">
         <description><p>Organizational processes to initiate organization-defined transfer
 or reassignment actions within organization-defined time period
 following the formal transfer action are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.c" uuid="f3b04169-e8b9-4735-9afa-d7e9782280ea">
+      <statement statement-id="ps-5_stmt.c" uuid="2cea54c5-b2e9-4328-8254-9c7ffc747cc8">
         <description><p>Organizational processes to modify access authorizations as needed to
 correspond with any changes in oeprational need due to reassignment
 or transfer are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.d" uuid="6ce4b8aa-e676-469a-b979-13768e12b09e">
+      <statement statement-id="ps-5_stmt.d" uuid="02aa85a8-6cf1-470b-b9fa-1f85e30f64e1">
         <description><p>Organizational notifications of organization-defined personnel
 or roles within an organization-defined time period are outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d79fee5d-3357-4976-a728-39e2a36a0889" control-id="ps-6">
+    <implemented-requirement uuid="02da8dab-7f44-496e-9741-0b35e8e96856" control-id="ps-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-6_stmt.a" uuid="a4dca236-d5ea-4e51-88f2-bd475fd60b71">
+      <statement statement-id="ps-6_stmt.a" uuid="e8a5869b-2138-4d8c-a855-50bea59e4914">
         <description><p>Organizational process to develop and document access agreements for
 organizational information systems are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.b" uuid="b2ca1605-f270-4381-b921-4a7db6377c48">
+      <statement statement-id="ps-6_stmt.b" uuid="7771bb88-7388-4a0f-b264-fde73b1b3c54">
         <description><p>Organizational reviews and updates to the access agreements at an
 organization-defined frequency are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c" uuid="b7437112-9de7-4f04-8bf6-cecadedeeeda">
+      <statement statement-id="ps-6_stmt.c" uuid="61faccd1-e77d-4f6c-b34b-664bd90dd3e6">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.1" uuid="23b1d550-fc8d-46c9-9fc5-839fc5d57dff">
+      <statement statement-id="ps-6_stmt.c.1" uuid="5f1b2573-3817-47b0-a103-ac8689dbfb91">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.2" uuid="6aa186fd-303c-408b-a6f5-2e34cc533cc7">
+      <statement statement-id="ps-6_stmt.c.2" uuid="dfe2387f-d4b1-44a6-a6ce-e413f95418d7">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="eefd4b11-7396-4911-82c1-2ff1cc811aa3" control-id="ps-7">
+    <implemented-requirement uuid="9d22a1e1-40e5-439c-8847-84fcd6fefb3e" control-id="ps-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-7_stmt.a" uuid="883c2aab-cfd9-4d3f-97a1-e948a65c5b29">
+      <statement statement-id="ps-7_stmt.a" uuid="eca87300-4a97-421b-ad4d-2e6e4fdf1311">
         <description><p>Organizational processes to establish security requirements including
 security roles and responsibilities for third-party providers are
 outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.b" uuid="719e7dde-d8f8-45f8-b8e5-745d57d9f46d">
+      <statement statement-id="ps-7_stmt.b" uuid="3e9d9397-3b05-4d82-916d-355e4d85ec7b">
         <description><p>Organizational processes requiring third-party providers to comply
 with personnel security polocies and procedures established by
 the organization are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.c" uuid="8ec6aa57-717b-427e-95cf-8374c7cbda76">
+      <statement statement-id="ps-7_stmt.c" uuid="2a4c9880-15b1-4c02-bc85-a7f45c68b828">
         <description><p>Organizational processes to document presonnel security requirements
 are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.d" uuid="7fb7dc14-943e-4204-acb8-4510ec349ea0">
+      <statement statement-id="ps-7_stmt.d" uuid="2d7b8b38-2e0e-483c-bbc7-6f64118c9256">
         <description><p>Organizational processes to require third-party providers to notify
 organization-defined personnel or roles of any personnel transfers or
 terminations of third-party personnel who possess organizational
@@ -1993,21 +1991,21 @@ within an organization-defined time period, are outside the
 scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.e" uuid="d44a1982-f990-4f62-9855-2ad7957afd5a">
+      <statement statement-id="ps-7_stmt.e" uuid="9cd3ba94-1cfe-43ff-9bcc-ed7c7f243b9f">
         <description><p>Organizational monitoring of provider compliance is outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6c32e15b-d7d2-4f59-8d5d-7e050c4205d6" control-id="ps-8">
+    <implemented-requirement uuid="cdaf1756-ffc7-4b73-a26d-437b58dc65c6" control-id="ps-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-8_stmt.a" uuid="35d6bc8e-a9e0-46a6-a3df-8e062a87653a">
+      <statement statement-id="ps-8_stmt.a" uuid="96e82690-7eb7-4d45-bc82-39f7ea7473d5">
         <description><p>Organizational employment of a formal sanctions process for individuals
 failing to comply with established information security policies
 and procedures is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-8_stmt.b" uuid="87603097-1fec-469b-b2bf-4d6d53ee11fa">
+      <statement statement-id="ps-8_stmt.b" uuid="d864ed2a-1671-478a-8290-b70114548408">
         <description><p>Organizational notification of organization-defined personnel
 or roles within an organization-defined time period when a formal
 employee santions process is initiated, identifying the individual
@@ -2015,62 +2013,62 @@ sanctioned and the reason for the sanction.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c66875ed-5d33-4364-a837-8301a082cda9" control-id="ra-1">
+    <implemented-requirement uuid="fd007531-0639-4885-b665-cb363370de82" control-id="ra-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-1_stmt.a" uuid="b7614022-03f2-4a84-b8f2-7380f251ad55">
+      <statement statement-id="ra-1_stmt.a" uuid="c9c12f65-594e-48ca-835f-4d91257aa4a8">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.a.1" uuid="3dc23fd0-4405-456e-b5c9-abeae10f1300">
+      <statement statement-id="ra-1_stmt.a.1" uuid="e0b9c0a3-7a95-4f1c-a409-16041023eebb">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.a.2" uuid="0c5f1cf4-b967-45bd-8604-f2fed7121580">
+      <statement statement-id="ra-1_stmt.a.2" uuid="1a8384b5-e424-4a41-8af5-8d820e007624">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b" uuid="e7c171f7-7134-4e3d-ac8e-9df76609c144">
+      <statement statement-id="ra-1_stmt.b" uuid="fcae26d4-34c5-4115-b13b-61ef87e0e9a6">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b.1" uuid="957ccfc7-0e9f-4b7f-ab70-92e6b937a729">
+      <statement statement-id="ra-1_stmt.b.1" uuid="6d429f57-428d-4cc4-b341-f406a168a6bc">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b.2" uuid="25e00474-a640-4080-9cb2-e0c7b824534d">
+      <statement statement-id="ra-1_stmt.b.2" uuid="08baad3a-4c38-4392-a2f4-131a5f04f740">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d5723365-f2fc-465b-bfda-b12d2ddd31cf" control-id="ra-2">
+    <implemented-requirement uuid="8ba07c82-079e-42fe-a187-dcc1c320925d" control-id="ra-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-2_stmt.a" uuid="0fd47ef5-1cd2-4843-a071-1e7943dba4b3">
+      <statement statement-id="ra-2_stmt.a" uuid="559617ca-7ed5-4936-a763-2e4661fd1649">
         <description><p>Organizational processes to categorize information and information
 systems in accordance with applicable federal laws, Executive
 Orders, directives, policies, regulations, standards, and
 guidance, are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-2_stmt.b" uuid="dacece39-3c0c-4f1e-9029-22751b91e94a">
+      <statement statement-id="ra-2_stmt.b" uuid="fa2c7aeb-0208-4e53-a875-a2fef53c89b1">
         <description><p>Organizational processes to document the security categorization
 results (including supporting rationale) in the security plan for
 the information system are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-2_stmt.c" uuid="4dd94fb1-c23e-42ae-a6ce-11cc2bf9ed46">
+      <statement statement-id="ra-2_stmt.c" uuid="78a42600-1d8e-46c1-aa9e-c3abbf8ce281">
         <description><p>Organizational processes to ensure that the authorizing official
 or authorizing official designated representative reviews and
 approved the security categorization decision are outside
@@ -2078,9 +2076,9 @@ the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4c0bc52e-4c94-4890-b0e8-96dbc38c0e71" control-id="ra-3">
+    <implemented-requirement uuid="9e83696e-fab7-408b-b733-fc41cbcfaab9" control-id="ra-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-3_stmt.a" uuid="d83a7f50-98c9-4b02-aa1f-e2bb0a3f6a19">
+      <statement statement-id="ra-3_stmt.a" uuid="bbf4c49a-87d7-4823-8304-5d04a4143c98">
         <description><p>Organizational processes to conduct an assessment of risk,
 including the likelihood and magnitude of harm, from the unauthorized
 access, use, disclosure, disruption, modification, or desctruction of
@@ -2088,25 +2086,25 @@ the information system and the information it processes, stores, or
 transmits, are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.b" uuid="440ec66c-5268-47e3-b50c-450649ea6276">
+      <statement statement-id="ra-3_stmt.b" uuid="7ac613e6-8f56-4d08-a529-a68bfdf4bd30">
         <description><p>Organizational processes to document risk assessment results in
 security plans, risk assessment reports, or organization-defined
 documents, are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.c" uuid="75ce470a-cf8e-4e75-a3e9-01bf5227eb8f">
+      <statement statement-id="ra-3_stmt.c" uuid="f6b074d8-266e-491e-80ad-be92929d0057">
         <description><p>Organizational processes to review risk assessment results at
 an organization-defined frequency are outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.d" uuid="28041fe3-73ae-47e4-9dfe-de2cc26ef168">
+      <statement statement-id="ra-3_stmt.d" uuid="d27efe4d-96a6-4104-bc98-0c10bfb4a886">
         <description><p>Organizational processes to disseminate risk assessment results to
 organization-defined personnel or roles are outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.e" uuid="5f933f9a-001c-48a0-aff6-690a0559174e">
+      <statement statement-id="ra-3_stmt.e" uuid="a28af106-6ad0-45c3-838b-4433a41c6f11">
         <description><p>Organizational processes to update the risk assessment at an
 organization-defined frequency or whenever there are significant
 changes to the information system or environment of operation
@@ -2116,31 +2114,31 @@ are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e484dcb7-605f-48cc-837e-5c3edf4ab691" control-id="ra-5">
+    <implemented-requirement uuid="b4f74a35-9709-4f3e-8c81-b484815bfd5c" control-id="ra-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ra-5_stmt.a" uuid="0f44f150-0c58-4ae4-b9ac-b5477ea2edaf">
+      <statement statement-id="ra-5_stmt.a" uuid="09253e85-3059-4639-8d34-5c4a0fca91e0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.b" uuid="0e8578b3-ed23-436a-b258-6a1233cbfa11">
+      <statement statement-id="ra-5_stmt.b" uuid="283665b0-5645-400d-ac08-a2d43eb17ddb">
         <description><p>A control response is planned. Progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-352
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.c" uuid="21a016a9-3051-425a-8689-7fe2eacbba38">
+      <statement statement-id="ra-5_stmt.c" uuid="8af59ab5-7672-43d6-b740-2ba0d16a6cd0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.d" uuid="3757d145-f0f8-4b18-a496-b48e3df683d3">
+      <statement statement-id="ra-5_stmt.d" uuid="d87d0014-c24d-4e9d-873d-50b523e2bc8e">
         <description><p>A control response is planned. Progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-352
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.e" uuid="00fba94d-b2bf-4af0-a10d-01ddd4f47a41">
+      <statement statement-id="ra-5_stmt.e" uuid="cdc6a24f-f984-4d38-9c53-5468c9fc9b2a">
         <description><p>Organizational processes to share information obtained from the
 vulnerability scanning process and security control assessments
 with organization-defined personnel or roles to help eliminate
@@ -2150,58 +2148,58 @@ of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="18392ede-e0bc-44b7-968d-efeda634a300" control-id="sa-1">
+    <implemented-requirement uuid="8bb32f29-b498-4a21-86de-9a19fe2dbc9f" control-id="sa-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-1_stmt.a" uuid="24f8a2aa-8e57-4adf-ac53-048fb956050b">
+      <statement statement-id="sa-1_stmt.a" uuid="75b74d62-f85a-4741-8f33-08da2ce0f695">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.a.1" uuid="4a6a7446-8f54-4878-b850-9dad913b7b5d">
+      <statement statement-id="sa-1_stmt.a.1" uuid="5cb52884-87a8-450c-b8bc-1d12ea2480cd">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.a.2" uuid="8fb0629d-2f06-45ae-8777-bbf17a2e87c1">
+      <statement statement-id="sa-1_stmt.a.2" uuid="fe3c3d59-7ada-4c04-9e77-7aafed5658ad">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b" uuid="002047dd-f489-4244-a853-67a39fe70cf9">
+      <statement statement-id="sa-1_stmt.b" uuid="b3679b9f-358f-4a79-9874-c766d5dcb5fa">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b.1" uuid="946206c6-cce0-491c-9657-6fdeef33c831">
+      <statement statement-id="sa-1_stmt.b.1" uuid="1d22575d-c495-4cc7-a24d-08db861f77ae">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b.2" uuid="d4f70572-b76d-44c7-b055-400de5f080d7">
+      <statement statement-id="sa-1_stmt.b.2" uuid="27145f4a-75bc-4e9f-a256-92e2962bb3c6">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9e0d3a8b-438b-4960-ab17-34f30176f287" control-id="sa-2">
+    <implemented-requirement uuid="f9e20bb2-61d3-4c62-8fc7-af6662c4290a" control-id="sa-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-2_stmt.a" uuid="24780d91-923c-496c-a4f7-688c60718c7b">
+      <statement statement-id="sa-2_stmt.a" uuid="16a150a6-7553-42be-9eb1-9f7a5e4ab7e0">
         <description><p>Organizational processes to determine information security requirements
 for the information system or information system service in
 mission/business process planning are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-2_stmt.b" uuid="025dd5fa-bdd8-44fd-be35-58f9028d2e53">
+      <statement statement-id="sa-2_stmt.b" uuid="c8467ead-8543-40a1-90f0-b6de6d455f6c">
         <description><p>Organizational processes to determine, document, and allocate the
 resources required to protect the information system or information
 system service as part of its capital planning and investment
@@ -2209,193 +2207,193 @@ control process are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-2_stmt.c" uuid="f2561fd4-4bcf-47ba-b4b4-ae478e5e59d8">
+      <statement statement-id="sa-2_stmt.c" uuid="6ef4f779-2413-4454-8c49-723165ab8368">
         <description><p>Organizational processes to establish a discrete line item for
 information security in organizational programming and budgeting
 documentation are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="746702ca-1a4b-4cf3-bb35-28649e5ca393" control-id="sa-3">
+    <implemented-requirement uuid="8ccd250b-c821-456a-924f-680851a56717" control-id="sa-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-3_stmt.a" uuid="beac74cd-7e4e-4328-8311-b8a26efa68b1">
+      <statement statement-id="sa-3_stmt.a" uuid="c70194db-191b-4b7a-a438-01b501d4c722">
         <description><p>Organizational processes to manage the information system using
 organization-defined system development life cycle that incorporates
 information security considerations are outside the scope
 of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.b" uuid="7200e7a8-6750-42e0-8ea8-3e2217ca1204">
+      <statement statement-id="sa-3_stmt.b" uuid="17f5ec07-38b1-4408-88f4-b1e74230cde2">
         <description><p>Organizational processes to define and document information security
 roles and responsibilities throughout the system development
 life cycle are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.c" uuid="e76a86d5-d11b-4fba-90ad-2ab808823be7">
+      <statement statement-id="sa-3_stmt.c" uuid="09da5b85-4ea8-4ffa-a973-7c72d5b92b06">
         <description><p>Organizational processes to identify individuals having information
 security roles and responsibilities are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.d" uuid="3b13aa90-7571-4069-a9e5-6b7423911aad">
+      <statement statement-id="sa-3_stmt.d" uuid="92b0bbba-6a8f-48ac-950c-c17aec816a03">
         <description><p>Organizational processes to integrate the organizational information
 security risk management process into system development life cycle
 activities are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="921eb847-4740-48ae-9718-dfba81846147" control-id="sa-4">
+    <implemented-requirement uuid="a7518d4b-089c-48b4-9187-4814edf6b714" control-id="sa-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-4_stmt.a" uuid="1a1e717d-369a-45d3-8518-da3ff86afdb0">
+      <statement statement-id="sa-4_stmt.a" uuid="21715710-be22-41a9-a127-80ad51e52ed1">
         <description><p>Organizational processes to include security functional requirements
 in acquisition contracts are outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.b" uuid="4f693e8d-8743-4434-8f94-32e506f8d905">
+      <statement statement-id="sa-4_stmt.b" uuid="d3db8e52-4015-4e50-9e5e-ff708d78f0d4">
         <description><p>Organizational processes to include security strength requirements
 in acquisition contracts are outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.c" uuid="935ecea8-2078-47b8-aff4-c7e4f5aad2a5">
+      <statement statement-id="sa-4_stmt.c" uuid="519a371a-4910-44d8-9366-683d2f6b6348">
         <description><p>Organizational processes to include security assurance requirements
 in acquisition contracts are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.d" uuid="c25e5b7f-8fa2-4a5e-a79d-7b87fa4f35e5">
+      <statement statement-id="sa-4_stmt.d" uuid="3e3d5e9e-584a-480a-9d82-aa4ce5a35659">
         <description><p>Organizational processes to include security-related documentation
 requirements in acquisition contracts are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.e" uuid="ddfa468c-cc87-4647-88f0-108a249ff68e">
+      <statement statement-id="sa-4_stmt.e" uuid="26cbb9df-535d-4156-a34f-4c460036cb76">
         <description><p>Organizational processes to include requirements for protecting
 security-related documentation in acquisition contracts
 are outside the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.f" uuid="950a0a36-8304-4466-93bc-27bafe722f8c">
+      <statement statement-id="sa-4_stmt.f" uuid="23fc78eb-9d86-4992-82d3-48b4131ed749">
         <description><p>Organizational processes to include a description of the information
 system development environment and environment in which the system is
 intended to operate in acqusition contracts are outside the scope of
 CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.g" uuid="eb854798-960f-43d5-8a1a-7d44bb9b170d">
+      <statement statement-id="sa-4_stmt.g" uuid="c3885a94-8145-4481-9a69-dcde5a21fdeb">
         <description><p>Organizational processes to include acceptance criteria in
 acqusition contracts are outside the scope of CoreOS
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="656cc787-634e-4864-ac43-7b4d3b601a3c" control-id="sa-5">
+    <implemented-requirement uuid="c7bffcc7-14fb-463f-8883-786f91b71068" control-id="sa-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sa-5_stmt.a" uuid="12190d46-8ba7-43a4-9721-8361ca084a9a">
+      <statement statement-id="sa-5_stmt.a" uuid="1bf3d3e3-ba72-4b9e-9345-443b28f2e862">
         <description><p>A control response to SA-5(a) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.1" uuid="1737177c-2f4d-4dbf-b609-bab2cbb9278c">
+      <statement statement-id="sa-5_stmt.a.1" uuid="be659e4f-288b-47bc-b8ea-4cba9c9ab16f">
         <description><p>A control response to SA-5(a)(1) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.2" uuid="d700f28b-a776-4d1e-97da-00c9e9a8888d">
+      <statement statement-id="sa-5_stmt.a.2" uuid="5f3cc7d8-9579-4578-9a2c-9afad0622564">
         <description><p>A control response to SA-5(a)(2) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.3" uuid="56f482c8-5e5b-4de4-a008-897347be3e18">
+      <statement statement-id="sa-5_stmt.a.3" uuid="13c52bfa-4526-4b05-9294-9696405f0a60">
         <description><p>A control response to SA-5(a)(3) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b" uuid="b5167abe-3467-439e-9338-b6336517df65">
+      <statement statement-id="sa-5_stmt.b" uuid="a3125da4-5c7a-48e6-95e2-e0e366eba1bf">
         <description><p>A control response to SA-5(b) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.1" uuid="67c60e41-a1cf-4095-9119-56c81cf07e38">
+      <statement statement-id="sa-5_stmt.b.1" uuid="e130cc4d-91f0-40d9-9cab-29e4f6c09a65">
         <description><p>A control response to SA-5(b)(1) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.2" uuid="7a9ce7be-ca93-4ed4-b5ce-391f94d439de">
+      <statement statement-id="sa-5_stmt.b.2" uuid="13110a83-da4e-4acc-a068-77bf7a38414b">
         <description><p>A control response to SA-5(b)(2) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.3" uuid="25c85cf1-9a4c-461e-ab98-94a605f84665">
+      <statement statement-id="sa-5_stmt.b.3" uuid="68c4b98c-59d3-4e52-b264-4fd3e3a346cc">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.c" uuid="83c5459f-96af-479b-a77d-ac7cdd9fb56a">
+      <statement statement-id="sa-5_stmt.c" uuid="03a49c74-3407-4f3e-966d-285cf41ef20b">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.d" uuid="e95e11f8-ed27-4017-a6be-69a5b414a481">
+      <statement statement-id="sa-5_stmt.d" uuid="ab86e157-2f81-4e29-a54d-a380c1cbcf53">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.e" uuid="a5f6596d-c3e4-44e8-815d-b2b45437e482">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to CoreOS configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="b0485cee-6754-415d-90e9-0539dd17cbc8" control-id="sa-9">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-9_stmt.a" uuid="a6c4e034-d05b-4147-961a-f344414948a8">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to CoreOS configuration.
-</p></description>
-      </statement>
-      <statement statement-id="sa-9_stmt.b" uuid="4211da59-bce0-4c94-8739-5efba0cb4fae">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to CoreOS configuration.
-</p></description>
-      </statement>
-      <statement statement-id="sa-9_stmt.c" uuid="0c9598e6-0723-431e-a9f8-53b89de1c458">
+      <statement statement-id="sa-5_stmt.e" uuid="24db323e-f4a5-4ca8-9b32-10cdd3b3b8a9">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5a3b6b22-b9e1-431d-a2c2-b6f6e54783a1" control-id="sc-1">
+    <implemented-requirement uuid="ca741c5f-baf6-41de-a646-ce82d5fcc8ef" control-id="sa-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sc-1_stmt.a" uuid="1b90b89a-a2ce-408b-ada7-80f8e5e03a10">
+      <statement statement-id="sa-9_stmt.a" uuid="92cf23fc-73f3-4343-90fd-056368f9a58a">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to CoreOS configuration.
+</p></description>
+      </statement>
+      <statement statement-id="sa-9_stmt.b" uuid="d265f11f-59c3-4df7-a335-b36f2e58e3c4">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to CoreOS configuration.
+</p></description>
+      </statement>
+      <statement statement-id="sa-9_stmt.c" uuid="132d0df7-ed69-4750-83ea-50e200daf09c">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to CoreOS configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="650d177f-9202-40d1-a8f0-9f8bb22ff62c" control-id="sc-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="sc-1_stmt.a" uuid="74da2a10-1aae-4222-99cb-17fe2ad10f56">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="sc-1_stmt.b" uuid="93499e7b-d1dd-4595-a117-41ea830eabc9">
+      <statement statement-id="sc-1_stmt.b" uuid="cfd49a76-704d-4e10-832f-0ee490d0f6c9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6c632149-2171-4ae0-aa78-2b2409a28423" control-id="sc-5">
+    <implemented-requirement uuid="87c739ce-c59f-4067-938f-69a1457dd455" control-id="sc-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-5_stmt" uuid="98b2a705-4ad2-4917-8388-a0e003a50a7d">
+      <statement statement-id="sc-5_stmt" uuid="09158044-428a-4e7e-8664-89754c8aebaf">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2403,23 +2401,23 @@ https://issues.redhat.com/browse/CMP-427
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9cb95db7-e8c4-4bb8-bde5-8f23365f3f31" control-id="sc-7">
+    <implemented-requirement uuid="4b72d784-bda7-4c25-ade6-8e5c06a22b6c" control-id="sc-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-7_stmt.a" uuid="41da62ef-0737-44b0-8c88-4ebfad6791f4">
+      <statement statement-id="sc-7_stmt.a" uuid="4b766468-db93-499c-bbb9-7df467496cd9">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
-      <statement statement-id="sc-7_stmt.b" uuid="04963953-30aa-4e66-94ae-8b87a3f0a7b8">
+      <statement statement-id="sc-7_stmt.b" uuid="381ab009-b8cf-4b28-a147-3598fdc69606">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
-      <statement statement-id="sc-7_stmt.c" uuid="503b40d5-4b83-4e09-babf-e5bfb2a39191">
+      <statement statement-id="sc-7_stmt.c" uuid="7a193902-649a-4194-8665-d6d8fa68a34a">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2427,9 +2425,9 @@ https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="91676ffc-01f2-43db-b7c7-6a22eed764dc" control-id="sc-12">
+    <implemented-requirement uuid="ce330a56-524a-4bd7-9abb-c6e7f69232d7" control-id="sc-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-12_stmt" uuid="f9c5576a-dcc9-47cd-9f72-31db3d44f6f8">
+      <statement statement-id="sc-12_stmt" uuid="09d1c996-8670-446e-a525-ccca5838ed2c">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2437,9 +2435,9 @@ https://issues.redhat.com/browse/CMP-421
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2b8060aa-041c-4005-9598-af3c282ff600" control-id="sc-13">
+    <implemented-requirement uuid="04aa3e5f-961c-4811-a04b-672e11cfaa7d" control-id="sc-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-13_stmt" uuid="863869c5-b466-423a-9431-eab20962867a">
+      <statement statement-id="sc-13_stmt" uuid="e0127f52-76da-492b-aefa-3fdcdcc3b15b">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2447,16 +2445,16 @@ https://issues.redhat.com/browse/CMP-420
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="73ca83a6-5d9d-4e0f-9e05-2e8f81a79d28" control-id="sc-15">
+    <implemented-requirement uuid="bb9c9eb4-b11c-4578-b196-44ba1e91865b" control-id="sc-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sc-15_stmt.a" uuid="7672714e-4443-4593-a8e3-3e18fda07af1">
+      <statement statement-id="sc-15_stmt.a" uuid="ca135c7e-34c8-4594-a742-659fb9569f8e">
         <description><p>Examples of collaborative computing devices include networked white
 boards, TV conference cameras, and remote video systems. This control
 is not applicable because Red Hat CoreOS Container Platform is not
 a collaborative computing device.
 </p></description>
       </statement>
-      <statement statement-id="sc-15_stmt.b" uuid="4f3f317e-4fb0-4733-9702-0cb39463088a">
+      <statement statement-id="sc-15_stmt.b" uuid="b776ba03-6c31-45d2-a507-071aaa1f0e0f">
         <description><p>Examples of collaborative computing devices include networked white
 boards, TV conference cameras, and remote video systems. This control
 is not applicable because Red Hat CoreOS Container Platform is not
@@ -2464,16 +2462,16 @@ a collaborative computing device.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e877208a-96c2-4c44-9011-73f079187ccb" control-id="sc-20">
+    <implemented-requirement uuid="c9009d77-7028-4cb6-b057-a56aec3b673a" control-id="sc-20">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-20_stmt.a" uuid="9bf9fb70-0153-4c62-a00d-70f149acdf0a">
+      <statement statement-id="sc-20_stmt.a" uuid="1442de8d-a740-4dfc-9c6c-27d550918236">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-417
 </p></description>
       </statement>
-      <statement statement-id="sc-20_stmt.b" uuid="f1aa5251-52d4-42a9-b9cf-024a9ce9895a">
+      <statement statement-id="sc-20_stmt.b" uuid="72627e00-f863-459f-84ad-16f1dbde6019">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2481,9 +2479,9 @@ https://issues.redhat.com/browse/CMP-417
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e6a0bb3d-b6a6-46c0-8bcb-232f52cca832" control-id="sc-21">
+    <implemented-requirement uuid="61bc643c-8f27-4755-8d92-58bbd176acfc" control-id="sc-21">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-21_stmt" uuid="bbc4f900-469d-48ba-88a1-0c2fdce4b2a7">
+      <statement statement-id="sc-21_stmt" uuid="f8fc25d9-bffb-4268-a5db-c75fb01b0a10">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2491,9 +2489,9 @@ https://issues.redhat.com/browse/CMP-410
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="06c43c8e-834e-4870-a149-119bbd253f4f" control-id="sc-22">
+    <implemented-requirement uuid="73993e78-d8d9-44a6-ba54-8b78d0044b28" control-id="sc-22">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-22_stmt" uuid="7f3c8251-3851-4e44-9f37-45e7e0c228d8">
+      <statement statement-id="sc-22_stmt" uuid="0a15c2d9-c8fe-4b27-bd79-d862ca6beca5">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2501,49 +2499,49 @@ https://issues.redhat.com/browse/CMP-409
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1731445c-ffeb-4784-bf16-c3352e154a4c" control-id="sc-39">
+    <implemented-requirement uuid="b9532b89-fe25-4d67-aa17-884e6b03e895" control-id="sc-39">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="sc-39_stmt" uuid="53644fae-1bdd-448e-8506-c5054b5bd5f2">
+      <statement statement-id="sc-39_stmt" uuid="b400d800-baaa-46c7-a454-24056d85605d">
         <description><p>The control is met when SELinux and namespaces are enabled and used.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="34e05959-488e-4252-81ec-599986327cc3" control-id="si-1">
+    <implemented-requirement uuid="d4476128-a00f-4e31-a52e-fbf614cada53" control-id="si-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-1_stmt.a" uuid="cbce19a0-a187-47c9-ad85-1bddcecfaad6">
+      <statement statement-id="si-1_stmt.a" uuid="1c27abf9-0f88-4335-ae99-e06c1a764a9a">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.a.1" uuid="4ec09547-f583-435d-82a0-3c2f284c9e0d">
+      <statement statement-id="si-1_stmt.a.1" uuid="1667025c-0a03-4091-ba72-718980e1dfc6">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.a.2" uuid="24fd66e9-25f3-4c37-aff1-3936e2613100">
+      <statement statement-id="si-1_stmt.a.2" uuid="43f471c0-32f7-4841-a239-69ba1751f6ef">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b" uuid="c00ff296-e052-447f-be04-f4acbab8b871">
+      <statement statement-id="si-1_stmt.b" uuid="11540bf3-93f5-486f-906f-c2b447b29a8e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b.1" uuid="69226abe-515f-42c1-a9cd-ce8b2113e712">
+      <statement statement-id="si-1_stmt.b.1" uuid="b13e19c6-c4d3-48f7-bc08-6e81aa7d515d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b.2" uuid="30b1e37a-6b1f-441a-908a-e2e25f16c31e">
+      <statement statement-id="si-1_stmt.b.2" uuid="fb19a8a7-7511-41e6-b1e3-d56449dfa8da">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f8625745-299b-48ee-8120-60e2c8541783" control-id="si-2">
+    <implemented-requirement uuid="d594d752-6673-4e65-aa0e-3a3eec9938f7" control-id="si-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-2_stmt.a" uuid="26c2bd43-4822-4712-ba27-0d26b7aac12f">
+      <statement statement-id="si-2_stmt.a" uuid="288133a3-6f03-4ea1-8aab-57d700409381">
         <description><p>The customer will be responsible for analyzing their CoreOS deployment for
 flaws, reporting on those flaws, and correcting them. A successful
 control response will include a discussion of the process by which
@@ -2551,7 +2549,7 @@ flaws are discovered and remediated, as well as tools that are used to
 assist in detection and remediation.
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.b" uuid="db11fee7-c879-4fef-a6e1-881dcb69a0d8">
+      <statement statement-id="si-2_stmt.b" uuid="8a5c5e4a-3266-449b-b8d7-9d993dc0d32d">
         <description><p>The customer will be responsible for testing CoreOS updates
 related to flaw remediation prior to installation. A successful
 control response will discuss the testing process (e.g. the
@@ -2559,20 +2557,20 @@ nature of the test environment, the types of testing performed,
 the tools in testing, etc.).
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.c" uuid="adfec95c-2a99-46f1-a750-778f0bc93b2d">
+      <statement statement-id="si-2_stmt.c" uuid="2dd86b62-f927-4378-88de-250471bf5740">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.d" uuid="26d1c8d4-5d45-4462-83e8-7464bee49fa4">
+      <statement statement-id="si-2_stmt.d" uuid="077ea6f1-fe70-4161-b37f-e0ead1e6523c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="15a85ea4-a873-4d51-a604-cf304384dc6f" control-id="si-3">
+    <implemented-requirement uuid="8d7f2382-d6d9-417a-bb06-15896c696249" control-id="si-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-3_stmt.a" uuid="5d8dd6de-1001-4a4a-b6bb-53033b327819">
+      <statement statement-id="si-3_stmt.a" uuid="cdc563ec-509e-4ab1-b095-126babcf446f">
         <description><p>The customer is responsible for ensuring that they employ malicious
 code protection at information system entry, and exit points to detect
 and eradicate malicious code. A successful control response will need
@@ -2582,19 +2580,19 @@ scripts). In regards to CoreOS, this is generally through
 the use third party tools.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.b" uuid="855b034d-52c5-4102-a7a1-4cd39bedd976">
+      <statement statement-id="si-3_stmt.b" uuid="29d5e7b1-1ff5-43c5-a106-97601efc09c4">
         <description><p>Updating malicious code protection mechanisms whenever new releases
 are available in accordance with organizational configuration
 management policy and procedures is an organizational control outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c" uuid="5473fbd7-a48a-4bf2-b334-bb90bdcf1f6c">
+      <statement statement-id="si-3_stmt.c" uuid="77423804-af9b-443f-95cc-c795f413f63f">
         <description><p>Configuring malicious code protection mechanisms is an organizational control outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c.1" uuid="af2f28c2-89fd-4d33-bd29-ecbee10a7f88">
+      <statement statement-id="si-3_stmt.c.1" uuid="8a302d09-e90c-4e8a-b8c1-b935e33c547a">
         <description><p>Performing periodic scans of the information system per organization-defined frequency
 and real-time scans of files from external sources via endpoints or network entry/exit
 points as the files are downloaded, opened, or executed in accordance with organizational
@@ -2602,112 +2600,119 @@ security policy is an organizational control outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c.2" uuid="582d1608-e625-4461-ae81-0773ec49039f">
+      <statement statement-id="si-3_stmt.c.2" uuid="d28ebca3-508e-47ce-a02d-cd91bd6ebef4">
         <description><p>Blocking malicious code, quarantining malicious code, sending alerts to administrator, or
 some other organization-defined action in response to malicious code detection is an organizational control outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.d" uuid="bf24247c-517f-4313-bf67-57cce86cfc50">
+      <statement statement-id="si-3_stmt.d" uuid="7bfb498a-9cda-453e-b24a-9997acc5b5f1">
         <description><p>Addressing the receipt of false positives during malicious code detection and eradication
 and the resulting potential impact on the availability of the information system is an organizational control outside
 the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f5c55a59-1df9-49ff-a959-cdf9c827931a" control-id="si-4">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="si-4_stmt.a" uuid="dacdb9cf-d0de-4385-8c74-638946ea644d">
+    <implemented-requirement uuid="164c3104-3f1d-4d75-a701-110fd26d9738" control-id="si-4">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="si-4_stmt.a" uuid="eeb3f499-3b05-4279-90ec-47078ebcbe78">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.a.1" uuid="628dcde6-685e-4882-898e-7d5b27874800">
+      <statement statement-id="si-4_stmt.a.1" uuid="6d0ed90d-9f0c-4c98-b807-1846a362ec21">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.a.2" uuid="d5e2996d-beeb-4f13-913f-6aaa4e5b481d">
+      <statement statement-id="si-4_stmt.a.2" uuid="dbe81e5d-2a84-4e75-973f-ba1f5208bbaf">
         <description><p>Monitoring the system to detect unauthorized local, network, and remote connections
 is an organizational control outside the scope of CoreOS configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.b" uuid="832bff16-4706-457f-a4ae-bcde113496be">
+      <statement statement-id="si-4_stmt.b" uuid="0520fb3b-7a00-484a-90d2-c94a11bf9ec0">
         <description><p>Identifying unauthorized use of the information system through organization-defined
 techniques and methods is an organizational control outside the scope
 of CoreOS configuration. Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c" uuid="db1bf13f-35cb-4a62-88a6-c0e959ca981c">
+      <statement statement-id="si-4_stmt.c" uuid="3ee3c12e-4841-488e-8332-6a504f10774c">
         <description><p>Deploying monitoring devices is an organizational control outside the scope of CoreOS configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c.1" uuid="6d54dbe4-a862-4b0e-bcac-b62d9b25eef0">
+      <statement statement-id="si-4_stmt.c.1" uuid="b0652c6a-6b3d-4c05-b89f-9717176e446c">
         <description><p>Deploying monitoring devices strategically within the information system to collect organization-determined
 essential information is an organizational control outside the scope of CoreOS configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c.2" uuid="8288d19c-eb19-4e6d-8310-ab5aaa8e5b10">
+      <statement statement-id="si-4_stmt.c.2" uuid="6f1333f2-c5eb-4f8a-967f-762c8a580de3">
         <description><p>Deploying monitoring devices at ad hoc locations within the system to track specific types of transactions
 of interest to the organization is an organizational control outside the scope of CoreOS configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.d" uuid="8e890512-3eee-4aa0-a224-fef6e419e3eb">
+      <statement statement-id="si-4_stmt.d" uuid="68624a11-4d6e-4850-9c23-0252c38bd7cf">
         <description><p>Protecting information obtained from intrusion-monitoring tools from unauthorized access,
 modification, and deletion is an organizational control outside the scope of CoreOS configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.e" uuid="78bfff66-ca3e-40ef-abd6-2b8d7d6cabdd">
+      <statement statement-id="si-4_stmt.e" uuid="dc96c94f-7de8-41d7-8562-5eb90b9ae5f2">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.f" uuid="5cccb353-0d09-4897-9ed1-1a9f831a0101">
+      <statement statement-id="si-4_stmt.f" uuid="3e146735-a6aa-4c79-818f-b3a4c14cc8e9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.g" uuid="1c94157f-7950-4077-bad3-d6ef4f79abb5">
+      <statement statement-id="si-4_stmt.g" uuid="f44b38e9-2c9a-482e-8890-e76e94c672d4">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of CoreOS.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3ab7a65f-5f74-4c1c-9fee-25991af147fe" control-id="si-5">
+    <implemented-requirement uuid="38509a51-b6d9-4dac-ae79-d40c1befe23d" control-id="si-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-5_stmt.a" uuid="718b46d9-c241-4981-acbd-5d3a48455fd2">
+      <statement statement-id="si-5_stmt.a" uuid="7badd28d-2b40-4641-bdf1-818dbb10fd3a">
         <description><p>A control response for SI-5(a) is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-396
 </p></description>
       </statement>
-      <statement statement-id="si-5_stmt.b" uuid="d7b4c66c-b7e2-44cd-b6f1-10e963fb2bec">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of CoreOS.
-</p></description>
-      </statement>
-      <statement statement-id="si-5_stmt.c" uuid="345a7de1-c423-4761-ab20-c9c63f72ca03">
-        <description><p>A control response for SI-5(c) is planned. Engineering progress can be
-tracked via:
+      <statement statement-id="si-5_stmt.b" uuid="f6234fdd-ffeb-412d-80b2-eeb332b8ac0f">
+        <description><p>Receiving information system security alerts, advisories, and directives from
+organization-defined external organizations on an ongoing basis is an
+organizational procedures/policies outside the scope of CoreOS configuration.
 
-https://issues.redhat.com/browse/CMP-396
+How to configure organization notifications for Red Hat security advisories on Red
+Hat specific products can be accomplished following the following documentation:
+
+https://access.redhat.com/security/updates/advisory
 </p></description>
       </statement>
-      <statement statement-id="si-5_stmt.d" uuid="4f307593-41c0-404d-91a4-b651a569db80">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of CoreOS.
+      <statement statement-id="si-5_stmt.c" uuid="eca8336d-c19c-4e4e-af39-99178ef1cf58">
+        <description><p>Disseminating security alerts, advisories, and directives to organization-defined
+personnel or roles, organization-defined elements within the organization,
+organization-defined external organizations are organizational
+procedures/policies outside the scope of CoreOS configuration.
+</p></description>
+      </statement>
+      <statement statement-id="si-5_stmt.d" uuid="8c8ecc66-64d7-4422-8040-a8e038544be0">
+        <description><p>Implementing security directives in accordance with established time frames or notifying
+the issuing organization of the degree of noncompliance is an organizational
+procedures/policies outside the scope of CoreOS configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d186c3d2-5ee3-4042-a04c-9bef52e8a912" control-id="si-12">
+    <implemented-requirement uuid="d1f0d384-3811-4135-b634-f142a3b11722" control-id="si-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="si-12_stmt" uuid="75518002-0c72-4395-9469-fb986a0dc246">
+      <statement statement-id="si-12_stmt" uuid="f26a7ff1-1a20-43b3-930f-5f9ce0e0df6c">
         <description><p>The customer will be responsible for handling and retaining
 information within, or hosted by, CoreOS in
 accordance with applicable federal laws, Executive Orders,
@@ -2719,9 +2724,9 @@ are met.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3682ed30-63ae-4ef1-8746-3c1fb5eb00b3" control-id="si-16">
+    <implemented-requirement uuid="6e889fbb-474a-4ba6-8774-944f2d706bd6" control-id="si-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="si-16_stmt" uuid="13b55a46-07c5-4759-9a66-bd3cf79c4e5d">
+      <statement statement-id="si-16_stmt" uuid="ae2f21bd-ea33-48e7-a920-9883923f873c">
         <description><p>A control response for SI-16 is planned. Engineering progress can be
 tracked via:
 
