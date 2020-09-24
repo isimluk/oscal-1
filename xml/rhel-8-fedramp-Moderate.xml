@@ -1,9 +1,10 @@
-<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="8b22269f-e61c-4725-bdae-c938c93bc239">
+<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="9b78107e-3c87-407d-b246-89ab0d52f495">
   <metadata>
     <title>FedRAMP System Security Plan (SSP)</title>
-    <last-modified>2020-09-01T00:26:08.90+00:00</last-modified>
+    <last-modified>2020-09-24T00:48:03.11+00:00</last-modified>
     <version>0.0.1</version>
-    <oscal-version>1.0.0-milestone2</oscal-version>
+    <oscal-version>1.0.0-milestone3</oscal-version>
+    <revision-history></revision-history>
   </metadata>
   <import-profile href="https://raw.githubusercontent.com/usnistgov/OSCAL/master/content/fedramp.gov/xml/FedRAMP_MODERATE-baseline_profile.xml"></import-profile>
   <system-characteristics>
@@ -38,381 +39,381 @@
     </authorization-boundary>
   </system-characteristics>
   <system-implementation>
-    <user uuid="5a9bb039-29ac-462e-a9d3-73e2bdae6800">
+    <user uuid="5458b10b-9259-4a57-9391-7dd726531afe">
       <role-id>generator</role-id>
     </user>
   </system-implementation>
   <control-implementation>
     <description><p>FedRAMP SSP Template Section 13</p></description>
-    <implemented-requirement uuid="ed2784d4-3de4-448d-a2cd-2dce29aa5f08" control-id="at-1">
+    <implemented-requirement uuid="08200bd5-03f5-4842-bbdc-b2c28c5374e0" control-id="at-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-1_stmt.a" uuid="e60968d2-6971-4a45-882a-7f95eca6bbda">
+      <statement statement-id="at-1_stmt.a" uuid="e8969e3b-72e5-4335-9cf6-94c13f277907">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-1_stmt.b" uuid="5b89122f-e2c5-4843-8cd0-7b4838a157a0">
+      <statement statement-id="at-1_stmt.b" uuid="c81eb724-710e-4a89-9153-6b8dcb23ccd5">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e9a07ad7-72cb-4dbc-bd1e-2926765adc53" control-id="at-2">
+    <implemented-requirement uuid="96400b5b-cb5b-4935-ba27-ae5e09950557" control-id="at-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-2_stmt.a" uuid="0b4d7920-a834-4414-b50f-e7ab37984e68">
+      <statement statement-id="at-2_stmt.a" uuid="7465c357-c0ef-4469-b1c4-317e81a1c298">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.b" uuid="6c01fd9d-e391-48eb-bd6e-b7b8e4e4e7e0">
+      <statement statement-id="at-2_stmt.b" uuid="ac2df43b-7cb0-434a-9530-e9ee06159c81">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.c" uuid="8f65caaa-bb6f-413e-9ea7-fa058f57c434">
+      <statement statement-id="at-2_stmt.c" uuid="f35f6cf3-034a-4b11-a68c-737929153f9e">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="95423834-71db-4b4a-84d2-045b57c666e3" control-id="at-2.2">
+    <implemented-requirement uuid="d372b331-43fc-430c-b3bf-b80dbc3acd02" control-id="at-2.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-2.2_stmt" uuid="d5608cfa-24f5-467b-a92e-e771e0ef7ff8">
+      <statement statement-id="at-2.2_stmt" uuid="719ff993-5373-4606-9407-c6007e6a6102">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="77fa7072-ca6f-4261-ae6c-60e3bb9176ee" control-id="at-3">
+    <implemented-requirement uuid="d7545997-a89e-4dda-9c5d-eb11424332b0" control-id="at-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-3_stmt.a" uuid="5f14098b-41ed-4775-a045-5df482b545bb">
+      <statement statement-id="at-3_stmt.a" uuid="f9a4d850-b78e-46fc-ab98-6b81bcae31c3">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.b" uuid="b43c9c75-43bc-4842-9735-be4b7f97dd74">
+      <statement statement-id="at-3_stmt.b" uuid="a6fa675c-a970-49fc-a6ec-92efaea8d0cb">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.c" uuid="c6613725-420d-43e2-9394-8599c7b86db3">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to component-level configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="a0721fba-f806-4158-9f7b-ff5b96590f3b" control-id="at-4">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-4_stmt.a" uuid="902cb0cb-3366-417c-b944-0b69f7a6956b">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to component-level configuration.
-</p></description>
-      </statement>
-      <statement statement-id="at-4_stmt.b" uuid="4e008b7b-2183-4164-b91e-6bf2ec7d1092">
+      <statement statement-id="at-3_stmt.c" uuid="1b22f396-089b-487a-a831-62dfb7377ce2">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8bf04a79-e259-4fff-b1d9-d5b98a3e64c5" control-id="ir-1">
+    <implemented-requirement uuid="0d4d12b7-bfd5-4bda-be8a-ec92954e354e" control-id="at-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-1_stmt.a" uuid="d1fd069d-72c3-4413-ad57-dd0732b3db92">
+      <statement statement-id="at-4_stmt.a" uuid="888c13a8-8b72-45fd-9f97-1b226d3665e5">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to component-level configuration.
+</p></description>
+      </statement>
+      <statement statement-id="at-4_stmt.b" uuid="23a9ab5e-bf9e-4225-b359-ca5f4f6f0f05">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to component-level configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="77cfb96c-4d23-4ffd-97a4-5ab7265bca5a" control-id="ir-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="ir-1_stmt.a" uuid="f0aacae2-dca8-463c-b3a4-24408df4f1f3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.1" uuid="4de595c5-f45d-48ff-9002-86f225fcf80d">
+      <statement statement-id="ir-1_stmt.a.1" uuid="9df86ca5-8949-4f16-aad0-574cb11e211b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.2" uuid="597edad8-806f-4f3b-92d3-1e1eb193e63e">
+      <statement statement-id="ir-1_stmt.a.2" uuid="9dc66ddf-85d8-4d09-8a9b-98367e117b9b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b" uuid="9c7a863e-51b4-411f-943e-704bf97e7886">
+      <statement statement-id="ir-1_stmt.b" uuid="b7b5652e-555f-4d2c-bb2e-abc5af687ddd">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.1" uuid="94458ad6-3dd0-4ab2-987e-6fd87d5f04e0">
+      <statement statement-id="ir-1_stmt.b.1" uuid="fe788b65-c2cb-455c-8a4b-59cb00a78c4b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.2" uuid="337fb155-edca-46c4-824f-5c6a66ccaf66">
+      <statement statement-id="ir-1_stmt.b.2" uuid="6778223e-ae28-4960-8557-64f4ec4e177c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3c1ecaed-f57b-4484-bf46-a304228daeeb" control-id="ir-2">
+    <implemented-requirement uuid="5fab5a5c-fe38-4d82-b045-47fd2c0f80c7" control-id="ir-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-2_stmt.a" uuid="1bd845ce-1bfd-468f-b2be-6f1f9b24a55e">
+      <statement statement-id="ir-2_stmt.a" uuid="b5e5bb60-9d5c-47b5-a266-b16976bc741a">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.b" uuid="9a6a140c-45ca-40f6-be00-66e56767feee">
+      <statement statement-id="ir-2_stmt.b" uuid="9a2a4050-7948-48af-bc23-132812cb8fde">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.c" uuid="5767a9b3-004b-4a64-ac4a-0b0e87f90cb0">
+      <statement statement-id="ir-2_stmt.c" uuid="8dae404a-d3dd-49b6-9c6a-b2c928d97a8a">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="83739966-c0c4-4cca-8170-ea359ede5f30" control-id="ir-3">
+    <implemented-requirement uuid="61ccb98f-f4ae-4c88-80a2-ffa12eac7b3e" control-id="ir-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-3_stmt" uuid="796b631e-c019-41fb-b40f-f08ce72f515f">
+      <statement statement-id="ir-3_stmt" uuid="37bcde04-7b62-4e8d-8d41-db4c0c855a4d">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="003330a2-4433-43a4-b029-cc93e77a4094" control-id="ir-3.2">
+    <implemented-requirement uuid="073e710f-cb34-49b1-b8f4-0f27f7d38d94" control-id="ir-3.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-3.2_stmt" uuid="216508bb-0d4a-4ceb-8960-5f1ffc4e8d75">
+      <statement statement-id="ir-3.2_stmt" uuid="b54442af-7dde-44e1-a1fd-eccddef4b1f4">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="695aa930-1bdd-412b-b92c-b5a905748c0f" control-id="ir-4">
+    <implemented-requirement uuid="6dc6c842-1a5f-4b53-94ce-42d904f0830f" control-id="ir-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-4_stmt.a" uuid="5088bec9-c6c4-4873-a587-d416714bcf63">
+      <statement statement-id="ir-4_stmt.a" uuid="5d4c5f5b-7579-45a3-91d3-e1dc8dfedcc2">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.b" uuid="d93658eb-f647-485a-8b2e-e5cec2b6082d">
+      <statement statement-id="ir-4_stmt.b" uuid="204497b1-7130-48fd-a40b-ffae886f54ae">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.c" uuid="e38a3d61-47d1-4f5b-9c9b-113340de3911">
+      <statement statement-id="ir-4_stmt.c" uuid="5d1fdbd0-70c0-40ed-aa5c-36ebd72ea17c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="446ddc4c-7bb0-4c8a-ad32-17c38098f4eb" control-id="ir-4.1">
+    <implemented-requirement uuid="631d98f7-048f-43c6-a72a-7e932ac4e0b0" control-id="ir-4.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-4.1_stmt" uuid="07dbbcc1-68b0-4a07-8702-64398157cb33">
+      <statement statement-id="ir-4.1_stmt" uuid="7b1d5dfd-d517-46ac-8c9c-cf04c75e5caf">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9184e43c-7f37-43fc-984a-c092ab635041" control-id="ir-5">
+    <implemented-requirement uuid="1e009e93-25b4-42a8-a0c9-f93fd8f13c88" control-id="ir-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-5_stmt" uuid="89dbed1a-18bd-47f0-a637-8d50c873eff8">
+      <statement statement-id="ir-5_stmt" uuid="4571ba79-6e48-4c76-8ba7-c2abdf96d8ff">
         <description><p>This control reflects organizational procedure/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4a918638-6746-40c7-b8ee-6e120bd7a50f" control-id="ir-6">
+    <implemented-requirement uuid="2795c798-7135-4df5-b0c1-4d7a8720db38" control-id="ir-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-6_stmt.a" uuid="7baece08-5540-4f4e-9b5c-17787815581a">
+      <statement statement-id="ir-6_stmt.a" uuid="0a0b7d20-0b1d-4e67-8591-6a502d1cc033">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-6_stmt.b" uuid="c9fff933-d04c-455d-88c9-96ec5d90a694">
+      <statement statement-id="ir-6_stmt.b" uuid="c0b3ba55-6b3d-4f96-ad63-5cd83d6b8bcd">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="46a5dce5-b16a-4a51-a81e-06ffd9c63bb0" control-id="ir-6.1">
+    <implemented-requirement uuid="06195ee4-f365-4988-83b8-ee54f86af637" control-id="ir-6.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-6.1_stmt" uuid="a6dae1dd-6535-4c53-9c89-013393e41e81">
+      <statement statement-id="ir-6.1_stmt" uuid="b30960a7-c8e9-4993-97e1-6088841b5e74">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="85effc91-eb24-47a8-9069-82f689398efe" control-id="ir-7">
+    <implemented-requirement uuid="291b7989-ee22-4e1a-b6ef-0252ac8c3c45" control-id="ir-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7_stmt" uuid="da609e71-bcfa-4bd7-9de1-7fbf53d73b54">
+      <statement statement-id="ir-7_stmt" uuid="79f3a303-b892-43cd-bff6-a704abce10b6">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d81f63c3-6a35-4459-8d03-b935a06fa7b8" control-id="ir-7.1">
+    <implemented-requirement uuid="d453ceda-3861-496a-af6d-75ffb34daa60" control-id="ir-7.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7.1_stmt" uuid="a292b501-57d2-4e0e-9a52-26e6f2d7eb54">
+      <statement statement-id="ir-7.1_stmt" uuid="dcc199bd-4d6a-4815-9f62-6cfbf25ec5e0">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e312d333-9576-4f0e-8aa7-29f2c7820f50" control-id="ir-7.2">
+    <implemented-requirement uuid="cec95996-ad45-46ee-b00d-61047ff4c100" control-id="ir-7.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7.2_stmt.a" uuid="8291dd04-3eee-490e-8388-fea136af4366">
+      <statement statement-id="ir-7.2_stmt.a" uuid="4c7474cc-8450-480d-8fa5-8ed5c05a591d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-7.2_stmt.b" uuid="5944f164-b61f-4f6f-8fb2-4ee581402ef8">
+      <statement statement-id="ir-7.2_stmt.b" uuid="5a285006-aeff-41f9-867c-d2bf389350e9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7e745c81-93ab-486d-9d30-73ec22d43f5b" control-id="ir-8">
+    <implemented-requirement uuid="5eb07ff6-0989-4f81-948e-459ce716ef35" control-id="ir-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-8_stmt.a" uuid="d94d2aa1-14ec-4061-a642-76161d6729a1">
+      <statement statement-id="ir-8_stmt.a" uuid="0a0f7287-8ccd-4d10-8fbc-839b2cf99793">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.1" uuid="4ce90b3c-aa72-488a-9bf0-3e29a5dca43a">
+      <statement statement-id="ir-8_stmt.a.1" uuid="f6d2285b-23cb-49c1-b9a1-829bda4136f2">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.2" uuid="05abcec1-29ba-48bc-b94c-f52107ce742a">
+      <statement statement-id="ir-8_stmt.a.2" uuid="9136c7ca-d5fa-4a48-b9ed-2dc8921758a3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.3" uuid="599ca948-2b50-42eb-88eb-fdecb338ce23">
+      <statement statement-id="ir-8_stmt.a.3" uuid="132ee5f6-785f-4424-bbf6-000b2a0e63a8">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.4" uuid="49d0a5f6-2ddd-4944-a9c1-ec75f38f4937">
+      <statement statement-id="ir-8_stmt.a.4" uuid="9ff81769-e9b8-454f-b7dd-5aba99024479">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.5" uuid="e09075d8-b08b-42f1-ab16-e1b9f91b3f75">
+      <statement statement-id="ir-8_stmt.a.5" uuid="2ecdddd0-30c4-4eb3-a278-1967be30d1d1">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.6" uuid="fd313011-b803-4153-88ac-c95cbf333358">
+      <statement statement-id="ir-8_stmt.a.6" uuid="42bab06e-37b8-4c19-8efb-bfcb6b9c815e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.7" uuid="8c9c109e-5599-4f00-a376-dc5938e955c9">
+      <statement statement-id="ir-8_stmt.a.7" uuid="feedb821-a5f6-4ce9-8b43-ab49e944cda8">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.8" uuid="c53ca087-05aa-4d1c-afba-0a4ac9f4650f">
+      <statement statement-id="ir-8_stmt.a.8" uuid="19eb35fd-3882-4945-93a0-8f53a3c8a19d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.b" uuid="841a3618-e175-40ec-95c0-b520d24d50a3">
+      <statement statement-id="ir-8_stmt.b" uuid="ef787f88-e43d-4583-ba3f-f4e0bdf11ede">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.c" uuid="939974c4-bb73-41dc-bee3-36f4eb29b12f">
+      <statement statement-id="ir-8_stmt.c" uuid="b7e3efba-4fc3-4d53-abf0-089aaacd19d0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.d" uuid="0556387b-6584-4e55-8928-f4b69ee69013">
+      <statement statement-id="ir-8_stmt.d" uuid="a8e69f8d-413c-4cea-adf0-aeaf07956359">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.e" uuid="3a44278f-bb22-42bd-9cc0-589f4979bf21">
+      <statement statement-id="ir-8_stmt.e" uuid="02ff7ba7-94d6-4616-aa30-799fd6bb7621">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.f" uuid="17edfb5d-0fdf-4e4c-9912-dc56dd0cdc4e">
+      <statement statement-id="ir-8_stmt.f" uuid="636a0b51-4d4c-486a-a755-bcd3579dc0b9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3e155847-c6fe-4f0d-988d-da1509c32c62" control-id="ir-9">
+    <implemented-requirement uuid="25bf7cc5-dd79-4713-b1f3-f174cd4b605b" control-id="ir-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-9_stmt.a" uuid="0e586952-47eb-4274-9020-a11bba0906a7">
+      <statement statement-id="ir-9_stmt.a" uuid="76b946ef-ba8d-4ac7-9110-29b77366fc91">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-9_stmt.b" uuid="98c10a16-ce12-4513-8995-01a2dfffa758">
+      <statement statement-id="ir-9_stmt.b" uuid="294bfc1f-2665-4ec1-94cc-565e9521a225">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-9_stmt.c" uuid="48bbf01f-5a4b-4d5c-8a85-27a53761bd08">
+      <statement statement-id="ir-9_stmt.c" uuid="0de6adb1-6a30-4d53-8fa8-63576400c942">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-9_stmt.d" uuid="a1eb2ab8-2f12-41a5-947e-2a6bbc142e25">
+      <statement statement-id="ir-9_stmt.d" uuid="5dd2b3f8-1979-4fc5-bf2b-e28bee808643">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-9_stmt.e" uuid="550cddfd-8534-4595-83c5-fe9f0883ce91">
+      <statement statement-id="ir-9_stmt.e" uuid="8533c8d4-0218-4a18-9f6a-a67284c78e63">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="ir-9_stmt.f" uuid="dc1fb418-5faa-4032-af79-e857148292fb">
+      <statement statement-id="ir-9_stmt.f" uuid="34c5b048-713d-4cea-bd18-71d780c53af0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b22ca43c-b620-4e67-84c9-f2ca21d9bd4a" control-id="ir-9.1">
+    <implemented-requirement uuid="2046dbd6-f875-48d3-ac1b-6a6984704104" control-id="ir-9.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-9.1_stmt" uuid="e00f7f80-7943-4787-9ed2-4cc33b6d44cc">
+      <statement statement-id="ir-9.1_stmt" uuid="a5cd6a4a-17e8-4957-a52d-1ccbf3646e35">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9b2d55b5-088a-4309-937e-efd116aeaeb8" control-id="ir-9.2">
+    <implemented-requirement uuid="7fac0200-ebc5-4ac7-9514-6e4b3b8a8890" control-id="ir-9.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-9.2_stmt" uuid="6a376ddb-e1c1-4636-ad39-ead9d0bad52a">
+      <statement statement-id="ir-9.2_stmt" uuid="536493f4-0b58-4497-9a99-a538508c2182">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7f70181a-b652-45ed-8f82-283f4a63c26d" control-id="ir-9.3">
+    <implemented-requirement uuid="2e621698-c58d-4bad-a03f-6a1f465c94bc" control-id="ir-9.3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-9.3_stmt" uuid="96b49d00-d253-49f4-bcd8-cb30451a5357">
+      <statement statement-id="ir-9.3_stmt" uuid="69417c8b-0817-4971-a582-050d48bc0c6a">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6b5cebda-6fe3-4be7-b6fc-39ea332d53f9" control-id="ir-9.4">
+    <implemented-requirement uuid="a34a1575-8bdb-4cea-a8d9-4ffcf7a44552" control-id="ir-9.4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-9.4_stmt" uuid="309b96f6-7ae4-42ad-8c99-531b178e4e03">
+      <statement statement-id="ir-9.4_stmt" uuid="88efdb58-ff99-4100-850b-882ef89eba8c">
         <description><p>This control reflects organizational procedures/policies and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="525a1aa7-d872-401c-8063-cfa67797ff19" control-id="pe-1">
+    <implemented-requirement uuid="ab5f7ace-de4c-41ff-9a86-f68909e836c1" control-id="pe-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-1_stmt.a" uuid="f8c780d6-2217-4e5d-96dc-de59dd418eed">
+      <statement statement-id="pe-1_stmt.a" uuid="37e7e5ec-20e2-444a-8f13-cbace36bf12d">
         <description><p>Development, documentation, and dissemination of a physical
 and environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-1_stmt.b" uuid="511509d3-3d2c-4b6f-bb6e-5f9b2a9afb6b">
+      <statement statement-id="pe-1_stmt.b" uuid="2686b02a-1f0a-4c2b-a3a4-da8c5588e2db">
         <description><p>Organizational review and updates to the physical and
 environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
@@ -420,9 +421,9 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8cdf14cd-98fe-4dc2-a70a-aec14ce8235c" control-id="pe-2">
+    <implemented-requirement uuid="946dccc3-c966-4159-8c54-fef794a6f313" control-id="pe-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-2_stmt.a" uuid="81b64f4d-9d5e-46af-bdf9-1bb3292a50f6">
+      <statement statement-id="pe-2_stmt.a" uuid="c2ed944e-cc06-4a3c-a1e2-8584a9df6892">
         <description><p>Development, approval, and maintenance of a list
 of individuals with authorized access to the facility
 where the information system resides reflects organizational
@@ -430,69 +431,69 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.b" uuid="77c95235-ef29-46b3-9d60-4a9b425a2f14">
+      <statement statement-id="pe-2_stmt.b" uuid="833fae9f-892f-48a1-98e1-5ebd2c764763">
         <description><p>Issuing authorization credentials for facility access
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.c" uuid="cb699637-f7dc-4ee4-b682-e6015abb3305">
+      <statement statement-id="pe-2_stmt.c" uuid="d82b1358-9b09-431f-b7c7-c04aeeb2b3a9">
         <description><p>Reviewing the access list detailing authorized facility
 access by individuals at an organization-defined frequency
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.d" uuid="e3da3357-1c1e-4437-94d8-9d4792fc80c4">
+      <statement statement-id="pe-2_stmt.d" uuid="555be142-d6eb-49d8-ae8f-0f04b2926908">
         <description><p>Removal of individuals from the facility access list when access
 is no longer required reflects organizational procedure/policy
 and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="242751dc-0e76-4705-9626-81f370fa6c04" control-id="pe-3">
+    <implemented-requirement uuid="31fd06f2-a796-4669-a8ec-0d4cfe07ebc3" control-id="pe-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-3_stmt.a" uuid="3d7cd363-d36c-4966-8ad4-0e6db387318e">
+      <statement statement-id="pe-3_stmt.a" uuid="139c4233-3007-4b6b-a3c9-6106171c9978">
         <description><p>Enforcing physical access authorizations at organization-defined
 entry/exit points to the facility where the information system resides
 reflects organizational procedure/policy and is not applicable to
 component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.b" uuid="e9029be4-2f1d-41fa-8b8e-fd05e69cd7b6">
+      <statement statement-id="pe-3_stmt.b" uuid="e6c13d53-f552-4e4d-a8ef-6ec600043cdf">
         <description><p>Maintaining physical access audit logs for organization-defined
 entry/exit points reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.c" uuid="f14bad6d-673d-4c25-a25d-345ed6c288e2">
+      <statement statement-id="pe-3_stmt.c" uuid="5e032a67-d9bc-49dd-a530-b0a0a85fb4c8">
         <description><p>Providing organization-defined security safeguards to control access
 to areas within the facility officially designated as publicly
 accessible reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.d" uuid="3d524260-94fb-41a6-84ed-5eda17c41388">
+      <statement statement-id="pe-3_stmt.d" uuid="92b14e44-ee2f-4f02-85c1-08861801bb21">
         <description><p>Escorting visitors and monitoring visitor activity during
 organization-defined circumstances requiring visitor escorts
 and monitoring reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.e" uuid="b1740ee7-0f93-41c0-9c6e-4fdb0ba117d7">
+      <statement statement-id="pe-3_stmt.e" uuid="072a7cfb-c3ff-4e01-a18d-32e5a02b629d">
         <description><p>Securing keys, combinations, and other physical access devices
 reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.f" uuid="afd9b614-94a4-438a-b1d4-86f6e31f5039">
+      <statement statement-id="pe-3_stmt.f" uuid="c14df58e-324e-409e-8a5a-a80a3d78c46c">
         <description><p>Inventory of organization-defined physical access devices
 at an organization-defined frequency reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.g" uuid="5aed57ce-5776-421d-a612-8691cf3efe54">
+      <statement statement-id="pe-3_stmt.g" uuid="6af8730e-5eb9-4370-96b1-4827a2eed4b6">
         <description><p>Changing combinations and keys at an organization-defined frequency
 and/or when keys are lost, combinations are compromised, or individuals
 are transferred or terminated, reflects organizational procedure/policy
@@ -500,9 +501,9 @@ and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="cd770f05-f8a7-4edd-bb1f-01492a354b90" control-id="pe-4">
+    <implemented-requirement uuid="accdec25-3e81-4f9a-a42b-8de2c77a8f74" control-id="pe-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-4_stmt" uuid="12a6961e-3276-445d-8fc2-7c4c1ade6ac4">
+      <statement statement-id="pe-4_stmt" uuid="9be8b777-0581-4d05-a5ac-337216e3021f">
         <description><p>Controlling physical access to organization-defined information
 system distribution and transmission lines within organizational
 facilities using organizaiton-defined security safeguards reflects
@@ -511,9 +512,9 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a62dd6bc-e744-408b-a9a6-dce5e199a880" control-id="pe-5">
+    <implemented-requirement uuid="e7745d71-2e5b-40bf-aed0-7a800fcb50b0" control-id="pe-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-5_stmt" uuid="853bbe1b-886c-48dc-815d-bc8ee92f9144">
+      <statement statement-id="pe-5_stmt" uuid="07b12b4e-9f05-4a17-983b-a23032ce1737">
         <description><p>Controlling physical access to information system output devices to
 prevent unauthorized individuals from obtaining the output reflects
 organizational policy/procedures and is not applicable to
@@ -521,16 +522,16 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2e3559be-ade8-45b6-a6b8-1fe61ef71376" control-id="pe-6">
+    <implemented-requirement uuid="7a2fa7eb-d5f1-4755-bccc-a3662e11cf91" control-id="pe-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-6_stmt.a" uuid="74b879ba-ad9b-4431-a743-ade6aad09ce7">
+      <statement statement-id="pe-6_stmt.a" uuid="858b47e5-955f-402c-9bca-6734a53a40cf">
         <description><p>Monitoring physical access to the facility where the information
 system resides to detect and respond to physical security incidents
 reflects organizational procedure/policy and is outside the scope
 of component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.b" uuid="dbd0c507-34a4-4fb7-a22c-7216cfb2768c">
+      <statement statement-id="pe-6_stmt.b" uuid="83e66cc7-a507-4b19-9885-10f6b8ddf20c">
         <description><p>Reviewing physical access logs at an organization-defined
 frequency and upon occurence of organization-defined events
 or potential indications of events, reflects organizational
@@ -538,7 +539,7 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.c" uuid="f2d50867-7c5f-446e-b2cb-8ad1a93b8266">
+      <statement statement-id="pe-6_stmt.c" uuid="17d6fb76-3052-4944-a3cf-22c2371a251b">
         <description><p>Coordinating results of reviews and investigations with
 the organizational incident response capability reflects
 organizational procedure/policy and is not applicable to
@@ -546,296 +547,296 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="35447e97-ec1e-46d4-85a9-8ae81ad92399" control-id="pe-6.1">
+    <implemented-requirement uuid="a1214ad4-69c0-4b83-a5e1-8b379d2d82c4" control-id="pe-6.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-6.1_stmt" uuid="dec88e10-4cf8-41a8-a1f8-c65e3351e229">
+      <statement statement-id="pe-6.1_stmt" uuid="e5e3c890-74c9-47ef-8c4c-842779640ff6">
         <description><p>Monitoring physical intrusion alarms and surveillance
 equipment reflects organizational procedure/policy and is
 not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bad2b231-1642-4523-a522-4424cdf541c7" control-id="pe-8">
+    <implemented-requirement uuid="864fe63d-26cc-4bb1-b8e3-cc579cc12d32" control-id="pe-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-8_stmt.a" uuid="4c94dfd3-fe70-4d58-a386-a5e9f8c2dcdd">
+      <statement statement-id="pe-8_stmt.a" uuid="c2bd9feb-0100-4d7f-a680-1ddc5fad76d4">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-8_stmt.b" uuid="a65ef9a3-ac34-42aa-becc-73a43e5af40d">
+      <statement statement-id="pe-8_stmt.b" uuid="db12a3b8-3530-4e8a-8ca4-ce17037f5fed">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f7de25c4-f3a7-4701-b1a8-f23257dfc206" control-id="pe-9">
+    <implemented-requirement uuid="750d4667-62cc-4b03-bfe7-44fab23cd1bb" control-id="pe-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-9_stmt" uuid="42f87fec-84e9-42a6-905e-04834181fa50">
+      <statement statement-id="pe-9_stmt" uuid="0563c99d-32d0-4bed-b97a-9106b3e891ab">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3a2fbc75-248c-4e48-937c-4900b6749e8b" control-id="pe-10">
+    <implemented-requirement uuid="e3a82d89-efdb-4280-aaeb-8dcde93643b4" control-id="pe-10">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-10_stmt.a" uuid="7d40f53e-b1ca-4c0e-9829-1fbd24b94dab">
+      <statement statement-id="pe-10_stmt.a" uuid="c9895f8e-2d37-4163-8c25-3a744fd44e65">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-10_stmt.b" uuid="1488d06a-4e58-43dd-a1db-34aad8468878">
+      <statement statement-id="pe-10_stmt.b" uuid="9875bdb1-902f-4f40-9547-246678c26f52">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-10_stmt.c" uuid="e9f61b12-dc4b-4ec4-8b31-b0b6fa673f73">
+      <statement statement-id="pe-10_stmt.c" uuid="881572de-2d46-4448-8332-89934892e145">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="072637d2-7cf1-44e9-8a0b-9ef1c66ef606" control-id="pe-11">
+    <implemented-requirement uuid="5f6a1c22-6c01-41f0-a73e-5e3d516cae98" control-id="pe-11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-11_stmt" uuid="ffe3e7d8-e7ed-4dec-9bd6-2cc092fd3e80">
+      <statement statement-id="pe-11_stmt" uuid="d2e93171-0640-4c93-970f-b8d8922d5028">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3edfd119-f858-4ec8-9018-2815b53fd14d" control-id="pe-12">
+    <implemented-requirement uuid="bdcd0a65-7ccf-471b-8377-ea276b323095" control-id="pe-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-12_stmt" uuid="8f8b9d5b-e272-4578-a3c5-3af48cf6d435">
+      <statement statement-id="pe-12_stmt" uuid="80d50e12-3fcd-4cd1-b0e7-b64581c1b003">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d5382f97-b7cf-47f8-85dd-c0500274fb94" control-id="pe-13">
+    <implemented-requirement uuid="a16e716d-cdaf-471d-b574-800bf7f72f15" control-id="pe-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13_stmt" uuid="4260870f-3437-4006-b8f8-ce421982119a">
+      <statement statement-id="pe-13_stmt" uuid="a9d53e8d-6e28-4261-b1c4-29921379767e">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="705c4466-9412-4fd2-9ee4-d68a2b852c60" control-id="pe-13.2">
+    <implemented-requirement uuid="821d47fe-9574-4ded-b57f-11d144e0b4ee" control-id="pe-13.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13.2_stmt" uuid="486ae5cc-b895-476c-aebe-04f87414226a">
+      <statement statement-id="pe-13.2_stmt" uuid="0b221d5d-de28-4f60-9917-6534ddfad2f1">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="62211e0c-1f61-4ef4-afab-808e9e0d6658" control-id="pe-13.3">
+    <implemented-requirement uuid="b612da85-1bea-441a-af9c-3afb427cf3d0" control-id="pe-13.3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13.3_stmt" uuid="48e41119-51ed-48a5-a9a7-bd4f52ef10a7">
+      <statement statement-id="pe-13.3_stmt" uuid="7f85e32f-9422-401f-be0b-42eb3b72cc3a">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f63780c1-eb1c-4098-9ca3-976ada0ddd04" control-id="pe-14">
+    <implemented-requirement uuid="c287bf80-a22c-4bf4-bc95-279947477d63" control-id="pe-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-14_stmt.a" uuid="dce2fd7a-1591-4230-a87e-39f587c62258">
+      <statement statement-id="pe-14_stmt.a" uuid="d26394ac-d715-4be6-bcfd-ab9db20571ba">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-14_stmt.b" uuid="7c1c419f-d48d-44de-b202-34e8e29efe18">
+      <statement statement-id="pe-14_stmt.b" uuid="b60c5cea-0e51-4790-99ea-94774b938862">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bfb74de4-1eba-4859-88f2-80871013d405" control-id="pe-14.2">
+    <implemented-requirement uuid="8477b110-4fef-4e0d-9ec6-6776c5a536a2" control-id="pe-14.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-14.2_stmt" uuid="f84ce1e4-0a4f-4fae-b3dd-ff84f0d6d39f">
+      <statement statement-id="pe-14.2_stmt" uuid="b1c0fe92-5c45-443f-8c23-92be7c82105a">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f766046e-0f03-4fbf-bca4-bad628c3f04e" control-id="pe-15">
+    <implemented-requirement uuid="ed126d48-6f08-4bb0-bf59-be4e695b5f0d" control-id="pe-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-15_stmt" uuid="8e00df50-4fd4-48d1-ad5b-18a558a253b5">
+      <statement statement-id="pe-15_stmt" uuid="90a48cd3-b6ea-4411-993f-5b03f3932023">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="abbc14b1-9091-439b-a27e-07db9e2d85da" control-id="pe-16">
+    <implemented-requirement uuid="ef312160-0f16-42f6-ac16-4d62f0e494ba" control-id="pe-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-16_stmt" uuid="36ba667e-215a-4c5e-913d-74df4a72e970">
+      <statement statement-id="pe-16_stmt" uuid="b6b265ff-c64b-4603-9ed2-0979954a1850">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="155ebfa6-f835-442c-a29b-6f653c96fb8f" control-id="pe-17">
+    <implemented-requirement uuid="55185ec7-d999-40c0-9a72-13c0319e9a85" control-id="pe-17">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-17_stmt.a" uuid="9dc9337a-4a96-4123-957f-143f568278c4">
+      <statement statement-id="pe-17_stmt.a" uuid="b4e59489-29b8-4b7d-b307-9191b43f8c81">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-17_stmt.b" uuid="dbf1a460-3479-4000-9baa-fb6741ebed54">
+      <statement statement-id="pe-17_stmt.b" uuid="d5e373de-e9f0-46c2-ae7c-5f46709c7650">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-17_stmt.c" uuid="9eed97a2-ea0d-4392-8e6b-28374040f103">
+      <statement statement-id="pe-17_stmt.c" uuid="78b76f30-6a05-4e92-9ca1-b923d5dba95c">
         <description><p>This control is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="691eaf1f-3ec6-4bd8-b706-f3b8de96b189" control-id="pl-1">
+    <implemented-requirement uuid="fd72c8a8-23ad-4ecc-b576-052ef95f5af9" control-id="pl-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-1_stmt.a" uuid="454ce3c7-5b03-410d-a523-b7c09f5043a3">
+      <statement statement-id="pl-1_stmt.a" uuid="5334717a-35bb-4f62-95da-2ac0d3f13414">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-1_stmt.b" uuid="11ec724a-8ab0-4924-89b8-43e415d94995">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of Red Hat Enterprise Linux.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="33d05bcf-099b-4494-b015-0dc7db373b83" control-id="pl-2">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-2_stmt.a" uuid="f93b31fd-f41a-4d35-8854-2ebdbf90e4c5">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of Red Hat Enterprise Linux.
-</p></description>
-      </statement>
-      <statement statement-id="pl-2_stmt.b" uuid="5cfe1a98-2f51-4fd1-bc14-334999000722">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of Red Hat Enterprise Linux.
-</p></description>
-      </statement>
-      <statement statement-id="pl-2_stmt.c" uuid="53a53fa6-3013-40ec-9295-0f76b6e1be0c">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of Red Hat Enterprise Linux.
-</p></description>
-      </statement>
-      <statement statement-id="pl-2_stmt.d" uuid="cbf86316-010f-4c23-8482-13f8ede1064d">
-        <description><p>This control reflects organizational procedures/policies, and is not
-applicable to the configuration of Red Hat Enterprise Linux.
-</p></description>
-      </statement>
-      <statement statement-id="pl-2_stmt.e" uuid="49214595-3204-48cc-94c3-9c97d000bb54">
+      <statement statement-id="pl-1_stmt.b" uuid="d1307dd5-568e-493e-8ef4-7de7833e8f66">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="80c86971-dc81-4b25-a9c8-3da11c42acdb" control-id="pl-2.3">
+    <implemented-requirement uuid="b558b772-7df9-4515-805b-72e04a4ee6d6" control-id="pl-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-2.3_stmt" uuid="2f0ceb31-4a54-4925-b5fd-e2bfd76bcf70">
+      <statement statement-id="pl-2_stmt.a" uuid="b2c13853-1f34-4067-9941-6c33fc9bd4da">
+        <description><p>This control reflects organizational procedures/policies, and is not
+applicable to the configuration of Red Hat Enterprise Linux.
+</p></description>
+      </statement>
+      <statement statement-id="pl-2_stmt.b" uuid="a66bd333-69ec-470b-be9f-47db4353aadd">
+        <description><p>This control reflects organizational procedures/policies, and is not
+applicable to the configuration of Red Hat Enterprise Linux.
+</p></description>
+      </statement>
+      <statement statement-id="pl-2_stmt.c" uuid="cfddc055-39e7-48b0-ad93-968f8db576e7">
+        <description><p>This control reflects organizational procedures/policies, and is not
+applicable to the configuration of Red Hat Enterprise Linux.
+</p></description>
+      </statement>
+      <statement statement-id="pl-2_stmt.d" uuid="995e896c-1736-47d2-8f06-7b5cfec26c93">
+        <description><p>This control reflects organizational procedures/policies, and is not
+applicable to the configuration of Red Hat Enterprise Linux.
+</p></description>
+      </statement>
+      <statement statement-id="pl-2_stmt.e" uuid="1d917e21-feac-4f35-a44b-e1cf80342d97">
+        <description><p>This control reflects organizational procedures/policies, and is not
+applicable to the configuration of Red Hat Enterprise Linux.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="3ac89503-debe-4007-8398-aa664cf38b5c" control-id="pl-2.3">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="pl-2.3_stmt" uuid="2c455e8e-9934-401e-b57c-6a8f566d7640">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c0dd553b-24f2-4e07-be20-bfec381e82bb" control-id="pl-4">
+    <implemented-requirement uuid="09c9fc65-9aa6-4ddf-9680-f02a9be7b02d" control-id="pl-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-4_stmt.a" uuid="14143463-5a59-4d6b-beb0-5cddd3dd3fab">
+      <statement statement-id="pl-4_stmt.a" uuid="000ea234-f4ec-4920-9bd4-72569d13c910">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.b" uuid="ff62a91c-6f18-4662-8ce2-0154ba02dbe6">
+      <statement statement-id="pl-4_stmt.b" uuid="d34a53d0-4299-4595-aa29-fc4b355167a4">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.c" uuid="cda4eaff-3412-470d-9494-ef8086a66aba">
+      <statement statement-id="pl-4_stmt.c" uuid="77b7328d-c947-4fb0-84e0-c84fb9df37ab">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.d" uuid="e7eb8c7f-9c98-4ab8-a519-973b648539da">
+      <statement statement-id="pl-4_stmt.d" uuid="8c4b6280-381e-4e6a-bd0e-85b4a0402109">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e31101ef-5cef-4684-8292-4ff3cca0c88f" control-id="pl-4.1">
+    <implemented-requirement uuid="a9dbebf2-ec3d-4377-85cd-cbe931bef327" control-id="pl-4.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-4.1_stmt" uuid="96a4a324-d9e2-4fdb-ad5e-1ba2c2dc3e14">
+      <statement statement-id="pl-4.1_stmt" uuid="98649b80-b194-46eb-8306-014c99b5a25a">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c98dae39-9ce4-4303-a5ec-90181f082080" control-id="pl-8">
+    <implemented-requirement uuid="251c27ca-a748-4180-8ac5-3289e53f7a3e" control-id="pl-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-8_stmt.a" uuid="b4c428f9-691b-42da-9859-453343553aa7">
+      <statement statement-id="pl-8_stmt.a" uuid="4a2beab8-5c70-4ea1-8d80-65a7fa930574">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-8_stmt.b" uuid="94508183-45e8-4639-bfea-a735ad1ed9a8">
+      <statement statement-id="pl-8_stmt.b" uuid="9d7179ca-fefb-49d3-81ba-fc839cd7f8d0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
-      <statement statement-id="pl-8_stmt.c" uuid="9b382f19-ddbb-45be-934f-38e58277561e">
+      <statement statement-id="pl-8_stmt.c" uuid="2ee6d180-9e7d-4d9e-bf05-3379d90a45f0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Enterprise Linux.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="72842d96-c993-4e78-8691-b2b940984cdf" control-id="ps-1">
+    <implemented-requirement uuid="6c4c8b4c-3782-40f9-a288-267bda00b28a" control-id="ps-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-1_stmt.a" uuid="04f59325-a05f-4758-a585-8cb983f0d869">
+      <statement statement-id="ps-1_stmt.a" uuid="9dcd663e-1178-49e1-95fe-0716327531a1">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.1" uuid="5c941458-c043-49c2-b94e-c80b148c6241">
+      <statement statement-id="ps-1_stmt.a.1" uuid="80af04b4-3402-4aba-a6fc-4370860e3d6e">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.2" uuid="ec546228-3169-4090-9f34-e14094e61bfe">
+      <statement statement-id="ps-1_stmt.a.2" uuid="a68de116-0232-4dc2-beca-ba19f93d2c77">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b" uuid="458affb2-f34e-415d-86d9-ff13ef7fbfae">
+      <statement statement-id="ps-1_stmt.b" uuid="20a3f9b9-2670-41de-a114-b31b4dba4de9">
         <description><p>Organizational reviews and updates to the personnel security policy
 and personnel security procedures at an organization-defined frequency
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.1" uuid="3236e487-7117-440d-9f10-c2b3685297b7">
+      <statement statement-id="ps-1_stmt.b.1" uuid="2ae723bf-8fb9-4bea-a0f2-f975f40c7c18">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.2" uuid="013a9725-ec0c-47e9-9176-f704cbe41022">
+      <statement statement-id="ps-1_stmt.b.2" uuid="2bf61a41-cd6a-4c73-9e23-a9e7362fbe95">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2ce55114-c901-4b71-893a-74aacdfa32b4" control-id="ps-2">
+    <implemented-requirement uuid="effdb655-dca0-43e9-b5ff-24af560519fb" control-id="ps-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-2_stmt.a" uuid="e02109eb-9901-488f-99b1-94f696b03adb">
+      <statement statement-id="ps-2_stmt.a" uuid="7c8f0f96-ab1b-42e9-a508-44af79a9b0af">
         <description><p>Organizational assignment of a risk designation to all organizational
 positions is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.b" uuid="3b488a07-0433-40bd-93c6-e3ea7a592702">
+      <statement statement-id="ps-2_stmt.b" uuid="a9686bf7-f963-450b-b48c-62e655a75b33">
         <description><p>Organizational establishment of screening criteria for individuals
 filling those positions is outside the scope of Red Hat Enterprise Linux
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.c" uuid="7037eb3f-32af-4d3d-a4db-ed6d99b20a95">
+      <statement statement-id="ps-2_stmt.c" uuid="0d7a8f06-0c0b-4653-9ba3-0ea506cd7e94">
         <description><p>Organizational review and updating of position risk
 designations at an organization-defined frequency is outside the scope
 of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ca482fcc-1f63-4f2e-8921-0030bd9e2cc6" control-id="ps-3">
+    <implemented-requirement uuid="4995217c-cf57-42bc-a8fe-9a036f5b44bd" control-id="ps-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-3_stmt.a" uuid="19a3d64b-166f-459e-b8fe-efc2a8a1e3e3">
+      <statement statement-id="ps-3_stmt.a" uuid="788c718a-3d23-422f-acb6-45327b6eede3">
         <description><p>Organizational screening of individuals prior to authorizing access
 to the information system is outside the scope of Red Hat Enterprise Linux
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-3_stmt.b" uuid="70aa596e-b9a7-4db3-98de-649b15cc31ca">
+      <statement statement-id="ps-3_stmt.b" uuid="a39ab55e-04e1-46e4-8f72-f693d055ebde">
         <description><p>Organizational processes to rescreen individuals according to
 organization-defined conditions requiring rescreening and,
 where rescreening is so indicated, the frequency of such
@@ -844,9 +845,9 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ac2e6ce4-354c-4b43-8754-471013542957" control-id="ps-3.3">
+    <implemented-requirement uuid="713881c1-f1f4-4f95-b318-1033feafc872" control-id="ps-3.3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-3.3_stmt.a" uuid="32367734-fd01-4c7d-90ed-00eeb30bf54e">
+      <statement statement-id="ps-3.3_stmt.a" uuid="31fb68ab-e2ae-40e6-b14a-8c32e37ab056">
         <description><p>Organizational processes ensuring that individuals accessing an
 information system processing, storing, or transmitting information
 requiring special protection have valid access authorizations that are
@@ -854,7 +855,7 @@ demonstrated by assigned official government dutues, are outside the
 scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-3.3_stmt.b" uuid="f15f67bc-3cdf-4871-91e7-a7f202c8fdcd">
+      <statement statement-id="ps-3.3_stmt.b" uuid="1bdc6792-c2a8-4434-838a-2d5b41f95ce8">
         <description><p>Organizational processes ensuring that individuals accessing an
 information system processing, storing, or transmitting information
 requiring special protection satisgy organization-defined additional
@@ -863,44 +864,44 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3288a9dd-9c6a-4956-a92d-c84fa246be2c" control-id="ps-4">
+    <implemented-requirement uuid="7126748a-af67-415a-ad19-17ea6eb7378d" control-id="ps-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-4_stmt.a" uuid="5d4eeeb5-a8f2-4279-8e5d-d4df11292b80">
+      <statement statement-id="ps-4_stmt.a" uuid="2e146230-dcc6-46e4-80d7-a71a1bcfba00">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, information system access is disabled within an
 organization-defined time period, are outside the scope of
 Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.b" uuid="2606320c-21ee-45f1-88d9-05698fdfc5bf">
+      <statement statement-id="ps-4_stmt.b" uuid="ead8846f-b396-4d51-b837-f4890febfb07">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, any authenticators/credentials associated with the individual
 are terminated/revoked, are outside the scope of
 Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.c" uuid="d362feaa-ba61-4e77-a790-80333e09d383">
+      <statement statement-id="ps-4_stmt.c" uuid="a1fcf910-b3da-48ec-b510-59d3e5b10394">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, exit interviews are conducted that include a discussion of
 organization-defined information security topics, are outside the scope
 of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.d" uuid="170f07fb-cc56-46d7-8507-a950c37ffcff">
+      <statement statement-id="ps-4_stmt.d" uuid="7367360a-275b-4223-8f57-883d71f0ca75">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, all security-related organizational information
 system-related property is retrieved, are outside the scope
 of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.e" uuid="31fea135-9830-47ad-b4b8-70ba3af3c5d6">
+      <statement statement-id="ps-4_stmt.e" uuid="122a4629-25df-4b62-ba7e-851375a7a645">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization retains access to organizational
 information systems formerly controlled by the terminated individual,
 are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.f" uuid="86b5912c-b935-43a5-83bf-b018bbeb171c">
+      <statement statement-id="ps-4_stmt.f" uuid="44410d23-2a3e-43df-a5e5-2a13aab64f17">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization notifies organization-defined personnel
 or roles within an organization-defined time period, are outside
@@ -908,9 +909,9 @@ the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1b3cf532-16c2-4b77-b36a-f53d35930df1" control-id="ps-5">
+    <implemented-requirement uuid="796791cb-77ae-4be8-9d77-618d4fd22234" control-id="ps-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-5_stmt.a" uuid="570a4d1f-b681-4f44-8fe8-cf2a5be565c6">
+      <statement statement-id="ps-5_stmt.a" uuid="35d18af6-44b0-454e-9305-a40c26aa2f79">
         <description><p>Organizational processes to review and confirm ongoing operational
 need for current logical and physical access authorizations to
 information systems/facilities when individuals are reassigned or
@@ -918,79 +919,79 @@ transferred to other positions within the organization are
 outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.b" uuid="e82fd546-da9c-4521-915a-94a1afe99140">
+      <statement statement-id="ps-5_stmt.b" uuid="6e4e5a73-b6d5-43fb-817e-980ef1f54ee4">
         <description><p>Organizational processes to initiate organization-defined transfer
 or reassignment actions within organization-defined time period
 following the formal transfer action are outside the scope of
 Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.c" uuid="d5af64a5-fd8c-4db8-8339-a36b3e58e97b">
+      <statement statement-id="ps-5_stmt.c" uuid="495d6bfd-dc66-4990-9b20-10859d43cbd8">
         <description><p>Organizational processes to modify access authorizations as needed to
 correspond with any changes in oeprational need due to reassignment
 or transfer are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.d" uuid="a8966020-e885-41a7-acc3-3249d3dcd09a">
+      <statement statement-id="ps-5_stmt.d" uuid="d85f6890-0898-4ff7-95f0-5bb987670a79">
         <description><p>Organizational notifications of organization-defined personnel
 or roles within an organization-defined time period are outside
 the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="90586ec6-bd79-44d5-8df1-4817a813bd66" control-id="ps-6">
+    <implemented-requirement uuid="b2766fd2-ccbe-48fe-bd10-ed9cb93295a8" control-id="ps-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-6_stmt.a" uuid="cebaabdf-e3a8-4ac0-8297-8e1fc30ef520">
+      <statement statement-id="ps-6_stmt.a" uuid="15ef209f-db33-49d4-98c0-414322bdc80a">
         <description><p>Organizational process to develop and document access agreements for
 organizational information systems are outside the scope of
 Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.b" uuid="c0cbb71f-2802-4366-bb1e-73ee134e4bd7">
+      <statement statement-id="ps-6_stmt.b" uuid="83b3557c-8f2c-486a-a185-84b4fb7047c0">
         <description><p>Organizational reviews and updates to the access agreements at an
 organization-defined frequency are outside the scope of
 Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c" uuid="43238b81-247f-4549-afff-aa5d84a90464">
+      <statement statement-id="ps-6_stmt.c" uuid="0703a2fc-8cd0-43f1-b495-4f928a932cc3">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.1" uuid="749091e1-1ae0-4079-b3ef-f185f74a4928">
+      <statement statement-id="ps-6_stmt.c.1" uuid="d4ba11ee-8cfe-4c21-b2ce-35b9e6b594fe">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.2" uuid="5243506e-84c1-4f80-9b2b-02ebc131c961">
+      <statement statement-id="ps-6_stmt.c.2" uuid="21d3f706-2fbc-424c-93bd-d11a87743fc3">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7c7127b2-d6b0-44ba-805a-a2ea70e9739d" control-id="ps-7">
+    <implemented-requirement uuid="f6362e2a-9297-423b-ad6b-83a0cf62140e" control-id="ps-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-7_stmt.a" uuid="f2d2f6a5-ebc5-4f66-afc6-52ddc3bbb4a3">
+      <statement statement-id="ps-7_stmt.a" uuid="bcb43081-97af-45fe-b221-fab0b46e94b2">
         <description><p>Organizational processes to establish security requirements including
 security roles and responsibilities for third-party providers are
 outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.b" uuid="9f9e2fa9-847d-4a07-adf5-69f4b1ce2d4f">
+      <statement statement-id="ps-7_stmt.b" uuid="a89f9a9a-375c-44c8-8ae5-a8f07e6c664a">
         <description><p>Organizational processes requiring third-party providers to comply
 with personnel security polocies and procedures established by
 the organization are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.c" uuid="becf4274-3e6b-444a-9275-af8734bbd92d">
+      <statement statement-id="ps-7_stmt.c" uuid="24edb144-594b-4f01-bf20-44454997f35e">
         <description><p>Organizational processes to document presonnel security requirements
 are outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.d" uuid="60b1131c-9fe3-408b-8715-dc576ea69a21">
+      <statement statement-id="ps-7_stmt.d" uuid="bb30356d-c376-410e-a474-191ab3480709">
         <description><p>Organizational processes to require third-party providers to notify
 organization-defined personnel or roles of any personnel transfers or
 terminations of third-party personnel who possess organizational
@@ -999,21 +1000,21 @@ within an organization-defined time period, are outside the
 scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.e" uuid="c23f87ba-42c6-4bba-ad9a-511c70e565e0">
+      <statement statement-id="ps-7_stmt.e" uuid="d6d79437-7ea8-4a7f-b6bd-0aceaa530101">
         <description><p>Organizational monitoring of provider compliance is outside
 the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="034f3369-72dc-4988-9bbc-a2c98283f58b" control-id="ps-8">
+    <implemented-requirement uuid="f7b242f7-e344-4c48-9fea-53c5576f768c" control-id="ps-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-8_stmt.a" uuid="b1918e03-e949-4ae9-874f-27efcd78e7aa">
+      <statement statement-id="ps-8_stmt.a" uuid="f4346a37-5ae5-45e8-8190-d62249dcb93e">
         <description><p>Organizational employment of a formal sanctions process for individuals
 failing to comply with established information security policies
 and procedures is outside the scope of Red Hat Enterprise Linux configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-8_stmt.b" uuid="e77ccabd-b60a-46d9-856d-d6a8e9f928e1">
+      <statement statement-id="ps-8_stmt.b" uuid="2ab9237b-2ffa-4974-872e-8434ec3b5272">
         <description><p>Organizational notification of organization-defined personnel
 or roles within an organization-defined time period when a formal
 employee santions process is initiated, identifying the individual

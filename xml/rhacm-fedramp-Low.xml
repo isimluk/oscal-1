@@ -1,9 +1,10 @@
-<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="e3f544db-7108-4aa7-a876-dc6439b54c72">
+<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="f019ecc5-6d9d-4854-8cb3-0cd0e0f5f132">
   <metadata>
     <title>FedRAMP System Security Plan (SSP)</title>
-    <last-modified>2020-09-01T00:26:08.90+00:00</last-modified>
+    <last-modified>2020-09-24T00:48:03.11+00:00</last-modified>
     <version>0.0.1</version>
-    <oscal-version>1.0.0-milestone2</oscal-version>
+    <oscal-version>1.0.0-milestone3</oscal-version>
+    <revision-history></revision-history>
   </metadata>
   <import-profile href="https://raw.githubusercontent.com/usnistgov/OSCAL/master/content/fedramp.gov/xml/FedRAMP_LOW-baseline_profile.xml"></import-profile>
   <system-characteristics>
@@ -38,255 +39,255 @@
     </authorization-boundary>
   </system-characteristics>
   <system-implementation>
-    <user uuid="3109d845-cf18-421f-872e-ede49e2163fa">
+    <user uuid="4a1fa673-ec55-48df-b5fe-00c4ed6775f5">
       <role-id>generator</role-id>
     </user>
   </system-implementation>
   <control-implementation>
     <description><p>FedRAMP SSP Template Section 13</p></description>
-    <implemented-requirement uuid="39b06d74-c788-4e13-b071-8b1de218455f" control-id="at-1">
+    <implemented-requirement uuid="2ee100d5-bc84-4987-bf4e-46c211524343" control-id="at-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-1_stmt.a" uuid="4760ab45-2f80-4816-8922-6ac88c83b59a">
+      <statement statement-id="at-1_stmt.a" uuid="e1d7cff8-e5cc-45ca-887c-51706ee434f1">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-1_stmt.b" uuid="02312866-28f5-4d71-af23-737ec5a89f1d">
+      <statement statement-id="at-1_stmt.b" uuid="40af8be3-3f9c-473f-9f6a-44f0f941dac2">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5ef6f7ef-e019-4c2f-af7e-4795bd85e870" control-id="at-2">
+    <implemented-requirement uuid="2b919de7-ce18-4522-8ec0-74adbe8cb9a4" control-id="at-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-2_stmt.a" uuid="57dad24a-93d9-43e8-be08-240bab3cc4fe">
+      <statement statement-id="at-2_stmt.a" uuid="f2cabe8a-cec1-4177-98bb-984f3946609f">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.b" uuid="30c5cfb2-b3fc-48ac-a449-89529ca256f2">
+      <statement statement-id="at-2_stmt.b" uuid="19dd0f6e-80c5-4962-ab96-956cd89359b4">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.c" uuid="20430817-05af-43c3-a47d-d2828ca973ad">
+      <statement statement-id="at-2_stmt.c" uuid="ede8a546-038e-4a99-a1dc-3053d4dc8b96">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9a3cea22-ea19-4ca0-98f8-3c750906706e" control-id="at-3">
+    <implemented-requirement uuid="f090c3dc-61cc-4488-9b70-2c4b17b95058" control-id="at-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-3_stmt.a" uuid="e24e2523-79bf-4109-b570-e6453f1149ac">
+      <statement statement-id="at-3_stmt.a" uuid="06607854-0210-462c-8d63-761626b5cb20">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.b" uuid="7fd23754-e79f-4167-a369-79b2cc9b6dc2">
+      <statement statement-id="at-3_stmt.b" uuid="f28d0120-1976-41e3-812d-a5994e21a53d">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.c" uuid="6a2a72a3-8103-4211-ac69-eff1d992e933">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to component-level configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="55d2f0cf-1970-4a42-96a4-6fdc0b5dd04b" control-id="at-4">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-4_stmt.a" uuid="bfe6baac-0527-4f9f-99b5-9ecb2e61894a">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to component-level configuration.
-</p></description>
-      </statement>
-      <statement statement-id="at-4_stmt.b" uuid="5bc247a1-d636-4e40-a113-3aac34ec65a1">
+      <statement statement-id="at-3_stmt.c" uuid="7721eaeb-0b51-4182-ad94-c8d58b39d955">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4dfbe145-6dab-4884-be37-f34f507d52ff" control-id="ir-1">
+    <implemented-requirement uuid="2e661629-89e3-49f5-9341-62d9c0d2c7a7" control-id="at-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-1_stmt.a" uuid="e8f4ce60-5f26-4d8f-a7eb-fbcbf19fdccf">
+      <statement statement-id="at-4_stmt.a" uuid="b640ea14-1e63-40ce-8074-12a237b2f55f">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to component-level configuration.
+</p></description>
+      </statement>
+      <statement statement-id="at-4_stmt.b" uuid="f214021b-1949-4a31-95ad-487d8978865d">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to component-level configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="3aac2c83-75b4-4468-ac98-eca8d98ae120" control-id="ir-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="ir-1_stmt.a" uuid="29173a64-ae5c-44e2-a76c-681fd4c47bcf">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.1" uuid="49c70381-f508-4884-8a29-a50d591902b0">
+      <statement statement-id="ir-1_stmt.a.1" uuid="096d86cb-2698-4294-b82f-2ac81133847e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.2" uuid="b748a776-838d-4b3d-aa30-58c748d0871b">
+      <statement statement-id="ir-1_stmt.a.2" uuid="94b98bd8-0761-49f6-a154-e36c614a7cae">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b" uuid="c1dbccd1-f1a6-48dd-8bfc-ded4a3c69639">
+      <statement statement-id="ir-1_stmt.b" uuid="71fa42b9-0e89-4131-abf9-929f95657c6b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.1" uuid="8253c59a-770a-471d-8dbf-355cdbe5dd35">
+      <statement statement-id="ir-1_stmt.b.1" uuid="066f590c-3a7a-4c2f-945f-32e962a61982">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.2" uuid="dbf3b289-af90-4863-b416-cea0b5007465">
+      <statement statement-id="ir-1_stmt.b.2" uuid="60775fb4-ce43-4115-b510-cca09c8e5bc9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="fa770284-873f-40b3-96e4-0059b14cdf6b" control-id="ir-2">
+    <implemented-requirement uuid="822ffe1f-1585-42e7-898c-7f49002b6e6f" control-id="ir-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-2_stmt.a" uuid="1fa17f91-b5d2-4279-acd3-ebb1c78aa176">
+      <statement statement-id="ir-2_stmt.a" uuid="1131af77-58fe-4cdd-aaa0-22a192237bbd">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.b" uuid="b217c033-14df-4216-9f48-51e354c82168">
+      <statement statement-id="ir-2_stmt.b" uuid="fc579c3d-ca44-4693-b354-d3cb57faf31f">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.c" uuid="3d37825e-3622-4df6-89cb-6e2e60eaf473">
+      <statement statement-id="ir-2_stmt.c" uuid="9be39604-6d63-4ac3-a527-f5ab569da6a7">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="29960a31-8b57-46c9-97bd-8f2f5e54903a" control-id="ir-4">
+    <implemented-requirement uuid="74513060-ff41-497d-a144-55fa076e3e86" control-id="ir-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-4_stmt.a" uuid="3b10e685-5734-4768-8223-260c18ef3741">
+      <statement statement-id="ir-4_stmt.a" uuid="7f8a8fd2-3694-4b03-8f6d-325e4ca914a1">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.b" uuid="474886d2-c93e-4e59-9ca4-a05427f65b2d">
+      <statement statement-id="ir-4_stmt.b" uuid="0d35bcbb-65b5-497f-9150-b49b90a00788">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.c" uuid="13eda642-5071-4e71-86f1-c136fcc5782b">
+      <statement statement-id="ir-4_stmt.c" uuid="778d0fd7-d622-4d6d-b31a-7f9090309fde">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="170c7f46-ecfc-46cd-a703-031fa8c895ba" control-id="ir-5">
+    <implemented-requirement uuid="5d53068f-f9cc-42c7-b9b3-223fd7ae56e8" control-id="ir-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-5_stmt" uuid="fd6440dd-7144-455c-9d71-9c49c533b744">
+      <statement statement-id="ir-5_stmt" uuid="9098f0b4-9e3a-4905-a64a-913b6266dc83">
         <description><p>This control reflects organizational procedure/policies and is not
 applicable to Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6ef443e4-6001-4334-afa9-6ed6e12065c6" control-id="ir-6">
+    <implemented-requirement uuid="11d38334-83f6-49fd-ac4f-bed5eb6f13c9" control-id="ir-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-6_stmt.a" uuid="43be6782-47de-4f58-a447-64b079deb877">
+      <statement statement-id="ir-6_stmt.a" uuid="f543dd70-957a-4403-8d65-36effd347ac3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-6_stmt.b" uuid="13581b82-d014-4a61-a47b-4eba1bc5d550">
+      <statement statement-id="ir-6_stmt.b" uuid="d1dcab3c-2eb1-40ef-924d-e80d19766de9">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9c5d517b-bf5c-4cc3-8459-0cd3409c808b" control-id="ir-7">
+    <implemented-requirement uuid="55d3ac1f-e545-4ab4-bff1-93f088490ff4" control-id="ir-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7_stmt" uuid="abd84cd9-2feb-4fd8-b4f4-cfe6fb4d18b0">
+      <statement statement-id="ir-7_stmt" uuid="b47a7634-692a-44a3-8c25-0e3ef35ea1da">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e1a1f7fd-4f09-47a1-a339-e5daeb72029c" control-id="ir-8">
+    <implemented-requirement uuid="c6ce7e19-bacb-4d02-beaa-4d75dc7021ea" control-id="ir-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-8_stmt.a" uuid="97cc01bf-e487-4549-8632-d530d1eec2d8">
+      <statement statement-id="ir-8_stmt.a" uuid="b7bf9185-d0d3-4aa7-af61-78e277837574">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.1" uuid="0a79c0f1-7e1d-4455-8d3f-850422d9e33b">
+      <statement statement-id="ir-8_stmt.a.1" uuid="2b2dd00e-6ee1-4244-b203-715440c9d833">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.2" uuid="88a6f327-7527-4614-9d89-cef11dd3c606">
+      <statement statement-id="ir-8_stmt.a.2" uuid="6de653fc-ecea-4a66-b22a-45f68a818370">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.3" uuid="a921242e-c4cb-4b37-aba6-0faf6f3fef65">
+      <statement statement-id="ir-8_stmt.a.3" uuid="6fd14a36-1d0e-4908-a809-aa2d801d354d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.4" uuid="d960097d-47c7-4c35-85e2-8af60af52dff">
+      <statement statement-id="ir-8_stmt.a.4" uuid="8546ff96-68d3-4417-87d8-f96e9944a34d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.5" uuid="8c25f90b-f43c-4294-94e4-86e0ee56b28f">
+      <statement statement-id="ir-8_stmt.a.5" uuid="4bb8e99c-7502-4660-bb28-6849d1a8f39d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.6" uuid="c88824f7-98c0-4e38-b4bf-233759a320ca">
+      <statement statement-id="ir-8_stmt.a.6" uuid="de09e112-d1dc-455a-977d-128b62fe137c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.7" uuid="8cf843b8-41d2-4519-9f1e-11455db05a20">
+      <statement statement-id="ir-8_stmt.a.7" uuid="f102f438-3c84-4d67-b3e7-f686f65fcca4">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.8" uuid="4f19911f-3813-4c26-83f6-19e0a26a0230">
+      <statement statement-id="ir-8_stmt.a.8" uuid="162ff157-c4a8-4e00-b282-523ae8693cfa">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.b" uuid="59dd11fa-76fa-4ac9-84d9-8370cf2691da">
+      <statement statement-id="ir-8_stmt.b" uuid="2c986583-56f5-4edf-bc60-627ac6601614">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.c" uuid="e8a7358c-62d0-4ab5-9b83-1f996d1ca304">
+      <statement statement-id="ir-8_stmt.c" uuid="d8e5820b-d5c1-4102-8d60-631869c56ec3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.d" uuid="868f33b7-0a06-4335-a8be-7f719832043e">
+      <statement statement-id="ir-8_stmt.d" uuid="c75cc9bf-4f17-44ca-b3e8-8cbfc0bb0f8a">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.e" uuid="a2b19e71-6426-4879-9b90-c0f4aeb0345a">
+      <statement statement-id="ir-8_stmt.e" uuid="03c028f4-4d10-46fa-9bd6-ebd659a21ceb">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.f" uuid="566d281d-02f7-4511-8919-81f641fdd044">
+      <statement statement-id="ir-8_stmt.f" uuid="bc3a1f38-f7c8-4b88-8bc0-66cd779f9b46">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="75f7b6cb-4984-4069-943c-8dc52b8a8373" control-id="pe-1">
+    <implemented-requirement uuid="6d1dad71-49f7-4f63-8026-8617c4bad15c" control-id="pe-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-1_stmt.a" uuid="3787fe3b-912a-4c7d-bdf1-0c8fb7949d13">
+      <statement statement-id="pe-1_stmt.a" uuid="e6e4aca6-87af-497b-b787-40cffccdbc69">
         <description><p>Development, documentation, and dissemination of a physical
 and environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-1_stmt.b" uuid="b1e533f7-1a8f-4581-a759-4d52db826b04">
+      <statement statement-id="pe-1_stmt.b" uuid="974f391b-0bb8-47ba-9ab5-84a474abd144">
         <description><p>Organizational review and updates to the physical and
 environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
@@ -294,9 +295,9 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="61cab228-0b77-49b4-a71c-3038e8f8ef80" control-id="pe-2">
+    <implemented-requirement uuid="03833234-89aa-4abb-a611-89997824a4a5" control-id="pe-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-2_stmt.a" uuid="894593ab-48de-4b24-90c0-cbc3a0fa9633">
+      <statement statement-id="pe-2_stmt.a" uuid="9d1a5133-910a-459e-8757-8390261a8034">
         <description><p>Development, approval, and maintenance of a list
 of individuals with authorized access to the facility
 where the information system resides reflects organizational
@@ -304,69 +305,69 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.b" uuid="b8cc460d-6e6f-4d34-a0f7-4f8632a33c48">
+      <statement statement-id="pe-2_stmt.b" uuid="0ffa5733-6b49-4300-9016-64d50ccd38fd">
         <description><p>Issuing authorization credentials for facility access
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.c" uuid="9c7ac851-e4bd-4613-acb6-29078f4a7347">
+      <statement statement-id="pe-2_stmt.c" uuid="443841f5-9242-4bc9-a4d0-c75cf1edacd5">
         <description><p>Reviewing the access list detailing authorized facility
 access by individuals at an organization-defined frequency
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.d" uuid="c2dce335-e7ae-42b6-a134-8576a3292763">
+      <statement statement-id="pe-2_stmt.d" uuid="3dc6907d-ddfd-46c0-bb3a-db8979dc006f">
         <description><p>Removal of individuals from the facility access list when access
 is no longer required reflects organizational procedure/policy
 and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b041d13e-ad31-4948-97d8-cb0b97e938c9" control-id="pe-3">
+    <implemented-requirement uuid="d21d6b62-88fc-4133-9ef6-1c0e7dc89e4f" control-id="pe-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-3_stmt.a" uuid="d5a09c32-e1d3-4121-b257-1b7c7f4fa357">
+      <statement statement-id="pe-3_stmt.a" uuid="c696127c-a7d8-495a-848b-8b2f7068275b">
         <description><p>Enforcing physical access authorizations at organization-defined
 entry/exit points to the facility where the information system resides
 reflects organizational procedure/policy and is not applicable to
 component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.b" uuid="6aaaa5bd-502e-42bf-a7d0-8bf602bc9145">
+      <statement statement-id="pe-3_stmt.b" uuid="5fc646b8-553c-4d08-bdbe-5d849b26fd29">
         <description><p>Maintaining physical access audit logs for organization-defined
 entry/exit points reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.c" uuid="f5a640bd-bc52-45d4-9baa-fa58d1612bf2">
+      <statement statement-id="pe-3_stmt.c" uuid="191c710a-823b-4673-b997-fd0dd33cbaa7">
         <description><p>Providing organization-defined security safeguards to control access
 to areas within the facility officially designated as publicly
 accessible reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.d" uuid="014bb43c-5c94-45e3-a055-fc027153982c">
+      <statement statement-id="pe-3_stmt.d" uuid="fb88114a-8b1d-49a7-ac41-757b05562cfc">
         <description><p>Escorting visitors and monitoring visitor activity during
 organization-defined circumstances requiring visitor escorts
 and monitoring reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.e" uuid="8892d70e-12bc-4e1c-8530-8f7fa73f83fb">
+      <statement statement-id="pe-3_stmt.e" uuid="0c4da6c4-da16-472d-8d88-5059b16a5e46">
         <description><p>Securing keys, combinations, and other physical access devices
 reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.f" uuid="d6232867-53c7-4fc2-ac27-8bb315ee58a9">
+      <statement statement-id="pe-3_stmt.f" uuid="7ae3c644-3b41-435f-91dc-c9224120c70d">
         <description><p>Inventory of organization-defined physical access devices
 at an organization-defined frequency reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.g" uuid="01162632-1f36-4027-bfb4-b3a3c6f3f31e">
+      <statement statement-id="pe-3_stmt.g" uuid="a397a37f-e201-47ae-9637-b5a63ccd4aac">
         <description><p>Changing combinations and keys at an organization-defined frequency
 and/or when keys are lost, combinations are compromised, or individuals
 are transferred or terminated, reflects organizational procedure/policy
@@ -374,16 +375,16 @@ and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="79189c7a-38b0-4d48-9e11-0bf1029ab3a9" control-id="pe-6">
+    <implemented-requirement uuid="2e80346b-e4cf-4960-bc3e-4903e44d9724" control-id="pe-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-6_stmt.a" uuid="3b78708a-4195-4817-8ac4-3c769daa4b5a">
+      <statement statement-id="pe-6_stmt.a" uuid="1dc5e63e-b90c-476b-a88d-fdd3857364f9">
         <description><p>Monitoring physical access to the facility where the information
 system resides to detect and respond to physical security incidents
 reflects organizational procedure/policy and is outside the scope
 of component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.b" uuid="a0e878e8-b414-4d17-a87f-10c75523aec5">
+      <statement statement-id="pe-6_stmt.b" uuid="ed0b9da0-4d26-43b4-b2eb-259c1f481a09">
         <description><p>Reviewing physical access logs at an organization-defined
 frequency and upon occurence of organization-defined events
 or potential indications of events, reflects organizational
@@ -391,7 +392,7 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.c" uuid="12fb8e4b-17bc-45dc-9dcb-e0014e341547">
+      <statement statement-id="pe-6_stmt.c" uuid="2f4059ce-43e2-4445-a07c-056f376451aa">
         <description><p>Coordinating results of reviews and investigations with
 the organizational incident response capability reflects
 organizational procedure/policy and is not applicable to
@@ -399,188 +400,188 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5b8f5810-cc70-4c3a-a88f-ab13c3600cc9" control-id="pe-8">
+    <implemented-requirement uuid="d2ed1959-8c2c-4550-90d2-a96e25fdf7a8" control-id="pe-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-8_stmt.a" uuid="5289396b-282e-4f86-bcc9-da1b334fdb4b">
+      <statement statement-id="pe-8_stmt.a" uuid="41275f93-b16b-40d4-accc-dca096abf1ff">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-8_stmt.b" uuid="8f13694b-c1aa-4b4a-a3eb-3430a39c43ee">
-        <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="78caaec9-6345-416b-8c57-ff13e0326d67" control-id="pe-12">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-12_stmt" uuid="7d74000a-c934-4da2-a0a2-003a5f18c922">
+      <statement statement-id="pe-8_stmt.b" uuid="c852fc41-fb42-48cf-b076-018618ffbf05">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a5efd00c-9bae-445c-9164-a0616042d7a2" control-id="pe-13">
+    <implemented-requirement uuid="3ddfe950-71ad-4180-a72a-a82098fb67f3" control-id="pe-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13_stmt" uuid="012bf12d-d304-468e-b567-68522c0af658">
+      <statement statement-id="pe-12_stmt" uuid="36234516-589e-49db-be0e-7b3a4e59690e">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="da36ee53-b57b-4746-aaee-0fcb37b783c3" control-id="pe-14">
+    <implemented-requirement uuid="1a31285e-127c-425b-adaf-4b19d8c95b9b" control-id="pe-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-14_stmt.a" uuid="d23b9ef2-eb00-4e53-8e08-d494ef29d614">
-        <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
-</p></description>
-      </statement>
-      <statement statement-id="pe-14_stmt.b" uuid="6948df37-bac7-4507-ab25-0cc7370ef3c9">
+      <statement statement-id="pe-13_stmt" uuid="92d455ee-9f9d-4be6-be49-384836c07f0c">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="fcd56e9e-9400-4766-82aa-eb6ffd85e9a4" control-id="pe-15">
+    <implemented-requirement uuid="85359dfd-f575-4a24-9b33-7f05da71580e" control-id="pe-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-15_stmt" uuid="74cc8450-95e1-4044-b117-532ffee59ddc">
+      <statement statement-id="pe-14_stmt.a" uuid="b7956ae5-b1c9-4e44-b609-2bfa2633e672">
+        <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
+</p></description>
+      </statement>
+      <statement statement-id="pe-14_stmt.b" uuid="6e7095f5-56d9-47ae-9707-49910ecf985e">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0703448a-be63-4b4e-8a0e-ad9bed4921e3" control-id="pe-16">
+    <implemented-requirement uuid="a6a6d6c2-76ee-4dbc-ab4b-9593b82842d4" control-id="pe-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-16_stmt" uuid="0b2ca1ba-db74-450f-8fbd-4a1fce35edbb">
+      <statement statement-id="pe-15_stmt" uuid="0a6eae30-77d4-458a-929b-4f7318428fd6">
         <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="53691e53-35e5-4e73-bd3a-39399e73d8fc" control-id="pl-1">
+    <implemented-requirement uuid="86d26639-5a06-4e50-bfe6-42a6d038e4d0" control-id="pe-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-1_stmt.a" uuid="666f52ea-c6c4-4a0d-bb2b-eb22a1e1cc2a">
+      <statement statement-id="pe-16_stmt" uuid="ebc833f1-39a6-4457-9847-84a02a45b853">
+        <description><p>This control is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="e26909ca-16dc-4cb5-9d3c-3f7634525ee9" control-id="pl-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="pl-1_stmt.a" uuid="25c4a7db-75e4-44dc-86f7-3e6682ed4a8b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-1_stmt.b" uuid="3925273b-62ed-4c40-9b3f-da1486feb164">
+      <statement statement-id="pl-1_stmt.b" uuid="2e80517c-87e5-4eed-9e07-874f1b5a0383">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ce0827af-42bf-42a4-86bf-59d419325171" control-id="pl-2">
+    <implemented-requirement uuid="cbbaa097-8293-4530-8f35-f7b62b5820a7" control-id="pl-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-2_stmt.a" uuid="36844bf8-9b57-48f4-851f-c6ab36743c72">
+      <statement statement-id="pl-2_stmt.a" uuid="2e978f49-27b1-4b41-8829-5c25ec182b4b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.b" uuid="dcb6fb43-b728-4dde-a0a8-4a75fc2f6ea2">
+      <statement statement-id="pl-2_stmt.b" uuid="83b2008e-84d7-43aa-9976-2ba57cf94c3d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.c" uuid="97da1f9c-e14a-42f4-a37c-858443e2a006">
+      <statement statement-id="pl-2_stmt.c" uuid="9dbcd41c-e0d7-4214-8415-596a4bf081e2">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.d" uuid="766a3f9a-af2d-4d5f-916f-614f511afee2">
+      <statement statement-id="pl-2_stmt.d" uuid="f8966a18-33ff-4256-af07-cb6b3131715b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.e" uuid="35ccbd88-f4c7-4d9f-80a8-0dd8f3f2c2aa">
+      <statement statement-id="pl-2_stmt.e" uuid="86890e2e-dacc-470c-9401-1f91edaf0b71">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="130533bf-a7ba-47f7-81df-c6710e817cd1" control-id="pl-4">
+    <implemented-requirement uuid="60cd50ac-a1af-42e2-abd1-fac2f5412847" control-id="pl-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-4_stmt.a" uuid="870d7295-b5c6-42ca-82c0-4c08393570c0">
+      <statement statement-id="pl-4_stmt.a" uuid="5988352d-eda4-446b-9676-d7f0e2132c56">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.b" uuid="3e131a3e-e8bc-476d-9ec8-d9e0db8a9a8a">
+      <statement statement-id="pl-4_stmt.b" uuid="70f579e4-375c-48ee-9cdd-aea13cebc6ee">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.c" uuid="0fa5e3ca-5657-416a-b487-5445bef2f39a">
+      <statement statement-id="pl-4_stmt.c" uuid="ebba45fc-4a9c-4714-aed2-5638e9e22864">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.d" uuid="edfed831-6337-43db-aff8-eaec02f9c60f">
+      <statement statement-id="pl-4_stmt.d" uuid="848afbe2-ca82-46ff-a9f9-fdaac37810f0">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of Red Hat Advanced Cluster Management for Kubernetes.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="eb5dbeae-5fb9-4162-9c43-a63547e32d68" control-id="ps-1">
+    <implemented-requirement uuid="384d8e8c-2ca2-4e9a-a4b7-4b2431162da2" control-id="ps-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-1_stmt.a" uuid="66ecc662-5bf8-48b2-8d48-9a5f93f978ed">
+      <statement statement-id="ps-1_stmt.a" uuid="1b76dc84-5b24-42eb-9f14-f053987d6d0f">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.1" uuid="fa5f6999-9727-4b22-bd52-8e9bb8820a7a">
+      <statement statement-id="ps-1_stmt.a.1" uuid="b8370958-64d7-4b81-af79-ab0cac499cee">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.2" uuid="d960c4a1-5496-46fa-ba2d-66205df09703">
+      <statement statement-id="ps-1_stmt.a.2" uuid="7010b5df-f0f6-4186-b8fc-7a7618dd4150">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b" uuid="d6ffb912-1ffe-4016-a480-18e2513caebe">
+      <statement statement-id="ps-1_stmt.b" uuid="79ec1a61-ad3e-4356-a365-d801a414e9f1">
         <description><p>Organizational reviews and updates to the personnel security policy
 and personnel security procedures at an organization-defined frequency
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.1" uuid="04819360-a1a4-472b-b155-10574a55f5f1">
+      <statement statement-id="ps-1_stmt.b.1" uuid="687d8ede-642b-4795-8a25-5295b50e6432">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.2" uuid="789b30d5-288e-466a-a80d-cb21e4cadf8c">
+      <statement statement-id="ps-1_stmt.b.2" uuid="ad5d2003-efeb-4be3-bffd-2bd91d7dca9f">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1444b461-944e-468e-a794-04c2f290693f" control-id="ps-2">
+    <implemented-requirement uuid="2817b5c6-aa38-440b-bd6d-16f1894bccf9" control-id="ps-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-2_stmt.a" uuid="f03a9b93-8626-42c6-a1d9-a6a19f3944b2">
+      <statement statement-id="ps-2_stmt.a" uuid="93a1eb12-e4d4-4bd9-8a4d-cdb6a198593c">
         <description><p>Organizational assignment of a risk designation to all organizational
 positions is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.b" uuid="8720da38-8600-425e-b94f-c34e9f9cfa6d">
+      <statement statement-id="ps-2_stmt.b" uuid="f88f88e6-58c5-4642-82cc-c0b047a16572">
         <description><p>Organizational establishment of screening criteria for individuals
 filling those positions is outside the scope of Red Hat Advanced Cluster Management for Kubernetes
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.c" uuid="f6446c5d-cd39-4fa3-8389-c1fa7faffd59">
+      <statement statement-id="ps-2_stmt.c" uuid="09ba630c-35c0-4aaf-9ae2-6dcd9f0d123a">
         <description><p>Organizational review and updating of position risk
 designations at an organization-defined frequency is outside the scope
 of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="fd3a2a68-1911-4ed1-906c-30abf45014ad" control-id="ps-3">
+    <implemented-requirement uuid="a9460500-0ba7-4bca-a3f5-ff00b1c3873e" control-id="ps-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-3_stmt.a" uuid="7a161fe4-1f9f-40ea-9508-9393515c7486">
+      <statement statement-id="ps-3_stmt.a" uuid="8563770d-96ed-4309-8706-320b157bc771">
         <description><p>Organizational screening of individuals prior to authorizing access
 to the information system is outside the scope of Red Hat Advanced Cluster Management for Kubernetes
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-3_stmt.b" uuid="f36280e3-af11-4e3f-89c9-b8451c2b2ee9">
+      <statement statement-id="ps-3_stmt.b" uuid="52da0e2a-900e-482c-94da-cde55b0a4e13">
         <description><p>Organizational processes to rescreen individuals according to
 organization-defined conditions requiring rescreening and,
 where rescreening is so indicated, the frequency of such
@@ -589,44 +590,44 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="aa006519-f6e4-4937-84a3-fd4e0e49ed63" control-id="ps-4">
+    <implemented-requirement uuid="fd31b042-a445-4585-9299-4cbf724bc79b" control-id="ps-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-4_stmt.a" uuid="26c5c6c0-305a-4d39-b6df-f9f6f6cf7fd7">
+      <statement statement-id="ps-4_stmt.a" uuid="0212a65e-7517-4e62-a137-32170bbd3be2">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, information system access is disabled within an
 organization-defined time period, are outside the scope of
 Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.b" uuid="894b906c-36ec-46e2-b0dc-b76e99cb5578">
+      <statement statement-id="ps-4_stmt.b" uuid="05d719a7-4ca4-4fd3-8081-e0b4c6f41962">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, any authenticators/credentials associated with the individual
 are terminated/revoked, are outside the scope of
 Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.c" uuid="d17e3a81-fed8-4179-b31c-1207e13166a3">
+      <statement statement-id="ps-4_stmt.c" uuid="e5e65451-fab1-4006-bf6f-33d76a5e1840">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, exit interviews are conducted that include a discussion of
 organization-defined information security topics, are outside the scope
 of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.d" uuid="a93fdd75-6db5-4aa8-b0b6-de35697615cd">
+      <statement statement-id="ps-4_stmt.d" uuid="0f12d2ff-ef8a-46a5-8ae3-e38a92291a51">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, all security-related organizational information
 system-related property is retrieved, are outside the scope
 of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.e" uuid="7df7cb0b-7dda-4043-bb00-af98a7ee04e6">
+      <statement statement-id="ps-4_stmt.e" uuid="70a2918b-8c80-4f43-88fa-5d6fbb3a04f0">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization retains access to organizational
 information systems formerly controlled by the terminated individual,
 are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.f" uuid="21691043-2e9d-4f82-b804-5e553c84cef2">
+      <statement statement-id="ps-4_stmt.f" uuid="67b4fffc-7472-430b-a1e7-f0628612b844">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization notifies organization-defined personnel
 or roles within an organization-defined time period, are outside
@@ -634,9 +635,9 @@ the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5efe672a-1132-4752-b650-cd760a8fce8f" control-id="ps-5">
+    <implemented-requirement uuid="5e55b84f-6d6c-474f-9e12-e000e47a3dd1" control-id="ps-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-5_stmt.a" uuid="d863f998-1e5b-4fd7-93f8-995ff6e5966b">
+      <statement statement-id="ps-5_stmt.a" uuid="4befa01f-b24f-4e2c-bf47-9813c160bb88">
         <description><p>Organizational processes to review and confirm ongoing operational
 need for current logical and physical access authorizations to
 information systems/facilities when individuals are reassigned or
@@ -644,79 +645,79 @@ transferred to other positions within the organization are
 outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.b" uuid="0a98c1df-93d3-428e-a4d8-1756324e5fe7">
+      <statement statement-id="ps-5_stmt.b" uuid="b487d8a0-7943-4dd3-9150-a991678e0f59">
         <description><p>Organizational processes to initiate organization-defined transfer
 or reassignment actions within organization-defined time period
 following the formal transfer action are outside the scope of
 Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.c" uuid="fe343199-52d4-4a97-be0d-f26aa795b89e">
+      <statement statement-id="ps-5_stmt.c" uuid="d6aa1738-907d-4773-b8a7-6106654df5b6">
         <description><p>Organizational processes to modify access authorizations as needed to
 correspond with any changes in oeprational need due to reassignment
 or transfer are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.d" uuid="7a3fbb61-64ee-4917-a57f-878b7e3bf737">
+      <statement statement-id="ps-5_stmt.d" uuid="15cde23f-49a1-478b-9679-096fffc62c17">
         <description><p>Organizational notifications of organization-defined personnel
 or roles within an organization-defined time period are outside
 the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1fc914d4-89be-45b5-84ce-829fbf83017c" control-id="ps-6">
+    <implemented-requirement uuid="17a37c65-9ec0-48d2-91cb-35d20db25054" control-id="ps-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-6_stmt.a" uuid="b395fb4f-765b-4b10-bc5b-9ddaf66979e7">
+      <statement statement-id="ps-6_stmt.a" uuid="9913ca8f-1b24-4a6e-b3c7-dbeffe25e59f">
         <description><p>Organizational process to develop and document access agreements for
 organizational information systems are outside the scope of
 Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.b" uuid="ca464f0d-88de-4d67-8fca-66c1d627ecbd">
+      <statement statement-id="ps-6_stmt.b" uuid="2e89eaac-80eb-4fd5-9763-e65782c2920b">
         <description><p>Organizational reviews and updates to the access agreements at an
 organization-defined frequency are outside the scope of
 Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c" uuid="8970739d-8766-4de9-9e13-3d0db8c3509b">
+      <statement statement-id="ps-6_stmt.c" uuid="cfb1efce-da12-43d2-9ed5-c23199db6896">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.1" uuid="c331ee59-e406-4281-bfda-f0d588dd767e">
+      <statement statement-id="ps-6_stmt.c.1" uuid="0a2fabdf-845b-4be8-9d49-37b9f337fe98">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.2" uuid="26f1f08a-f43d-49e7-86a3-d489e5c1d686">
+      <statement statement-id="ps-6_stmt.c.2" uuid="4d653fd1-a46d-4083-a6f5-07ea8fb0e321">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e2a56933-774b-4e88-b2cb-5c7daab97595" control-id="ps-7">
+    <implemented-requirement uuid="066a8022-d56b-4962-969c-8dbbbe298ac1" control-id="ps-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-7_stmt.a" uuid="b61c321d-c2ff-48a5-b6e6-85c5cd29916d">
+      <statement statement-id="ps-7_stmt.a" uuid="f0baf6b6-26d7-4cfc-bba6-bc171b3f07b8">
         <description><p>Organizational processes to establish security requirements including
 security roles and responsibilities for third-party providers are
 outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.b" uuid="f7f9a021-d96e-45af-be9d-2acbe00e99de">
+      <statement statement-id="ps-7_stmt.b" uuid="a139ef80-f47d-41dd-84f8-59d8bc155f31">
         <description><p>Organizational processes requiring third-party providers to comply
 with personnel security polocies and procedures established by
 the organization are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.c" uuid="a50b6d36-87c1-403a-985b-6838261714b1">
+      <statement statement-id="ps-7_stmt.c" uuid="3f859563-a830-4606-9632-37055f210558">
         <description><p>Organizational processes to document presonnel security requirements
 are outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.d" uuid="067c4438-ce00-4fe2-802c-c7c8fc5fee47">
+      <statement statement-id="ps-7_stmt.d" uuid="dfb97b53-213d-4ca2-b77c-3688d542cd9f">
         <description><p>Organizational processes to require third-party providers to notify
 organization-defined personnel or roles of any personnel transfers or
 terminations of third-party personnel who possess organizational
@@ -725,21 +726,21 @@ within an organization-defined time period, are outside the
 scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.e" uuid="5a596982-b8cd-4cdc-b1cb-27b5f592424b">
+      <statement statement-id="ps-7_stmt.e" uuid="1fccee76-e230-44be-b104-6c4f7e2ea9b6">
         <description><p>Organizational monitoring of provider compliance is outside
 the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1f7f9790-56e3-41bc-ac54-7eaf95f71f93" control-id="ps-8">
+    <implemented-requirement uuid="1cdeaaaf-7395-4413-8663-2cca5921c8d5" control-id="ps-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-8_stmt.a" uuid="4090b532-d4f3-47a5-bd46-c7270bff5376">
+      <statement statement-id="ps-8_stmt.a" uuid="8b7d8935-1bca-4fae-b02f-517bb360e5ec">
         <description><p>Organizational employment of a formal sanctions process for individuals
 failing to comply with established information security policies
 and procedures is outside the scope of Red Hat Advanced Cluster Management for Kubernetes configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-8_stmt.b" uuid="926ff0d8-ad2c-432b-beef-6d00f70da781">
+      <statement statement-id="ps-8_stmt.b" uuid="ac611ede-fd87-4631-86e6-6b4e77d1d22c">
         <description><p>Organizational notification of organization-defined personnel
 or roles within an organization-defined time period when a formal
 employee santions process is initiated, identifying the individual

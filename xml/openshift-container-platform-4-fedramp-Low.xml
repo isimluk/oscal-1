@@ -1,9 +1,10 @@
-<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="604c370a-2c71-4845-9bdb-e77a1db39198">
+<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="cda43756-d05e-4fed-8606-fbdd9746b66c">
   <metadata>
     <title>FedRAMP System Security Plan (SSP)</title>
-    <last-modified>2020-09-11T00:42:45.06+00:00</last-modified>
+    <last-modified>2020-09-24T00:48:03.11+00:00</last-modified>
     <version>0.0.1</version>
-    <oscal-version>1.0.0-milestone2</oscal-version>
+    <oscal-version>1.0.0-milestone3</oscal-version>
+    <revision-history></revision-history>
   </metadata>
   <import-profile href="https://raw.githubusercontent.com/usnistgov/OSCAL/master/content/fedramp.gov/xml/FedRAMP_LOW-baseline_profile.xml"></import-profile>
   <system-characteristics>
@@ -38,81 +39,81 @@
     </authorization-boundary>
   </system-characteristics>
   <system-implementation>
-    <user uuid="6bcd7852-8485-4925-9d6c-813a8180f6eb">
+    <user uuid="31d22cca-8d39-455c-9f2a-1c85145674ca">
       <role-id>generator</role-id>
     </user>
   </system-implementation>
   <control-implementation>
     <description><p>FedRAMP SSP Template Section 13</p></description>
-    <implemented-requirement uuid="51fca218-271d-497f-b884-d6d3ae2dd89e" control-id="ac-1">
+    <implemented-requirement uuid="39ac72ca-b498-495e-ad32-0b8678954a3c" control-id="ac-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-1_stmt.a" uuid="c84f48dc-8097-4a9b-b7ee-95f92ed030f9">
+      <statement statement-id="ac-1_stmt.a" uuid="7585ecc0-5593-4046-8087-98a81f8fad1d">
         <description><p>AC-1(a) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-1_stmt.b" uuid="9b0d02c0-a3ce-4a76-ac49-94593fab9dfe">
+      <statement statement-id="ac-1_stmt.b" uuid="c43ce529-3b59-4a87-893e-5122c9197206">
         <description><p>AC-1(b) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="82bb3cee-c205-4f19-bbd0-4f43ee15071e" control-id="ac-2">
+    <implemented-requirement uuid="bfe77211-a523-4ba3-aea6-56902e621496" control-id="ac-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-2_stmt.a" uuid="b4b32264-1ea8-4180-a613-d6cc6a850653">
+      <statement statement-id="ac-2_stmt.a" uuid="b49da771-48b8-422f-84fa-c4918db020f4">
         <description><p>AC-2(a) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.b" uuid="57ebdcdd-6efe-497c-9d6d-ce71ee075e8d">
+      <statement statement-id="ac-2_stmt.b" uuid="6f4cc46a-de03-45ea-a8cc-412de3d22c6c">
         <description><p>AC-2(b) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.c" uuid="b3b8fe26-e18b-476e-b006-50c3a2e073cf">
+      <statement statement-id="ac-2_stmt.c" uuid="dbd5b0f5-f534-4a26-939f-459fd160e927">
         <description><p>AC-2(c) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.d" uuid="3c1a0489-4375-4335-bda6-be5b1ae4d3ad">
+      <statement statement-id="ac-2_stmt.d" uuid="474500f9-59de-4a03-b4d3-3ba4064c1423">
         <description><p>AC-2(d) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.e" uuid="323cf9bd-23ef-4246-83a5-e449364b9588">
+      <statement statement-id="ac-2_stmt.e" uuid="3f1544c1-2ca7-4839-9d3a-c056a189f8bb">
         <description><p>AC-2(e) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.f" uuid="205d3266-fde0-44a7-a7f4-3e31242b4cc0">
+      <statement statement-id="ac-2_stmt.f" uuid="52cfb787-3d6b-461f-95fc-99ec8d1f315c">
         <description><p>AC-2(f) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.g" uuid="9c31d361-800b-4773-9530-d13fc16ab768">
+      <statement statement-id="ac-2_stmt.g" uuid="eb0c247a-50b4-4497-a398-085e99333330">
         <description><p>AC-2(g) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.h" uuid="dec4eddb-8b59-40e0-b462-780daa3152fe">
+      <statement statement-id="ac-2_stmt.h" uuid="74503187-c1d9-4830-bca0-c9e52ba1ba22">
         <description><p>AC-2(h) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.i" uuid="7acb7259-2286-42ef-9f01-eb750ad17cc5">
+      <statement statement-id="ac-2_stmt.i" uuid="55940224-3319-41b5-bd44-55d918387db8">
         <description><p>AC-2(i) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.j" uuid="d445c0c2-9441-4e27-8886-fdb1cba971a5">
+      <statement statement-id="ac-2_stmt.j" uuid="baf58d36-e1a7-4a9a-92b3-a2a280e4661a">
         <description><p>AC-2(j) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-2_stmt.k" uuid="3c133617-3608-4d2d-a5e8-e6b251738f7f">
+      <statement statement-id="ac-2_stmt.k" uuid="e1b6d295-ed2e-4ae3-94e5-3a9fc978c821">
         <description><p>AC-2(k) is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="13d91388-a7d2-4a1f-a6b8-3071b7f79e39" control-id="ac-3">
+    <implemented-requirement uuid="551824ee-bd9c-4cf3-b413-400fbd0bf89f" control-id="ac-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="ac-3_stmt" uuid="b2efff93-b27b-427a-a951-730e9efe0165">
+      <statement statement-id="ac-3_stmt" uuid="e191b845-5c7a-4369-a87c-6b85b872de7b">
         <description><p>This control is met through the use of Role-based Access Control
 for an OpenShift user. Namespaces should also be configured to
 sandbox users and resources to only the required projects.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="908112b3-a330-4c91-98c6-adb1eff5d047" control-id="ac-7">
+    <implemented-requirement uuid="e7c64df3-94da-4011-be4c-c5903b8282c7" control-id="ac-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ac-7_stmt.a" uuid="dce779c0-4673-4863-9455-ba6cd0013943">
+      <statement statement-id="ac-7_stmt.a" uuid="efe68947-fbed-423d-9dcc-e9635579cc2f">
         <description><p>The customer will be responsible for enforcing a limit on consecutive
 failed login attempts.
 
@@ -121,7 +122,7 @@ A control response is planned. Progress can be tracked via:
 https://issues.redhat.com/browse/CMP-124
 </p></description>
       </statement>
-      <statement statement-id="ac-7_stmt.b" uuid="cdc6cc09-4aca-4913-96f5-ee7acde43f9c">
+      <statement statement-id="ac-7_stmt.b" uuid="ebc1c5ac-91bd-4dc2-b048-e1f0ce0509ed">
         <description><p>The customer will be responsible for taking required
 actions defined by the customer, upon account lockout.
 
@@ -131,9 +132,9 @@ https://issues.redhat.com/browse/CMP-124
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1e7ba288-7a86-4f09-a505-178e0d881a4e" control-id="ac-8">
+    <implemented-requirement uuid="cab7ca10-708a-4dcc-b42c-53a703669360" control-id="ac-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ac-8_stmt.a" uuid="a28ffd74-1f7a-4c93-a2ae-c375fcfacc68">
+      <statement statement-id="ac-8_stmt.a" uuid="96549180-ccc1-4b10-a71d-470dd0e7f264">
         <description><p>The customer will be responsible for displaying a system use
 notification banner to users. A successful control response will need
 to address the conditions under which the banner will be displayed
@@ -151,7 +152,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.b" uuid="4e1d3c29-1380-40d1-b0ad-c7501eff683c">
+      <statement statement-id="ac-8_stmt.b" uuid="aa2e047a-f216-457f-a492-2e713eb111d0">
         <description><p>The customer will be responsible for displaying the use notification
 banner until the user acknowledges the usage condition and takes
 explicit actions to further access the system. A successful control
@@ -164,7 +165,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c" uuid="e0a45c24-d1b0-47fc-b52e-9ba9ee453011">
+      <statement statement-id="ac-8_stmt.c" uuid="dfdb4a66-1a3f-4642-86fa-019e7c685d67">
         <description><p>The customer will be responsible for displaying a system use
 information message to users. A successful control response will need
 to address the conditions under which the message will be
@@ -180,7 +181,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.1" uuid="05d0b137-2ab0-4114-a4ed-eaf179bc1f46">
+      <statement statement-id="ac-8_stmt.c.1" uuid="c47d8833-29e7-4e32-839e-184d490205bf">
         <description><p>The customer will be responsible for determining the conditions
 under which the system use notification will be displayed. These
 conditions must be reviewed and accepted by the FedRAMP JAB.
@@ -191,7 +192,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.2" uuid="8c506b17-b5fe-4ab7-a971-fff3c546b314">
+      <statement statement-id="ac-8_stmt.c.2" uuid="383d0a51-05d1-4679-8a5b-5006506b115b">
         <description><p>The customer will be responsible for how the system use notification
 will be verified and how often it should be re-displayed and
 re-verified. These conditions must be reviewed an accepted by the
@@ -203,7 +204,7 @@ via:
 https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
-      <statement statement-id="ac-8_stmt.c.3" uuid="4256d121-db13-48e8-845d-cf27e2500f18">
+      <statement statement-id="ac-8_stmt.c.3" uuid="db5953a5-56a8-431b-a877-1aed43b5c587">
         <description><p>The customer will be responsible for verifying that the system use
 notification is being displayed as required, either through a
 configuration baseline check or via other means. If this verification
@@ -217,9 +218,9 @@ https://issues.redhat.com/browse/CMP-125
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="69a76c96-7448-43a6-84d2-6d2894d16748" control-id="ac-14">
+    <implemented-requirement uuid="46bbb7f4-8fe0-4de7-af24-a4c323a10413" control-id="ac-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-14_stmt" uuid="34c63e57-2742-4ae8-82b6-eb1f9f802cd8">
+      <statement statement-id="ac-14_stmt" uuid="132f58c7-2d42-4829-a4b7-6448440e7e73">
         <description><p>Regardless of access mechanism, such as the OpenShift Console or remote
 access attempts through SSH, unauthenticated users will only be shown the
 system use notifications (as defined in AC-8) and login prompt. This is
@@ -227,54 +228,54 @@ non-confiurable behavior.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e35e036d-e1a4-4a71-8ec3-1232184e5132" control-id="ac-17">
+    <implemented-requirement uuid="d01218f3-ee6e-4a67-a597-78726b11b108" control-id="ac-17">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-17_stmt.a" uuid="aa48306f-bb88-4fb6-b7c2-cbe91c3cd1f5">
+      <statement statement-id="ac-17_stmt.a" uuid="f1227617-5fb1-4e88-b055-60e290bb061e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ac-17_stmt.b" uuid="e69a4e0f-6e67-41c5-9346-bd7efe2550da">
+      <statement statement-id="ac-17_stmt.b" uuid="83141942-4169-4977-bf81-7a09c7b31697">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3146059b-ab67-46c0-b747-70a531ef226c" control-id="ac-18">
+    <implemented-requirement uuid="4d567c1f-d408-4e3e-8e10-a8892a199d60" control-id="ac-18">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-18_stmt.a" uuid="e40a3bcb-34c1-4345-bfce-c0900b08be76">
+      <statement statement-id="ac-18_stmt.a" uuid="ab97b603-61d7-4918-81bb-f3cb60db9b56">
         <description><p>Organizational processes regarding the establishment of wireless
 access usage restrictions are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-18_stmt.b" uuid="b4ba9c01-5dd0-47b3-9f06-07f6da935639">
+      <statement statement-id="ac-18_stmt.b" uuid="6cac1a12-9bad-4a50-8f97-b41f7ac24882">
         <description><p>Organizational processes regarding wireless access to the information
 system are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f67d58a1-a5a4-4c70-8de2-d6dbb57b28cb" control-id="ac-19">
+    <implemented-requirement uuid="8f7fa813-9d6b-42b5-ac14-a81770b4a08a" control-id="ac-19">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-19_stmt.a" uuid="c782497f-81a0-4248-9051-6102ecd415e5">
+      <statement statement-id="ac-19_stmt.a" uuid="f577843f-536a-4842-961a-ed6db410f518">
         <description><p>Establishing organizational usage restrictions for mobile devices is outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-19_stmt.b" uuid="063444e5-5723-41bd-979e-2590c8761a3d">
+      <statement statement-id="ac-19_stmt.b" uuid="4aa58b78-bcd6-476a-803d-73fd2f550acb">
         <description><p>Authorization of mobile devices is outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="76a8fc74-13b2-40b3-9757-ac1b8a43b3fb" control-id="ac-20">
+    <implemented-requirement uuid="925385db-30f3-4177-9ff1-5987a1fc298e" control-id="ac-20">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-20_stmt.a" uuid="1d9247f3-b9c7-4b6f-aec5-0f84ed078097">
+      <statement statement-id="ac-20_stmt.a" uuid="3267da8c-7c6b-49b6-9dbe-3db683c56cf0">
         <description><p>Organizational processes for establishing terms and conditions
 for accessing the information system from external information
 systems is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-20_stmt.b" uuid="78f5c2eb-4701-4c9c-b3dd-3a88a5b09d33">
+      <statement statement-id="ac-20_stmt.b" uuid="4a7bf59d-1048-4574-af3d-6188b606439a">
         <description><p>Organizational processes for establishing terms and conditions
 for the processing, storage, or transmission of organization-controlled
 information using external information systems is outside the scope
@@ -282,28 +283,28 @@ of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7c04eadf-a888-4a65-8ef4-9e6961d52a70" control-id="ac-22">
+    <implemented-requirement uuid="a6dd10a4-6e5c-4e5e-a8ed-94a841da0cc3" control-id="ac-22">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ac-22_stmt.a" uuid="fe4e6891-a7a7-4e3f-b560-8b3ca5ca77b4">
+      <statement statement-id="ac-22_stmt.a" uuid="614d51c7-cc8b-4709-b0cd-2592ea9e2fb7">
         <description><p>Organizational processes regarding the designation of individuals
 authorized to post information onto a publicly accessible information
 system is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.b" uuid="823b8b8b-a199-406b-a3a0-27c8af6900ae">
+      <statement statement-id="ac-22_stmt.b" uuid="f34e5c5e-5782-42d9-9202-f9bf606b7743">
         <description><p>Training authorized individuals to ensure that publicly accessible
 information does not contain nonpublic information is outside the
 scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.c" uuid="a2f22d56-1537-4f2b-b621-81c87429dfcb">
+      <statement statement-id="ac-22_stmt.c" uuid="3c9e3206-73c0-4ea4-8d88-a87a46118933">
         <description><p>Reviewing the proposed content of information prior to posting onto
 the publicly accessible information system to ensure that nonpublic
 information is not included is outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ac-22_stmt.d" uuid="d80113bc-3afd-4894-a246-09505dfdab6e">
+      <statement statement-id="ac-22_stmt.d" uuid="f86682f3-a645-4608-8fb9-9d4860cc3521">
         <description><p>Reviewing content on the publicly accessible information system
 for nonpublic information at an organization-defined frequency and
 removal of such information, if discovered, is outside the scope of
@@ -311,162 +312,162 @@ OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="863823e4-46e8-4f46-8c32-297873119f41" control-id="at-1">
+    <implemented-requirement uuid="99a1ae7f-e574-4c18-8cd3-60dc90468368" control-id="at-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-1_stmt.a" uuid="3b0302e6-6b4f-4be7-b461-5c38b7051c6a">
+      <statement statement-id="at-1_stmt.a" uuid="592073dc-4fe3-439f-87be-12690f85616f">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-1_stmt.b" uuid="0dd1d6b7-7199-4b31-a455-d55635aadb54">
+      <statement statement-id="at-1_stmt.b" uuid="8e5ec742-db21-455a-8e79-1c714b1ec906">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5bc890c6-7b7c-4b97-83b3-447cc7856a31" control-id="at-2">
+    <implemented-requirement uuid="78e9f214-8cdf-4221-b158-7bb56dd09629" control-id="at-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-2_stmt.a" uuid="11933cb4-e934-4228-8891-6f04c71da980">
+      <statement statement-id="at-2_stmt.a" uuid="99aa8458-ead8-4f67-ab6e-aec1fb68a948">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.b" uuid="9e539efa-8649-4b13-8d39-b491c0fd63d2">
+      <statement statement-id="at-2_stmt.b" uuid="c46cf066-a2a5-4677-924d-f9bd0d094cc5">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-2_stmt.c" uuid="66bf98f5-2f1a-42df-89f6-49c8e67a219a">
+      <statement statement-id="at-2_stmt.c" uuid="73c0d779-b318-466b-b20c-e8fe4447ad4c">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="61537a25-774d-4b75-b8d5-5e723d5864f0" control-id="at-3">
+    <implemented-requirement uuid="1e91caf8-f4c4-4a20-b019-6151c3dcca16" control-id="at-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-3_stmt.a" uuid="5053ac2f-8bb0-4e3d-928d-dbdfa1bea390">
+      <statement statement-id="at-3_stmt.a" uuid="17aab477-ecd6-48f7-98cb-efea797af22c">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.b" uuid="d7568672-a54e-4dd2-a235-45769cb3b9a7">
+      <statement statement-id="at-3_stmt.b" uuid="f1a2cdc2-bcb4-4678-8dd5-530f996d91af">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-3_stmt.c" uuid="a9895676-db7c-488a-bc4f-efbf697eca1b">
+      <statement statement-id="at-3_stmt.c" uuid="6dce1c42-62ef-4584-acb6-b132ef4f807d">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="cb4fbda5-6ed5-423d-bb12-7d734bd4efba" control-id="at-4">
+    <implemented-requirement uuid="820ec59d-a9a0-4898-9d61-fd18b0570f54" control-id="at-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="at-4_stmt.a" uuid="2c7e7d6a-2adf-4338-80ec-8f308a64a8e4">
+      <statement statement-id="at-4_stmt.a" uuid="9fecdd04-9723-46e1-a490-6c44141da8cd">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="at-4_stmt.b" uuid="1fa12ed2-3f09-4c22-9d72-baed9745f345">
+      <statement statement-id="at-4_stmt.b" uuid="f86c36a1-9329-41a8-bcff-3f36053eb0dc">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="885488c7-0c72-424e-8f39-ad6a7f54ac43" control-id="au-1">
+    <implemented-requirement uuid="63cc8dac-80a6-4a48-9e99-42c2603d441a" control-id="au-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="au-1_stmt.a" uuid="3a239bc9-cf2f-4e9b-8309-f15d8a6b7c7d">
+      <statement statement-id="au-1_stmt.a" uuid="eed549e1-c08a-43ae-9ac9-c7d5b49b27b3">
         <description><p>Developing an organization-level audit and accountability
 policy is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-1_stmt.b" uuid="c72688c0-7203-4087-915e-e6da16bd54d9">
+      <statement statement-id="au-1_stmt.b" uuid="dec0ceb8-1f8a-4963-9f5f-0886f5402801">
         <description><p>Review and updating an organizational-level audit and
 accountability policy is outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1478be69-3689-4f87-98d4-ad97f1c728f5" control-id="au-2">
+    <implemented-requirement uuid="71a111e1-8b0f-43bf-ab36-f052bd216504" control-id="au-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="au-2_stmt.a" uuid="762a39fa-129e-44b7-a9f0-dd7b2c5215ef">
+      <statement statement-id="au-2_stmt.a" uuid="4c66bfa5-c1d9-4af2-b2ef-63fbb24dfa48">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-155
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.b" uuid="52121a01-3bc2-4a26-a025-529b008390f8">
+      <statement statement-id="au-2_stmt.b" uuid="9431ead2-3129-4451-aede-345819b7c88d">
         <description><p>Coordinating the security audit function with other
 organizational entities is outside the scope of
 system configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.c" uuid="deb525c2-6990-4262-b42e-6a719717858f">
+      <statement statement-id="au-2_stmt.c" uuid="fde172af-828b-4340-b083-9eb9e7f11372">
         <description><p>For rationale regarding why the auditable events are deemed to be
 adequate to support after-the-fact investigations of security incidents,
 please contact your countries Common Criteria representative:
 https://www.commoncriteriaportal.org/ccra/members/
 </p></description>
       </statement>
-      <statement statement-id="au-2_stmt.d" uuid="3a89ad24-0557-42c2-95df-f5a590cb4fc0">
+      <statement statement-id="au-2_stmt.d" uuid="b9524706-8b04-4157-8d75-978ca2cfafac">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-155
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8a205afa-ca1d-441f-afe3-8ee1905e2bf8" control-id="au-3">
+    <implemented-requirement uuid="b8c959b3-28fe-4d01-a46f-752aa8b1e995" control-id="au-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-3_stmt" uuid="cc833fe3-2ec3-49b0-88a2-67d92433a205">
+      <statement statement-id="au-3_stmt" uuid="87dfc9b7-0f48-464f-bca5-6bb81c8317f5">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-156
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="be2eeb0d-ecff-4e67-9abd-0c51613cdf12" control-id="au-4">
+    <implemented-requirement uuid="a0042307-37d7-468f-876a-be5e78ba496c" control-id="au-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="au-4_stmt" uuid="c0af4863-e89b-48ae-b0ef-81d432ff2d29">
+      <statement statement-id="au-4_stmt" uuid="6ff1a46c-8d33-42ad-b122-05c36c895191">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-159
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="db8e20b0-ba19-408a-a9b2-0e51cf51951f" control-id="au-5">
+    <implemented-requirement uuid="73f58e85-0e8f-4d88-8ed5-1884d78ce38c" control-id="au-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-5_stmt.a" uuid="df5e97c8-71d6-48ae-b52f-2e959afac696">
+      <statement statement-id="au-5_stmt.a" uuid="895b4f2a-3834-465a-8a1b-2271419c951e">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-161
 </p></description>
       </statement>
-      <statement statement-id="au-5_stmt.b" uuid="fca08557-f792-4b1f-9602-8a5d9d81c244">
+      <statement statement-id="au-5_stmt.b" uuid="29457c67-132d-4bf8-a807-53495ac03e1f">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-161
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3f8c08d7-702e-4aaf-bab7-00ff98c4693b" control-id="au-6">
+    <implemented-requirement uuid="867fefc6-c622-4299-8c29-ab12ca37a132" control-id="au-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="au-6_stmt.a" uuid="7a2e62fc-a47d-4919-8d8c-60f67eacdf54">
+      <statement statement-id="au-6_stmt.a" uuid="00cc794b-5335-4599-a97c-446b71eeabc4">
         <description><p>Organizational review and analysis of information system
 audit records for indications of organization-defined
 inappropriate or unusual activity is outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="au-6_stmt.b" uuid="b9bfbe63-4ed7-4ff5-956f-384c486b909f">
+      <statement statement-id="au-6_stmt.b" uuid="070c23ec-6a6e-4d51-a7a1-6af0e1dc4eba">
         <description><p>Reporting findings of organization-defined inappropriate or
 unusual activity to organization-defined personnel or roles is
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="07929b14-5265-4448-8a7c-12b7e39467b9" control-id="au-8">
+    <implemented-requirement uuid="91f0e926-4c47-4e87-be21-7e52d0df77f1" control-id="au-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="au-8_stmt.a" uuid="e72bd875-f7f6-4332-8815-ea7573e21872">
+      <statement statement-id="au-8_stmt.a" uuid="78c470a2-52b5-46d5-9088-f228e618330b">
         <description><p>By default, the OpenShift API uses the internal system clocks to generate
 time stamps for audit records. At the code level, the OpenShift API
 stores audit events in a struct called MicroTime:
@@ -483,7 +484,7 @@ which really is a time.Time value which comes from the standard golang library:
 
 https://golang.org/pkg/time/</p></description>
       </statement>
-      <statement statement-id="au-8_stmt.b" uuid="07fb9eba-1a67-4148-9bc9-54637034b0ea">
+      <statement statement-id="au-8_stmt.b" uuid="db162036-0da8-44f2-b90e-8f53389b860c">
         <description><p>By default, the OpenShift API records time stamps for audit records
 that can be mapped to Coordinated Universal Time (UTC). For example
 in the following node audit record:
@@ -497,115 +498,115 @@ See https://docs.openshift.com/container-platform/latest/nodes/nodes/nodes-nodes
 for more example of audit records.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4bf0492c-2301-4378-86a6-c282602b9128" control-id="au-9">
+    <implemented-requirement uuid="9a45fae0-e6c1-4c6e-90c4-7cb8ddaea88f" control-id="au-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-9_stmt" uuid="8b3ffec2-c4f2-46ee-90b9-85b8f6c70c11">
+      <statement statement-id="au-9_stmt" uuid="ea607c75-a5a7-46e8-b22e-33b6e4418c33">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-232
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0dc3665d-52e9-427d-b95b-c8cf97a7790b" control-id="au-11">
+    <implemented-requirement uuid="81329fea-8bc7-41d4-adee-71f901280874" control-id="au-11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-11_stmt" uuid="152ae6cb-5162-4433-b463-fea4f378250d">
+      <statement statement-id="au-11_stmt" uuid="5d20d070-c3ef-424c-b231-f92acbb402c1">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-243
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a74a2df9-2dd9-4cdb-aabe-8e57db0ae22a" control-id="au-12">
+    <implemented-requirement uuid="8c19b368-0853-4a09-9e5a-29e22c228cc0" control-id="au-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="au-12_stmt.a" uuid="4bca61a6-9276-47ce-b272-9485c9545f05">
+      <statement statement-id="au-12_stmt.a" uuid="49657436-e5c1-4fb9-82d2-de9dde139f31">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
-      <statement statement-id="au-12_stmt.b" uuid="7eb0251f-2ee3-4c92-9abe-f567245423fb">
+      <statement statement-id="au-12_stmt.b" uuid="9ff9c0ab-1b3d-404e-80a0-525d9415e2cf">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
-      <statement statement-id="au-12_stmt.c" uuid="eac0f964-5a06-4349-98f4-0c7bfb782f62">
+      <statement statement-id="au-12_stmt.c" uuid="14431993-bcda-4fec-bd50-d2f1f4352bb2">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-245
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="459dc979-cac0-4eda-9b51-4b5516b781a3" control-id="ca-1">
+    <implemented-requirement uuid="b1453174-c5c8-46d6-b4f5-000129bab6ad" control-id="ca-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-1_stmt.a" uuid="72f4a569-2201-4a36-9de1-8a17778522a3">
+      <statement statement-id="ca-1_stmt.a" uuid="d2f6d18b-b243-422f-b62c-46afc11c0d0f">
         <description><p>Establishing organizational security assessment and
 authorization policy and procedures is outside
 the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-1_stmt.b" uuid="db2769bf-0936-47ee-a955-2dc921d10f1a">
+      <statement statement-id="ca-1_stmt.b" uuid="a3b54112-85c1-4ada-a19e-2e1938a6f2cc">
         <description><p>Establishing organizational security assessment and
 authorization policy and procedures is outside
 the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="45541380-9130-489f-a773-e344b6cd367e" control-id="ca-2">
+    <implemented-requirement uuid="f4ab4839-c99c-4a37-a82a-e6b489c10396" control-id="ca-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-2_stmt.a" uuid="673348cb-3195-48bd-aaf2-1e408913146a">
+      <statement statement-id="ca-2_stmt.a" uuid="e940f9c5-14a0-4403-a2b3-85927f00688d">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.b" uuid="e1a85d83-6496-4b32-9156-18e20946d7e1">
+      <statement statement-id="ca-2_stmt.b" uuid="3d05e92a-94e1-4cef-b7ed-cf988e7c0ac2">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.c" uuid="44d3d3ac-4c4e-4e30-81f9-e0585e326ab2">
+      <statement statement-id="ca-2_stmt.c" uuid="3b22a20a-0403-4dac-bb62-55e853807422">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-2_stmt.d" uuid="6f64970e-a56c-4e49-8118-915889e82982">
+      <statement statement-id="ca-2_stmt.d" uuid="520e71fa-b9f3-426d-b07a-b48f52754f4a">
         <description><p>Development of an organizational security assessment plan
 is outside the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6f55da9b-69a8-4d7b-8ba0-1e0efd91ef30" control-id="ca-2.1">
+    <implemented-requirement uuid="3a672532-52b8-48ec-8032-ddea2a2ddc6b" control-id="ca-2.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-2.1_stmt" uuid="c64c42ea-fbe2-41fe-953b-15ddab4b59bc">
+      <statement statement-id="ca-2.1_stmt" uuid="779518f8-386a-4af2-964e-87a735f0419e">
         <description><p>Employment of independent assessors or assessment teams
 is outside the scope of OpenShift configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a16ef4da-6d3e-4e45-9f41-21239d592ce1" control-id="ca-3">
+    <implemented-requirement uuid="3c712d6a-b092-4ef8-a973-36cf4426645a" control-id="ca-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-3_stmt.a" uuid="82427733-967c-4589-ab9e-be90e9aebfb8">
+      <statement statement-id="ca-3_stmt.a" uuid="92b64011-25a1-4ed0-9df2-0df00109e217">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of OpenShift configuration
 guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-3_stmt.b" uuid="8162c394-73ff-442e-836e-31edcf30d0ab">
+      <statement statement-id="ca-3_stmt.b" uuid="f02105ac-07bd-4e79-9627-d037db7f8483">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of OpenShift configuration
 guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-3_stmt.c" uuid="93891947-d8ca-434b-a70a-07fd7deb19ff">
+      <statement statement-id="ca-3_stmt.c" uuid="8e5d7db8-49d3-4162-9e57-c33934279eb9">
         <description><p>Establishment of organizational system interconnection
 agreements is outside the scope of OpenShift configuration
 guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="685dc71e-cd26-4603-8bfc-1fe09a09dd97" control-id="ca-5">
+    <implemented-requirement uuid="ac4509a2-c9ae-40b8-bdb5-38a2f4920eeb" control-id="ca-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-5_stmt.a" uuid="aa499f9f-a62e-4e4c-a0dc-37e68dc0bd85">
+      <statement statement-id="ca-5_stmt.a" uuid="3af03733-a52c-4d07-ae4c-a1fa3659332f">
         <description><p>Creating an information system-level Plan of Action
 and Milestones (POA&amp;M) is outside the scope of OpenShift
 configuration processes.
@@ -620,7 +621,7 @@ Engineering progress can be tracked at:
 https://issues.redhat.com/browse/CMP-254
 </p></description>
       </statement>
-      <statement statement-id="ca-5_stmt.b" uuid="95562a20-395d-4ad0-bf80-e0eb61e6c2fa">
+      <statement statement-id="ca-5_stmt.b" uuid="6e2cbf17-6eb9-4a85-8de1-0009268e6088">
         <description><p>Organizational processes relating to updating and the maintenance
 of an information system-level Plan of Action and Milestones (POA&amp;M)
 is outside the scope of OpenShift configuration processes.
@@ -632,102 +633,102 @@ https://issues.redhat.com/browse/CMP-254
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="109d9464-6d1e-4cbc-a455-4f39bea2d078" control-id="ca-6">
+    <implemented-requirement uuid="55c62a4f-c361-4657-9d48-e5d3fa9ee87f" control-id="ca-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-6_stmt.a" uuid="6797dc62-3a21-43ff-ab2b-c78384e9960d">
+      <statement statement-id="ca-6_stmt.a" uuid="af655a74-7265-439f-bcf1-433a790448fd">
         <description><p>This control reflects organizational processes outside the scope
 of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-6_stmt.b" uuid="edb61a2d-de4a-4897-be0a-5e1f658edfbe">
+      <statement statement-id="ca-6_stmt.b" uuid="b635d39d-023d-43b4-be28-ad57d3fce933">
         <description><p>This control reflects organizational processes outside the scope
 of OpenShift configuration guidance.
 </p></description>
       </statement>
-      <statement statement-id="ca-6_stmt.c" uuid="873980e6-c595-438e-b8af-b699f509e6f7">
+      <statement statement-id="ca-6_stmt.c" uuid="430d9780-1bc9-4b08-98de-fde66ec0942d">
         <description><p>This control reflects organizational processes outside the scope
 of OpenShift configuration guidance.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="203eed56-e1e7-4725-b708-a5177ff5a39e" control-id="ca-7">
+    <implemented-requirement uuid="bc04654c-f52d-4080-8687-22c61d5c7265" control-id="ca-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ca-7_stmt.a" uuid="da23f9ac-7b0a-4661-90b2-58d17c17a738">
+      <statement statement-id="ca-7_stmt.a" uuid="a537d986-9851-4be9-81d8-84151293576a">
         <description><p>The development and implementation of a continuous monitoring program
 that includes the establishement of organization-defined metrics to be
 monitored is an organizational control outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.b" uuid="6a1d527b-b31e-40e8-b2dd-cbca8d9324f0">
+      <statement statement-id="ca-7_stmt.b" uuid="ce80fb6f-0001-45d1-9dd2-d62836617edf">
         <description><p>The development and implementation of a continuous monitoring program
 that includes the establishement of organization-defined frequencies for
 monitoring and assessment of such monitoring is an organizational control
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.c" uuid="48aefdff-5fdb-4d89-a41b-5b8ba0cf01e3">
+      <statement statement-id="ca-7_stmt.c" uuid="f7404152-0812-40ad-9487-284782813328">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.d" uuid="f0a79413-5261-472d-b85f-ce2d9686eb80">
+      <statement statement-id="ca-7_stmt.d" uuid="4c185f84-9e82-4d04-bd62-b99494d5bb85">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.e" uuid="2c7c69dd-18c5-478d-b2e6-76962e5d8a15">
+      <statement statement-id="ca-7_stmt.e" uuid="61636feb-f66e-466f-92ab-6627e1aa6424">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-255
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.f" uuid="4153356a-2f8d-469b-bd5c-24bf210fff76">
+      <statement statement-id="ca-7_stmt.f" uuid="b7c54290-6055-446d-b007-d45759408837">
         <description><p>Response actions to address results of the analysis of security-related
 information is an organizational control outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ca-7_stmt.g" uuid="fb76c365-afb0-4665-87c5-1d325322596e">
+      <statement statement-id="ca-7_stmt.g" uuid="1c69f048-a758-4277-8212-9b10b278d01f">
         <description><p>Reporting the security status of organization and the information system
 to organization-defined personnel or roles at a specified organization-defined
 frequency is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9ea49875-6a1a-43f7-969b-4169222efa98" control-id="ca-9">
+    <implemented-requirement uuid="bc94479a-da7f-43a0-a484-4dca76fc1f93" control-id="ca-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ca-9_stmt.a" uuid="4e736f7a-7c96-4722-9d39-ee6ff676e78b">
+      <statement statement-id="ca-9_stmt.a" uuid="d2339438-ba85-437c-9ef9-3f20e56e922d">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-256
 </p></description>
       </statement>
-      <statement statement-id="ca-9_stmt.b" uuid="e4c41f1b-293f-4cac-9eae-b96514e9cfbb">
+      <statement statement-id="ca-9_stmt.b" uuid="9642de6b-bcbc-4088-b560-cf8281f67f17">
         <description><p>Engineering progress can be tracked at:
 
 https://issues.redhat.com/browse/CMP-256
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9ed5ec7c-348d-40ec-b012-4d1b3c6c523e" control-id="cm-1">
+    <implemented-requirement uuid="28560f77-3a4f-4fff-bac9-f02fb3685342" control-id="cm-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-1_stmt.a" uuid="1361acdd-9e27-4d4b-b463-be2a20aae852">
+      <statement statement-id="cm-1_stmt.a" uuid="51de424f-b8d6-481a-9e52-647dad8a5b7c">
         <description><p>Developing, documenting, and disseminating an organizational configuration
 management policy is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cm-1_stmt.b" uuid="10cbffb5-ad9c-4a96-acb6-53fb68b352ff">
+      <statement statement-id="cm-1_stmt.b" uuid="bfade26e-1b1e-4e5a-9aa9-16cb98da2277">
         <description><p>Review and update procedures to the organizational configuration
 management policy is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="546ef742-a9ac-410a-ba88-6cd13cea55af" control-id="cm-2">
+    <implemented-requirement uuid="5ea1ac6d-33d8-46cb-b6a1-053b9bc2fce4" control-id="cm-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-2_stmt" uuid="5af31854-983d-40d3-a82b-e775f899f5e8">
+      <statement statement-id="cm-2_stmt" uuid="d29b2e47-4760-4a97-a052-9cff47e349bf">
         <description><p>The recommended approach for configuration management in the OpenShift Container
 platform is to implement the principles and patterns of GitOps
 
@@ -754,39 +755,39 @@ https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_managemen
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b4d67990-441e-4635-8432-f67129e86df1" control-id="cm-4">
+    <implemented-requirement uuid="981692f4-4a11-46ce-81d4-6bd013ccde75" control-id="cm-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-4_stmt" uuid="22bf8bd1-9465-4836-aad1-165c90a0a711">
+      <statement statement-id="cm-4_stmt" uuid="4b8e9718-d5c9-4f17-89e8-9f4c341ac0e7">
         <description><p>Organizational analysis of changes to the information system to
 determine potential security impacts prior to change implementation
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2600a3e4-0a42-40dc-ab1b-46733229c289" control-id="cm-6">
+    <implemented-requirement uuid="083e8c38-6c09-4650-8652-e06cb62b128f" control-id="cm-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="cm-6_stmt.a" uuid="13999e68-7ec0-4097-89b6-c401c93178f0">
+      <statement statement-id="cm-6_stmt.a" uuid="9b6cdaf6-e094-402d-a29d-fc5a8588628c">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.b" uuid="7d5c4289-eb6e-4119-999a-17ef903aa1ff">
+      <statement statement-id="cm-6_stmt.b" uuid="8a196a0b-77bb-40ff-9ff1-ec71f6f2a99f">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.c" uuid="5bcadc83-d4d4-41c8-ae52-65e359c827cd">
+      <statement statement-id="cm-6_stmt.c" uuid="cd43525a-81bf-47b5-898f-be9a0ee73b85">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
-      <statement statement-id="cm-6_stmt.d" uuid="d071e87a-35a5-4b11-b4f2-d186d2682488">
+      <statement statement-id="cm-6_stmt.d" uuid="d17b15c3-a39d-40a9-bd93-b0ab86c8d6c5">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -794,16 +795,16 @@ https://issues.redhat.com/browse/CMP-188
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9cda49ff-5ad5-43a5-9818-942dd4b5572d" control-id="cm-7">
+    <implemented-requirement uuid="80ae11fa-4605-40c0-bb9e-d89d6214ae84" control-id="cm-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-7_stmt.a" uuid="6837642f-6ead-4ed4-89fa-4d6de8e9dcd2">
+      <statement statement-id="cm-7_stmt.a" uuid="ba7066b5-2f78-4197-9f2f-857c43ee4689">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-273
 </p></description>
       </statement>
-      <statement statement-id="cm-7_stmt.b" uuid="64140f5f-61af-4560-a355-3033edc7b0bb">
+      <statement statement-id="cm-7_stmt.b" uuid="61478066-650f-4b81-ba79-956e85574006">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -811,16 +812,16 @@ https://issues.redhat.com/browse/CMP-273
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1d389ab2-b1d0-4af0-b80e-2f30f71ed237" control-id="cm-8">
+    <implemented-requirement uuid="bd5aa416-828c-425e-b159-b9f50255ae6f" control-id="cm-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-8_stmt.a" uuid="aa5d9db5-121d-4386-9638-b24a900dc731">
+      <statement statement-id="cm-8_stmt.a" uuid="ac63a2bc-2485-409a-bf99-47694b16b699">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-277
 </p></description>
       </statement>
-      <statement statement-id="cm-8_stmt.b" uuid="6a0e06a6-13af-4511-850b-2756cb1c8957">
+      <statement statement-id="cm-8_stmt.b" uuid="9f032115-185e-4fc1-82b4-41992cdfa2ad">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -828,9 +829,9 @@ https://issues.redhat.com/browse/CMP-277
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="008173e6-c289-4470-86fe-d8fd75d3758d" control-id="cm-10">
+    <implemented-requirement uuid="540d0255-050e-467f-9253-4dbf83e0907e" control-id="cm-10">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cm-10_stmt.a" uuid="fa9057a7-97ed-466f-b1c7-3d3178c9c693">
+      <statement statement-id="cm-10_stmt.a" uuid="503ab98f-e12b-419f-8880-d5826ec22314">
         <description><p>Ensuring that the organization uses software and associated
 documentation in accordance with contract agreements and copyright laws
 is the complete responsiblity of the organization. Red Hat's
@@ -840,7 +841,7 @@ with all applicable contracts and agreements established for the
 project with the organization.
 </p></description>
       </statement>
-      <statement statement-id="cm-10_stmt.b" uuid="ee0fb357-fee8-445f-b84f-e09ef242a83c">
+      <statement statement-id="cm-10_stmt.b" uuid="b3e52510-01c0-4aeb-b6cf-98a1fcd09ca4">
         <description><p>Tracking the use of software and associated documentation protected by
 quantity licenses to control copying and distribution is an
 organizational control outside the scope of OpenShift.
@@ -859,7 +860,7 @@ register their disconnected clusters with OpenShift Cluster Manager
 following the instructions at https://access.redhat.com/solutions/4930131
 </p></description>
       </statement>
-      <statement statement-id="cm-10_stmt.c" uuid="fbbeadda-ac9a-4cce-b766-88d532b0f660">
+      <statement statement-id="cm-10_stmt.c" uuid="31561786-a655-4bfa-9d67-4f0a4abac4c2">
         <description><p>Controlling and documenting the use of peer-to-peer file sharing
 technology to ensure that this capability is not used for the
 unauthorized distribution, display, performance, or reproduction
@@ -868,23 +869,23 @@ of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d0a7fdf5-2db4-4967-9f1f-338f9617269e" control-id="cm-11">
+    <implemented-requirement uuid="621354fa-30e5-4b46-8978-f5e83cdecb39" control-id="cm-11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="cm-11_stmt.a" uuid="ebc583a9-8b40-4f5e-b82e-7b2927914e9e">
+      <statement statement-id="cm-11_stmt.a" uuid="cc205f30-a70b-4991-b16c-e104d1fb75a1">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
-      <statement statement-id="cm-11_stmt.b" uuid="4c539b9a-ef86-4bc5-aa4b-8144d95b0102">
+      <statement statement-id="cm-11_stmt.b" uuid="27791385-03bd-49ce-a61b-841c3c1e7ed7">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
-      <statement statement-id="cm-11_stmt.c" uuid="b161e70b-6777-4c16-a63f-51a321f85c25">
+      <statement statement-id="cm-11_stmt.c" uuid="264b2cc6-3c0b-4053-8d94-cd997f5e5aeb">
         <description><p>A complete control response is planned. Progress can be
 tracked via:
 
@@ -892,22 +893,22 @@ https://issues.redhat.com/browse/CMP-285
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c0ce07ae-6a93-4087-867a-e2d9bc74fa58" control-id="cp-1">
+    <implemented-requirement uuid="cc4bdc8f-e13f-4011-9c00-ea8389d486ba" control-id="cp-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-1_stmt.a" uuid="ccf795e8-496e-4435-99de-6c3226caa89e">
+      <statement statement-id="cp-1_stmt.a" uuid="7d96d341-8de1-4212-9ddc-61d2b2ff3f40">
         <description><p>Developing an organization-level contingency planning policy is
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-1_stmt.b" uuid="3baaf736-ae11-4c90-bd16-77b35ee2807f">
+      <statement statement-id="cp-1_stmt.b" uuid="721f7492-3bc9-4094-b526-649d649b6e22">
         <description><p>Review and updating an organizational-level contingency planning
 policy is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="abd1ebe1-e55e-4c32-bd11-26c1a31bbac8" control-id="cp-2">
+    <implemented-requirement uuid="fa82caee-f562-4952-9fd1-63bf7e8b3b1f" control-id="cp-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-2_stmt.a" uuid="192d33b5-dc43-426f-995f-f49ae08d3704">
+      <statement statement-id="cp-2_stmt.a" uuid="96415605-0411-46b9-a193-be6b4659b2e5">
         <description><p>Developing an organization-level contingency planning policy is
 outside the scope of OpenShift configuration.
 
@@ -917,63 +918,63 @@ Backup and Restore of an Openshift cluster can be viewed at:
 https://docs.openshift.com/container-platform/latest/backup_and_restore/disaster_recovery/about-disaster-recovery.html
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.b" uuid="0eb1a105-7ce7-4ae1-8719-c16486e6a880">
+      <statement statement-id="cp-2_stmt.b" uuid="a9ada646-deec-41bb-921a-9fcb3dee1da3">
         <description><p>Distribution of an organizational-level contingency planning
 policy is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.c" uuid="6937c610-95c2-44e2-b8a1-7e5e910a8015">
+      <statement statement-id="cp-2_stmt.c" uuid="a92a31ec-6712-43fd-8c33-84dc0509152b">
         <description><p>Coordinating contingency planning activities with incident handling
 activities is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.d" uuid="fb90f075-35e7-4233-8131-c9e4173d5bf8">
+      <statement statement-id="cp-2_stmt.d" uuid="1cf72785-a5fa-4d68-b997-f9ff3e8162dd">
         <description><p>Reviewing organizational contingency plans for the information system
 at an organization-defined frequency is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.e" uuid="7e2d6ece-c9c3-43e0-b111-3e25427771cb">
+      <statement statement-id="cp-2_stmt.e" uuid="f2038187-e425-4d23-81d6-c3212bf8220c">
         <description><p>Organizational processes to update the contingency plan are outside the
 scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.f" uuid="77bf9e58-d8b3-4dde-9146-b0c69f358787">
+      <statement statement-id="cp-2_stmt.f" uuid="2a388043-6747-487f-8d73-7634dee2ac6d">
         <description><p>Organizational communication plans regarding the contingency plan are outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-2_stmt.g" uuid="347b61f8-41f2-40d5-b0dc-846bd47276d4">
+      <statement statement-id="cp-2_stmt.g" uuid="0a4740ea-8146-41d2-b64c-88b1019f445a">
         <description><p>Protection of the contingency plan from unauthorized disclosure and
 modification is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1f92aa4b-3fa7-43dd-8752-c9fbab9e4b06" control-id="cp-3">
+    <implemented-requirement uuid="94605dfe-25a3-4a1b-b645-dbbae0c9b0c1" control-id="cp-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-3_stmt.a" uuid="971cb562-8923-405d-a1e2-61c11157693f">
+      <statement statement-id="cp-3_stmt.a" uuid="79b1cd6f-7048-46b7-b206-13e572c10bae">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities within an organization-defined
 time period of assuming a contingency role or responsibility is outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-3_stmt.b" uuid="7d13e1ac-02db-4125-a109-ed5f9dbc81ce">
+      <statement statement-id="cp-3_stmt.b" uuid="b7df4d09-e75c-4165-9c45-8b8707a58a0d">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities when required by information
 system changes is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-3_stmt.c" uuid="4dc8cb94-a3e6-4d7c-9a29-e9d1cb4d8f2d">
+      <statement statement-id="cp-3_stmt.c" uuid="59036a46-b5e6-47a2-a98e-bc2ad15a0839">
         <description><p>Providing contingency training to information system users consistent
 with assigned roles and responsibilities at an organization-defined
 frequency is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="69c2784a-57cb-481b-a2ab-7ae8626d7f29" control-id="cp-4">
+    <implemented-requirement uuid="90647d35-9e89-440b-9cce-5d4d9199375f" control-id="cp-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-4_stmt.a" uuid="8627aa82-8aaf-4195-997a-97491d38b17b">
+      <statement statement-id="cp-4_stmt.a" uuid="2b75e3bb-fd6a-4bf6-8f39-99ecc2545738">
         <description><p>Testing the contingency plan for the information system at an
 organization-defined frequency using organization-defined tests
 to determine the effectiveness of the plan and the organizational
@@ -981,20 +982,20 @@ readiness to execute the plan is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-4_stmt.b" uuid="6c883c4b-fd39-47dd-bee3-1a89c7de7d6a">
+      <statement statement-id="cp-4_stmt.b" uuid="623a0052-6e81-483d-85f4-5fc83d05d57d">
         <description><p>Organizational reviews of the contingency plan test results is outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-4_stmt.c" uuid="af23d562-3e12-4ce2-8cca-b690af37b3ec">
+      <statement statement-id="cp-4_stmt.c" uuid="de6daba0-5235-436a-b565-f7bb2509169c">
         <description><p>Organizational process to intiate corrective actions, if needed,
 are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6580ddd0-bff4-422f-8e14-6fa9de2f9f01" control-id="cp-9">
+    <implemented-requirement uuid="1585b531-ad63-45b2-b987-c2612ce87ef1" control-id="cp-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-9_stmt.a" uuid="ec2c2983-97f4-491e-883e-5bd27013bda1">
+      <statement statement-id="cp-9_stmt.a" uuid="007500e8-20dc-4fd0-829a-fe21e75bff7e">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of user-level information contained in the
 information system. Additional requirements and guidance include
@@ -1013,7 +1014,7 @@ up user-level information stored in etcd in OpenShift can be viewed at:
 https://docs.openshift.com/container-platform/latest/backup_and_restore/backing-up-etcd.html
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.b" uuid="41f8d89b-e2c3-4fce-9e31-3cc4c9f0f618">
+      <statement statement-id="cp-9_stmt.b" uuid="b44a221c-12c8-47cc-9e89-3f205fe8f686">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of system-level information contained in the
 information system. Additional requirements and guidance include
@@ -1032,7 +1033,7 @@ viewed at:
 https://docs.openshift.com/container-platform/latest/backup_and_restore/disaster_recovery/about-disaster-recovery.html
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.c" uuid="d734956b-99f1-4363-b58b-654b642c584f">
+      <statement statement-id="cp-9_stmt.c" uuid="31147ef2-2236-450c-8b9e-0213c1472991">
         <description><p>The customer will be responsible for conducting daily incremental and
 weekly full backups of information system documentation including
 security-related documentation.
@@ -1041,7 +1042,7 @@ Conducting backups on information system and security-related documentation
 is an organizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="cp-9_stmt.d" uuid="1256cb58-8167-4bed-968c-c04d6e2e1fa3">
+      <statement statement-id="cp-9_stmt.d" uuid="86750557-7da2-44ab-b687-d3517ad352b8">
         <description><p>The customer will be responsible for protecting the confidentiality,
 integrity, and available of backup information at storage locations.
 Additional requirements and guidance include determining
@@ -1056,9 +1057,9 @@ scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9219f4e8-e849-4849-b4e8-5baa7f644603" control-id="cp-10">
+    <implemented-requirement uuid="1b964c7b-e75f-40e5-8db8-3d9a8d0b29c1" control-id="cp-10">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="cp-10_stmt" uuid="1a765212-bca7-4765-aaf6-135a389f4799">
+      <statement statement-id="cp-10_stmt" uuid="590405c1-358b-43f2-9538-b0ccff048d97">
         <description><p>The customer will be responsible for documenting how to reconstitute
 their OpenShift environment. A successful control response will detail
 processes used to fully recover/restore the OpenShift environment.
@@ -1071,22 +1072,22 @@ https://docs.openshift.com/container-platform/latest/backup_and_restore/disaster
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="5a9ed247-4c80-42d4-973b-311c7d6e6b74" control-id="ia-1">
+    <implemented-requirement uuid="3165944a-05c9-4d78-9d87-ffd2641ad6f5" control-id="ia-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-1_stmt.a" uuid="8a424f10-0d76-4a97-9704-12347216ac01">
+      <statement statement-id="ia-1_stmt.a" uuid="39ec901e-39e4-427d-8bc8-b969d3294137">
         <description><p>Developing organization-level identification and authentication
 policy and procedures are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-1_stmt.b" uuid="551ed0e5-e295-4395-b834-9aeb9bbe480c">
+      <statement statement-id="ia-1_stmt.b" uuid="68d1331b-03ef-4384-ab9f-98bb004697c3">
         <description><p>Review and updating an organizational-level identification and authentication
 policy and procedures are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7a3fa236-e7bb-4d0a-82a7-b0884603e3ad" control-id="ia-2">
+    <implemented-requirement uuid="93189bc5-dcf8-45b5-bdc6-5ed286c55ecf" control-id="ia-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="ia-2_stmt" uuid="a42e77d5-0a8e-4ae3-9f95-52f56c7ffc6c">
+      <statement statement-id="ia-2_stmt" uuid="814359a0-b3f6-49d4-b255-4d1e75396894">
         <description><p>Unique identification and authentication of organizational users
 is deferred to the organizational identity provider (such as
 LDAP, Active Directory, Red Hat SSO, etc). This part of the control
@@ -1104,9 +1105,9 @@ container image, is provided by correlating system audit logs.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1db4ecea-bfa1-4aa0-b378-1306ce77eee8" control-id="ia-2.1">
+    <implemented-requirement uuid="d3c28ddb-b23d-4b3b-aaa6-288ef8660117" control-id="ia-2.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-2.1_stmt" uuid="531acdf2-644c-45ba-9cd8-241fde698190">
+      <statement statement-id="ia-2.1_stmt" uuid="8f70964c-6e49-47a6-bb4e-dfbc719badb7">
         <description><p>Implementation of multifactor authentication for network
 access to privileged accounts is deferred to the
 organizational identity provider (such as
@@ -1124,196 +1125,196 @@ needs and requirements.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ca4df318-5e3f-40c9-83fa-95517bdf16c5" control-id="ia-2.12">
+    <implemented-requirement uuid="290cc48d-0b4d-4f02-b1cb-02a7fdcbdba5" control-id="ia-2.12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-2.12_stmt" uuid="f0c9143b-389f-4d47-ab5f-d84f3cba9a7a">
+      <statement statement-id="ia-2.12_stmt" uuid="10d81043-59c0-4cea-8085-58bed4c54f29">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-317
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9733eeb0-5579-4acd-9d8f-d67900b53e17" control-id="ia-4">
+    <implemented-requirement uuid="5a41601d-57e6-46ef-a377-4c0e638d3c54" control-id="ia-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-4_stmt.a" uuid="69e9ec86-4e74-4892-bd70-2f717e47c2b3">
+      <statement statement-id="ia-4_stmt.a" uuid="f908c6a6-43d0-40b1-9127-27a735a54de0">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.b" uuid="67df79b0-6e9f-4073-ac7a-9768046320d5">
+      <statement statement-id="ia-4_stmt.b" uuid="52bbb2a8-0b27-493b-95f4-ccab8d26b91b">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.c" uuid="c6cec297-cd82-423d-a1a2-9c4b5290de5c">
+      <statement statement-id="ia-4_stmt.c" uuid="1e4e82b1-4b2c-4ac1-bc03-6414224350e4">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.d" uuid="9afe15c3-ca70-41e3-9d29-cf2f9ae3fe63">
+      <statement statement-id="ia-4_stmt.d" uuid="f9e61e8b-e208-48be-b6b6-1561de201ea9">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-321
 </p></description>
       </statement>
-      <statement statement-id="ia-4_stmt.e" uuid="019b20a8-18f9-4442-a4d1-8cb6590a3354">
+      <statement statement-id="ia-4_stmt.e" uuid="d70f6815-bc24-42ef-b952-5a32e8f276e2">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-321
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f59b7997-e2bd-47c0-ba7d-13d71ad67e54" control-id="ia-5">
+    <implemented-requirement uuid="9036cb01-8422-462a-b231-a96648a92ef2" control-id="ia-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-5_stmt.a" uuid="b9393b4a-c84a-430f-afa0-ae0c35fc6f8e">
+      <statement statement-id="ia-5_stmt.a" uuid="9ed7425c-57db-4fca-b748-3b74a5952959">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.b" uuid="5750ddcb-ef83-463a-9e37-1c35a231841d">
+      <statement statement-id="ia-5_stmt.b" uuid="6c04c31a-147e-4983-9c95-daa1f2d136ea">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.c" uuid="ef46f2f2-5cbe-4f15-bcdb-ac413350a52d">
+      <statement statement-id="ia-5_stmt.c" uuid="c90dc941-d7e1-407a-9d72-59218ecbf53c">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.d" uuid="6cd8a3b3-6548-426b-9438-2d7f863b9a54">
+      <statement statement-id="ia-5_stmt.d" uuid="61f1c14d-9784-48c3-96f0-2ba534429d83">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.e" uuid="97dd43e1-05a0-4964-8560-32a4fda2c2f2">
+      <statement statement-id="ia-5_stmt.e" uuid="1e8a2586-a592-48ae-be9a-2ebc2a9b0935">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.f" uuid="a87877e8-575e-43d1-81b1-13e15f8deab6">
+      <statement statement-id="ia-5_stmt.f" uuid="555b3257-6d5d-4feb-b17a-68a16a515e5e">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.g" uuid="3e9ef566-14e2-449f-ab3b-e76cff1bea6c">
+      <statement statement-id="ia-5_stmt.g" uuid="fbf42526-5dad-453e-ae06-88ff58094f40">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.h" uuid="1985023e-6a66-4df2-bb77-8079b031ab09">
+      <statement statement-id="ia-5_stmt.h" uuid="1402a9d3-0258-41c6-b7a5-513d36c0157c">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-325
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.i" uuid="79f16ed5-5213-4bf4-9ba1-9a07c12238a6">
+      <statement statement-id="ia-5_stmt.i" uuid="fe7df6ff-6e75-4d5e-83ef-d68da8d2ed22">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5_stmt.j" uuid="d5f7cf55-15d0-4a2d-aceb-3ace9b68d776">
+      <statement statement-id="ia-5_stmt.j" uuid="06b9433e-f7ab-4d3f-8c26-d787679c5fb4">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="3743d2cd-9630-4ca0-822f-2fdbfe8b2269" control-id="ia-5.1">
+    <implemented-requirement uuid="f497152b-b1ae-4026-99f3-36e732abb3e7" control-id="ia-5.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-5.1_stmt.a" uuid="edbc3b0c-9a3e-4c5b-b991-91ad66f90465">
+      <statement statement-id="ia-5.1_stmt.a" uuid="dbda8cb0-02c3-4782-bfef-6ad06b805f65">
         <description><p>This is an organizational procedural requirement
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.b" uuid="9a45baa6-b262-4b81-b42b-3f0a35f71d78">
+      <statement statement-id="ia-5.1_stmt.b" uuid="682ea634-b615-4bbc-bbb8-5340fe2bf9ca">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.c" uuid="29519922-a800-48d8-b17b-126154012f2a">
+      <statement statement-id="ia-5.1_stmt.c" uuid="cb1420ab-a2bc-48e9-ae06-41aa7b388f4e">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.d" uuid="cacdd5c3-3caf-40a5-ae61-d3b8e6203d08">
+      <statement statement-id="ia-5.1_stmt.d" uuid="4547b877-f6bc-4c10-8e87-88d5c8de4845">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.e" uuid="a4282741-0a1c-49d7-9a02-1488842c0587">
+      <statement statement-id="ia-5.1_stmt.e" uuid="527bc567-6890-4140-a08c-2731022f7523">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
-      <statement statement-id="ia-5.1_stmt.f" uuid="e2ca6601-8035-4d3b-95dc-c289ac8398ec">
+      <statement statement-id="ia-5.1_stmt.f" uuid="ef167ef4-578e-4417-9d60-c4e2ed2ba6f7">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-326
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1897fc0b-10fc-4984-846f-7d058e145de1" control-id="ia-5.11">
+    <implemented-requirement uuid="1bcbc3d3-6bca-4720-8d78-5e9eefe73a26" control-id="ia-5.11">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-5.11_stmt" uuid="dcff741e-ac08-4507-b2f2-f8bec808c4d3">
+      <statement statement-id="ia-5.11_stmt" uuid="a2b775c8-394f-4075-a4c8-60bb5c7ea17b">
         <description><p>Employment of mechanisms that satisfy organization-defined
 token quality requirements is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="be48c4b3-b7e6-479e-9ae8-38cc4d02bbc1" control-id="ia-6">
+    <implemented-requirement uuid="9d1da274-0c5a-425b-bdc4-9b437a6291df" control-id="ia-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-6_stmt" uuid="93cfcf69-e4f1-46b2-a616-536d50554092">
+      <statement statement-id="ia-6_stmt" uuid="eb9b8415-4bc8-418d-946c-952f0172fca2">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-333
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b06d6bce-ae2d-4952-b837-18e51143bdd7" control-id="ia-7">
+    <implemented-requirement uuid="c63b4300-3a88-4273-8812-764bd73bc795" control-id="ia-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-7_stmt" uuid="06627f7c-d143-4ac6-b3d3-27a9a5a139e1">
+      <statement statement-id="ia-7_stmt" uuid="d6806c0a-9559-45ca-baba-8146ddfbe8f2">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-334
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="236d863a-8741-4ce6-978f-0f6576d67e51" control-id="ia-8">
+    <implemented-requirement uuid="2a532da2-bb82-4bb2-85be-7932dd5a38cc" control-id="ia-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="ia-8_stmt" uuid="1a006ca9-fbb7-4234-86e2-d04f8b70496e">
+      <statement statement-id="ia-8_stmt" uuid="27ff497b-ad82-4554-ba95-25ab219bc188">
         <description><p>A control response for IA-8 is planned.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="22916b36-e553-46b0-94ae-f7db099b03a8" control-id="ia-8.1">
+    <implemented-requirement uuid="9384fa99-76b9-4df3-9bb4-d3a667753508" control-id="ia-8.1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ia-8.1_stmt" uuid="51e0939a-1d00-4d0d-a931-7067e7ad4d0a">
+      <statement statement-id="ia-8.1_stmt" uuid="eda6b6af-d075-4e8e-9cda-7b583910b19a">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-370
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="df8d6739-b623-4438-9d09-7cfaff06b832" control-id="ia-8.2">
+    <implemented-requirement uuid="3c0bf721-72de-47e0-9522-8ea678643672" control-id="ia-8.2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-8.2_stmt" uuid="877ff127-d422-416a-b692-17ba7f5571e0">
+      <statement statement-id="ia-8.2_stmt" uuid="62eafe47-6fa6-48ba-aa07-c3f2dfb7c694">
         <description><p>Acceptance of FICAM-approved third-party credentials
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ddd12bf3-0185-491b-bb5e-b3b1cd3c7496" control-id="ia-8.3">
+    <implemented-requirement uuid="09b40fa2-b038-4602-bd1b-eec5c4822fe1" control-id="ia-8.3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ia-8.3_stmt" uuid="3e61213b-3e3c-4f49-8e7a-78be843949ed">
+      <statement statement-id="ia-8.3_stmt" uuid="5c6dfc7a-53c4-4c8d-8c19-ef5304693039">
         <description><p>Employment of only FICAM-approved information system
 components (e.g. cards, card holders, physical access
 control system components) in organization-defined
@@ -1322,278 +1323,278 @@ is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="28c8d705-06ba-4681-b011-4a440214ed7b" control-id="ia-8.4">
+    <implemented-requirement uuid="04daae3a-2742-4032-89e7-3fe78485ae58" control-id="ia-8.4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ia-8.4_stmt" uuid="3453c831-5d20-48a6-b9a0-84bda0f561d1">
+      <statement statement-id="ia-8.4_stmt" uuid="6d2e53f9-af59-4ee7-81a9-de8909faa047">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-335
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="264d59f6-c4f9-4696-8ceb-1776a5fd3ccf" control-id="ir-1">
+    <implemented-requirement uuid="7ac4172a-b00d-4c32-9613-7f98ec77a73d" control-id="ir-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-1_stmt.a" uuid="429ce6b0-d114-4d40-8cef-312e1fe37f44">
+      <statement statement-id="ir-1_stmt.a" uuid="f5abe952-64cf-427a-8ba2-8deeb0d47285">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.1" uuid="4a7216e9-49db-4852-bf3b-27ed005b081c">
+      <statement statement-id="ir-1_stmt.a.1" uuid="06f1cae9-faf3-431e-a2d1-81dc5566b809">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.a.2" uuid="4ba00a8d-510c-458a-9859-dadc718ed34c">
+      <statement statement-id="ir-1_stmt.a.2" uuid="d51c9980-0f2a-4592-ace0-d54922d6c44f">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b" uuid="96a3dd3f-d6c4-4139-8b2f-e8fe30a447c1">
+      <statement statement-id="ir-1_stmt.b" uuid="e0cf6e04-6b6f-4800-b6ea-cd7ad74e48f7">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.1" uuid="eabc09fc-52e4-4348-9e6d-73ed03edced7">
+      <statement statement-id="ir-1_stmt.b.1" uuid="159f7c2a-823f-4e75-a619-1bbfceaf2621">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-1_stmt.b.2" uuid="78568ec6-e5a7-4012-b8c0-5e83edbcac9c">
+      <statement statement-id="ir-1_stmt.b.2" uuid="15eeed32-a7b6-4fa3-b91a-e0f765b7c019">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="393cfca8-3ec2-4214-ae4d-474f431d9158" control-id="ir-2">
+    <implemented-requirement uuid="9190e8dd-d6ee-433c-83f7-7973aae3ba70" control-id="ir-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-2_stmt.a" uuid="bb4c883a-3bd1-4562-9f83-74dca4ca5fca">
+      <statement statement-id="ir-2_stmt.a" uuid="2f9542c0-1e8c-45d3-b05b-b7c8615b2ebd">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.b" uuid="30eadd2f-e758-4f70-bbba-44b303ea763b">
+      <statement statement-id="ir-2_stmt.b" uuid="caa5d460-e757-4d08-aace-2057d2d5473e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-2_stmt.c" uuid="476008f9-d9d3-4186-959f-887ea0aa13f6">
+      <statement statement-id="ir-2_stmt.c" uuid="9046d525-00e7-4e02-bc41-61ac2cf43a20">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0fdd2e42-b76a-4fa7-bf3c-8d1f8843cd54" control-id="ir-4">
+    <implemented-requirement uuid="f931e698-d8e4-4593-a2d2-50ab1f6c2959" control-id="ir-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-4_stmt.a" uuid="1bff921e-a99a-435e-ab8b-a585b7b8fbea">
+      <statement statement-id="ir-4_stmt.a" uuid="c2e0a529-9be1-4ba2-bd7b-f5fb7d15e5a8">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.b" uuid="ee9de4e3-a3d6-4a9d-a7ed-219c1a764619">
+      <statement statement-id="ir-4_stmt.b" uuid="f1c057a6-cdce-471c-809f-37cf08639664">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-4_stmt.c" uuid="f7a90ac7-c526-4474-9104-c58a2f97d763">
+      <statement statement-id="ir-4_stmt.c" uuid="0df50428-5df8-4909-8784-a461915d2e5d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4cfcdc0f-07ac-42f9-a5d4-819324fcb356" control-id="ir-5">
+    <implemented-requirement uuid="6b3d366f-b993-432b-a2bb-61a46a3fadb2" control-id="ir-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-5_stmt" uuid="d9676ba6-74c4-4a87-b607-7ffea7b0f0b6">
+      <statement statement-id="ir-5_stmt" uuid="91f2fd6a-ea58-4c54-84b7-06299a8edd96">
         <description><p>This control reflects organizational procedure/policies and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6077261c-e8de-41e6-afe2-be91d37542bd" control-id="ir-6">
+    <implemented-requirement uuid="8ea1bcb1-fdbc-4f49-aebb-d8b77c76a720" control-id="ir-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-6_stmt.a" uuid="0e98efdb-924e-4418-9bad-510fab469ddf">
+      <statement statement-id="ir-6_stmt.a" uuid="705b625b-aacf-4010-aaaa-b1e0cd67ea02">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-6_stmt.b" uuid="1fa5f026-818c-4461-a94a-597912fb97b2">
+      <statement statement-id="ir-6_stmt.b" uuid="d733948d-7ebb-4114-98f0-bbc802a6ee79">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="fe339741-81ac-4a5d-9529-b942367abbcd" control-id="ir-7">
+    <implemented-requirement uuid="1940a5d1-b6c6-4f6f-836f-983aab6da08e" control-id="ir-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-7_stmt" uuid="31c2befa-82de-4ceb-85c0-e6337497db17">
+      <statement statement-id="ir-7_stmt" uuid="e8164525-f05f-49cd-9815-e38befa53562">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bd60e338-8f1f-4c18-ba90-2fde9c9c46e5" control-id="ir-8">
+    <implemented-requirement uuid="92c0493a-02f8-4af7-8d1a-bf0c21825bac" control-id="ir-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ir-8_stmt.a" uuid="0ad4540b-328d-405b-821f-baf25fa3d347">
+      <statement statement-id="ir-8_stmt.a" uuid="b1539f4f-dc41-4a56-8341-f65ae3cca64b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.1" uuid="0894fb07-c0d9-421a-bed3-73d0db675ab9">
+      <statement statement-id="ir-8_stmt.a.1" uuid="eb0872d8-0267-4ced-9591-b4d4b41a0de6">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.2" uuid="2dc594e1-a7ba-407d-b932-823b57569b60">
+      <statement statement-id="ir-8_stmt.a.2" uuid="dfa688ce-74ae-41b1-9f33-487cf2ffb7dd">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.3" uuid="59fda82f-df1a-4df2-9515-b7be47417157">
+      <statement statement-id="ir-8_stmt.a.3" uuid="643482e7-3755-45a7-9315-efc10ed13d96">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.4" uuid="f1f5ff35-efd5-440f-88c9-420b03e4fa6e">
+      <statement statement-id="ir-8_stmt.a.4" uuid="69537365-252d-4702-8f32-40a988600e2c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.5" uuid="d709818f-5cbc-45ce-bb8f-f29e90e5885c">
+      <statement statement-id="ir-8_stmt.a.5" uuid="819ce440-2ff7-437c-a425-1203344f019d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.6" uuid="0cf90eca-46d9-4672-9bea-1f00bb4f3e49">
+      <statement statement-id="ir-8_stmt.a.6" uuid="cee400c9-85d5-45ff-8e5e-a3778289d3da">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.7" uuid="2a48707d-09f8-4b11-9297-19dcbebf5c94">
+      <statement statement-id="ir-8_stmt.a.7" uuid="5ea17415-86bc-4895-9697-8a56e3d316a2">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.a.8" uuid="d10c3c14-0af1-47d6-8dfa-90859ff87cfe">
+      <statement statement-id="ir-8_stmt.a.8" uuid="7db0a6ff-4e54-4be8-b9ad-1a25019b770c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.b" uuid="aa55d800-ecfd-4cef-a0db-8ff6d000ee49">
+      <statement statement-id="ir-8_stmt.b" uuid="1e661c99-073b-4ad4-b03a-b610bef2df03">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.c" uuid="1c9549da-b0d1-4c58-b0eb-9ced80598152">
+      <statement statement-id="ir-8_stmt.c" uuid="a4163c92-d9a3-47b0-9456-18a320f6be00">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.d" uuid="4d25d8f7-3558-4858-b603-d40bf06e1fd8">
+      <statement statement-id="ir-8_stmt.d" uuid="5320ef06-420e-4665-99b8-30f00cf0a98a">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.e" uuid="65b2d5e6-661c-4fae-b71c-1abfcc836e82">
+      <statement statement-id="ir-8_stmt.e" uuid="4984a355-fcd9-44b0-bbb3-4159e6feaafc">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ir-8_stmt.f" uuid="1c02c971-ea2e-4e34-9e02-a8f9ac5c4875">
+      <statement statement-id="ir-8_stmt.f" uuid="c4bae4ab-6e36-4fd1-8c48-09c1a75804cf">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4eb5db4d-b2fb-44ef-8f22-4fc59fab7828" control-id="ma-1">
+    <implemented-requirement uuid="4fd291d8-a176-4345-bd53-908abb63ad65" control-id="ma-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-1_stmt.a" uuid="c7cfa9c9-5bbd-4454-8729-d25e3adaa68f">
+      <statement statement-id="ma-1_stmt.a" uuid="8259e879-5792-4beb-ac21-f88b58993591">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-1_stmt.b" uuid="2d776ab6-a778-47b2-b2c0-a9f8267556b2">
+      <statement statement-id="ma-1_stmt.b" uuid="d097a1a4-b8e6-4d97-bfd1-e5965e96cbf7">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="72373d51-e3e8-4c4f-beb0-935b038e48d0" control-id="ma-2">
+    <implemented-requirement uuid="d1662bc8-2d05-4836-9a18-2b57930de8e1" control-id="ma-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-2_stmt.a" uuid="bd3a863f-97d5-4a69-a812-a565249c27e4">
+      <statement statement-id="ma-2_stmt.a" uuid="333c5125-4990-4a92-a757-ca274313c23d">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.b" uuid="aa01fcff-a20e-410e-a06e-d148ae12f4c9">
+      <statement statement-id="ma-2_stmt.b" uuid="b23fd24e-e339-4f49-9aff-a4a1e5e2f276">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.c" uuid="ff003791-62b8-464b-840f-8f8cbf35e476">
+      <statement statement-id="ma-2_stmt.c" uuid="077c1b5f-6ac1-4058-b279-e2bee21c1351">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.d" uuid="377babf7-4c9d-43b7-9599-80ecd9111cc5">
+      <statement statement-id="ma-2_stmt.d" uuid="01f08e1e-7d5e-4fee-89c9-7606166ac4df">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.e" uuid="dea4e0b8-97e9-4b7c-9170-4134ed9bb3ee">
+      <statement statement-id="ma-2_stmt.e" uuid="12b94a7a-11db-4052-aebb-700d603734d8">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ma-2_stmt.f" uuid="d46debf0-c36f-46d3-acc1-e5648102322e">
+      <statement statement-id="ma-2_stmt.f" uuid="64c5d90f-3ecd-47cd-9d30-5de550076925">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e142f41f-f825-4505-bed1-03c1667cf6e5" control-id="ma-4">
+    <implemented-requirement uuid="023e875b-6bff-4e4d-abd7-e70f36cef28b" control-id="ma-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="ma-4_stmt.a" uuid="fc283c51-6d6c-4fc7-8f68-c1c793dbd5f9">
+      <statement statement-id="ma-4_stmt.a" uuid="2917636f-0e37-4282-b761-02502d96be4b">
         <description><p>Approving and monitoring nonlocal maintenance and diagnostic activities is an
 orgnaizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.b" uuid="16de07a4-f7fd-48b7-ab0b-4dc0965a0344">
+      <statement statement-id="ma-4_stmt.b" uuid="a63e2544-38e2-4f00-a917-2ee439c931f4">
         <description><p>Allowing the use of nonlocal maintenance and diagnostic tools only as consistent with
 organizational policy and documented in the security plan for the information system is an
 orgnaizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.c" uuid="0a4fdf4e-df93-47ee-ad17-55fccd081abc">
+      <statement statement-id="ma-4_stmt.c" uuid="405c71df-62be-4e2c-8dd5-8cf7d9001c8d">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-343
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.d" uuid="8c43d015-f98e-489d-a788-31576ef93ad2">
+      <statement statement-id="ma-4_stmt.d" uuid="6c33e0f1-2926-48a9-a8bd-ecf37182a7a7">
         <description><p>The maintaining of records for nonlocal maintenance and diagnostic activities is an
 orgnaizational control outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-4_stmt.e" uuid="64a548b5-7f20-4260-9c9d-0d0edb0ec329">
+      <statement statement-id="ma-4_stmt.e" uuid="57915338-1649-49c2-b085-72883d038357">
         <description><p>A control response is planned. Engineering progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-343
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="da9fb60b-2a9d-4955-8861-829f393f3aaa" control-id="ma-5">
+    <implemented-requirement uuid="a2c1005d-2a24-4d51-bace-3fbf9c55fa47" control-id="ma-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ma-5_stmt.a" uuid="02776b27-64ab-4311-9839-b82d62d4c0a1">
+      <statement statement-id="ma-5_stmt.a" uuid="cfea68be-d803-47f8-ad93-a51d6b176e07">
         <description><p>Establishing a process for maintenance personnel authorization and
 maintaining a list of authorized maintenance organizations or personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-5_stmt.b" uuid="07b0e645-1bbe-4449-b490-e84ffafc27cc">
+      <statement statement-id="ma-5_stmt.b" uuid="bb4ed8f4-a894-4b95-a9c8-34aa23d65ea4">
         <description><p>Ensuring that non-escorted personnel performing maintenance on
 the information system have required access authorizations is
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ma-5_stmt.c" uuid="85864cf9-72b0-4b0e-b596-769717015163">
+      <statement statement-id="ma-5_stmt.c" uuid="b8e89cba-8c49-4161-ba26-dc6a52c2b2db">
         <description><p>Designating organizational personnel with required access
 authorizations and technical competence to supervise the
 maintenance activities of personnel who do not possess
@@ -1602,57 +1603,57 @@ scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bbec73ff-fc88-43cb-bcd3-e3a9bec0e818" control-id="mp-1">
+    <implemented-requirement uuid="f3459d0c-1660-4622-889e-6b500371bad6" control-id="mp-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-1_stmt.a" uuid="3bc7bd34-b3ae-469a-80b3-1d5189288432">
+      <statement statement-id="mp-1_stmt.a" uuid="681b2e6e-9d98-430d-a091-c70912d52b64">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="mp-1_stmt.b" uuid="78a6f01a-9a54-4a9e-8ddb-acedd659688d">
+      <statement statement-id="mp-1_stmt.b" uuid="ad3c3d99-0e29-46bf-ab54-98e81fe3e496">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c464c9d1-f811-44b9-9bed-406f9b24799b" control-id="mp-2">
+    <implemented-requirement uuid="185f8a31-5036-481e-a5c2-744afa8435e3" control-id="mp-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-2_stmt" uuid="140766f7-92a2-4981-99cc-ffdc5531bfbf">
+      <statement statement-id="mp-2_stmt" uuid="f8ed5411-20c3-434d-a138-8bfaa7d5126c">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6d37dd41-5caa-4ed3-8ddb-9074cf82adcb" control-id="mp-6">
+    <implemented-requirement uuid="9655487a-b936-4a84-881e-f82054bf2c16" control-id="mp-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-6_stmt.a" uuid="6d15efa0-ea61-4d4b-a0a4-b47986025741">
+      <statement statement-id="mp-6_stmt.a" uuid="c9b78e31-f7e3-4ec8-b39f-3ecba2955fb6">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="mp-6_stmt.b" uuid="a3ebec9c-bab2-4296-a136-5e82f984627b">
+      <statement statement-id="mp-6_stmt.b" uuid="fac5c699-01ee-411c-973f-1303d2096477">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="4ed1a0c9-6d30-44a6-89a1-feeae0882439" control-id="mp-7">
+    <implemented-requirement uuid="802707c1-d150-43e4-ad07-d05b30999f2d" control-id="mp-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="mp-7_stmt" uuid="2c7ae4f5-ebd8-4754-a48f-3d2683e5060f">
+      <statement statement-id="mp-7_stmt" uuid="d15a5ab5-8caa-4f17-8b86-516e35773231">
         <description><p>OpenShift does not utilize or have access to media such as optical
 drives, USB devices, etc. Therefore, this control is not applicable to
 Openshift.</p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0a6609ed-c6a6-4b57-844c-1a0f472b3924" control-id="pe-1">
+    <implemented-requirement uuid="510b8803-df74-4f86-a2eb-7e7476af05d9" control-id="pe-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-1_stmt.a" uuid="45b1a22f-85b6-426e-adeb-c21d2699e0d0">
+      <statement statement-id="pe-1_stmt.a" uuid="0d4475c2-35ee-4783-adc9-2144e8bbe1b9">
         <description><p>Development, documentation, and dissemination of a physical
 and environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-1_stmt.b" uuid="2900f62a-b3c4-4cc3-bfb7-118e6918e19e">
+      <statement statement-id="pe-1_stmt.b" uuid="088752d3-ff58-41f4-a3d4-23b88fb5f7ff">
         <description><p>Organizational review and updates to the physical and
 environmental protection policy reflects organizational
 procedure/policy and is not applicable to component-level
@@ -1660,9 +1661,9 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1b3904b7-d78a-469f-9bc7-25039db7690d" control-id="pe-2">
+    <implemented-requirement uuid="efb08a38-0f9e-42d5-a3a4-45cb58cfc32a" control-id="pe-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-2_stmt.a" uuid="124f2edd-df86-46ee-8222-9e528788f7fe">
+      <statement statement-id="pe-2_stmt.a" uuid="2c8ae77b-8c59-4490-b81e-4ee9391e4492">
         <description><p>Development, approval, and maintenance of a list
 of individuals with authorized access to the facility
 where the information system resides reflects organizational
@@ -1670,69 +1671,69 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.b" uuid="a5f1d38e-c909-4415-9e99-521205fc85aa">
+      <statement statement-id="pe-2_stmt.b" uuid="f353a880-b8e6-4b38-8495-01a724119df2">
         <description><p>Issuing authorization credentials for facility access
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.c" uuid="c6261339-160d-46cd-8333-eec29db5f38b">
+      <statement statement-id="pe-2_stmt.c" uuid="963ce9d9-1b77-475a-a08e-69c25f066f47">
         <description><p>Reviewing the access list detailing authorized facility
 access by individuals at an organization-defined frequency
 reflects organizational procedure/policy and is not
 applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-2_stmt.d" uuid="47ae6ef5-d39b-4569-84fb-b6816e6b99e7">
+      <statement statement-id="pe-2_stmt.d" uuid="ad9cecfd-5a46-4789-859c-4bd51f7869f9">
         <description><p>Removal of individuals from the facility access list when access
 is no longer required reflects organizational procedure/policy
 and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ad584123-f3f3-403c-8397-d4f7040c39bd" control-id="pe-3">
+    <implemented-requirement uuid="18dc67d8-f22a-484c-b255-7b7bc4c9a021" control-id="pe-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-3_stmt.a" uuid="e3594aa7-fa98-43b3-a4c2-1f5335a3d9af">
+      <statement statement-id="pe-3_stmt.a" uuid="12dc4d1c-7040-4d8e-8624-de1dc41c0d3d">
         <description><p>Enforcing physical access authorizations at organization-defined
 entry/exit points to the facility where the information system resides
 reflects organizational procedure/policy and is not applicable to
 component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.b" uuid="7a063fa3-0a87-4f07-81dc-e6810bc2696c">
+      <statement statement-id="pe-3_stmt.b" uuid="bc396a3c-fea6-4beb-8a7d-384c9a90408b">
         <description><p>Maintaining physical access audit logs for organization-defined
 entry/exit points reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.c" uuid="ce7d879e-2361-4e1a-9995-dea7befec78a">
+      <statement statement-id="pe-3_stmt.c" uuid="8e9e21b1-5989-441f-8ded-8874c1d35b35">
         <description><p>Providing organization-defined security safeguards to control access
 to areas within the facility officially designated as publicly
 accessible reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.d" uuid="f08b2264-2d01-43a1-9491-cce207938293">
+      <statement statement-id="pe-3_stmt.d" uuid="c84d89a6-6c7e-43de-b257-ce81c1006ea2">
         <description><p>Escorting visitors and monitoring visitor activity during
 organization-defined circumstances requiring visitor escorts
 and monitoring reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.e" uuid="c5d40bde-a3e3-409d-a64e-d47c2264db46">
+      <statement statement-id="pe-3_stmt.e" uuid="cdad323d-f69c-4284-a41a-489b21da8abb">
         <description><p>Securing keys, combinations, and other physical access devices
 reflects organizational procedure/policy and
 is not applicable to component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.f" uuid="ab7dcc93-95bc-405c-99cb-907549e8b6b1">
+      <statement statement-id="pe-3_stmt.f" uuid="e5c1e1b2-3653-4953-b17c-b0b425e62458">
         <description><p>Inventory of organization-defined physical access devices
 at an organization-defined frequency reflects organizational
 procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-3_stmt.g" uuid="25af8ea0-14d8-4e0b-ab7c-875a676c2d34">
+      <statement statement-id="pe-3_stmt.g" uuid="5c3ff46c-9f38-49ef-81ad-a2fc3f8464d3">
         <description><p>Changing combinations and keys at an organization-defined frequency
 and/or when keys are lost, combinations are compromised, or individuals
 are transferred or terminated, reflects organizational procedure/policy
@@ -1740,16 +1741,16 @@ and is not applicable to component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="846eedb0-9fbf-4eeb-bec7-cf6a59150299" control-id="pe-6">
+    <implemented-requirement uuid="a01d9948-d6c0-48e2-8c95-32dbdf8fba6a" control-id="pe-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-6_stmt.a" uuid="6751e6ed-1387-4a51-a94c-c16d649f02db">
+      <statement statement-id="pe-6_stmt.a" uuid="cbdd40d6-f9ca-4294-856e-65d9ee53762c">
         <description><p>Monitoring physical access to the facility where the information
 system resides to detect and respond to physical security incidents
 reflects organizational procedure/policy and is outside the scope
 of component-level configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.b" uuid="7d9c57db-ff7f-46b6-a030-f26dc01ceb80">
+      <statement statement-id="pe-6_stmt.b" uuid="25b2978b-333b-4a8d-87eb-34c2dfb6b89f">
         <description><p>Reviewing physical access logs at an organization-defined
 frequency and upon occurence of organization-defined events
 or potential indications of events, reflects organizational
@@ -1757,7 +1758,7 @@ procedure/policy and is not applicable to component-level
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-6_stmt.c" uuid="1b2b2185-19b9-45e2-967f-0774029723a3">
+      <statement statement-id="pe-6_stmt.c" uuid="3c51b860-2f71-4985-baad-0c5ff2f50262">
         <description><p>Coordinating results of reviews and investigations with
 the organizational incident response capability reflects
 organizational procedure/policy and is not applicable to
@@ -1765,188 +1766,188 @@ component-level configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ae11f03d-bfbb-4e1e-82e2-4b95332e3b44" control-id="pe-8">
+    <implemented-requirement uuid="2e83c42c-8f7c-4b9c-a17b-becad25b3464" control-id="pe-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-8_stmt.a" uuid="75cd33ca-6482-4efd-b15f-35cda2620055">
+      <statement statement-id="pe-8_stmt.a" uuid="0b9d0a0d-6a29-46d7-87a6-432bbb780642">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="pe-8_stmt.b" uuid="8ed9b617-e744-4d7b-8266-1a76245aae9a">
-        <description><p>This control is outside the scope of OpenShift configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="f3d8ff81-0cdd-4c36-a8b1-16a0a047b339" control-id="pe-12">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-12_stmt" uuid="0dcbdf83-c9af-4e72-8992-4d294b58b5c6">
+      <statement statement-id="pe-8_stmt.b" uuid="82cec6ff-0c9c-419a-8cae-664366db57d9">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b53e2616-3441-4c23-a30e-51472534e104" control-id="pe-13">
+    <implemented-requirement uuid="7b992734-23ac-4543-a559-5786ca872d57" control-id="pe-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-13_stmt" uuid="79188638-8779-412b-be0a-92746dce3ee7">
+      <statement statement-id="pe-12_stmt" uuid="627a14a2-bbc7-44ac-a0e6-f0a9aae46876">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="485c2b80-3ef1-4495-bfd9-3ac5d211a3cb" control-id="pe-14">
+    <implemented-requirement uuid="90bcd873-804a-4b54-a693-9907907c7ab9" control-id="pe-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-14_stmt.a" uuid="0ac798cd-418b-40ce-acd5-198b19507ea7">
-        <description><p>This control is outside the scope of OpenShift configuration.
-</p></description>
-      </statement>
-      <statement statement-id="pe-14_stmt.b" uuid="547174fb-e900-4675-b4ee-fd2d133f44d2">
+      <statement statement-id="pe-13_stmt" uuid="d089b73a-7296-476b-b1be-894ce9b16e5b">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8bed438d-1464-4e43-943f-61ff89462f03" control-id="pe-15">
+    <implemented-requirement uuid="f254fd3f-36d2-4c00-adb8-1dbcd5d429f4" control-id="pe-14">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-15_stmt" uuid="35527835-9525-4f6b-b7f1-38413b6292c6">
+      <statement statement-id="pe-14_stmt.a" uuid="62531731-e4ef-439a-a35b-708aa9b0397b">
+        <description><p>This control is outside the scope of OpenShift configuration.
+</p></description>
+      </statement>
+      <statement statement-id="pe-14_stmt.b" uuid="bdc97bd4-fc46-44b1-9cf3-c869d8439dc7">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ae8a3a1f-a2de-4d03-aa0b-df02586103d6" control-id="pe-16">
+    <implemented-requirement uuid="1632ec5b-7b4b-4db8-8099-0948d58ad971" control-id="pe-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pe-16_stmt" uuid="8771ee5e-5406-4e7d-97b9-99407247d01c">
+      <statement statement-id="pe-15_stmt" uuid="29cf9601-4c1f-4e10-8875-b14d5f6917fb">
         <description><p>This control is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b7e791b1-0d9f-4a60-a1da-09c5dc21ff6e" control-id="pl-1">
+    <implemented-requirement uuid="16082dc1-5e22-43fa-8aa5-2941900331be" control-id="pe-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-1_stmt.a" uuid="aaa0c976-a906-47f6-8112-0a59c0b911bd">
+      <statement statement-id="pe-16_stmt" uuid="9b57250a-7ac6-4e89-9bfa-1894838b2734">
+        <description><p>This control is outside the scope of OpenShift configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="c48d5d6d-02d1-4a88-aec7-9f7f6060313f" control-id="pl-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="pl-1_stmt.a" uuid="f1dd0a9c-b83a-44cb-b565-c72ca133f99e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-1_stmt.b" uuid="4207a834-09ff-4b21-845e-cbf0d6753ee2">
+      <statement statement-id="pl-1_stmt.b" uuid="b9eaa5a0-c4b8-45c8-83c0-e53c5793700e">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="e6a5da15-7c5a-44bb-9e7d-af8e88468396" control-id="pl-2">
+    <implemented-requirement uuid="63b2eb41-e0f1-429d-9ab9-7dc0bfa36eb1" control-id="pl-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-2_stmt.a" uuid="5daa5c4e-2502-42f4-9a9a-7f28ac532d61">
+      <statement statement-id="pl-2_stmt.a" uuid="b412392c-e89a-43f9-bd9a-7511f9a0260b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.b" uuid="60ac9176-621a-4ea1-8ed0-830da6684d8f">
+      <statement statement-id="pl-2_stmt.b" uuid="1d030e6c-e990-44e0-a5ef-b30c0b227b86">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.c" uuid="ccc5c7df-6d09-4d3d-a1d0-8fd0def8a636">
+      <statement statement-id="pl-2_stmt.c" uuid="d5d412d7-6b0c-44c1-9895-b56930837e12">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.d" uuid="e7604f34-5973-428d-899e-d838a0ddb1bc">
+      <statement statement-id="pl-2_stmt.d" uuid="5f0c6e98-69c0-4bb2-bba2-cf726d15c351">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-2_stmt.e" uuid="4b9df318-280f-43d5-a19b-206fe5d8c444">
+      <statement statement-id="pl-2_stmt.e" uuid="12f24dd5-b3e9-4593-a294-7f81e7944e77">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1dc36200-915a-4812-8275-2042f4e8af55" control-id="pl-4">
+    <implemented-requirement uuid="1d5c231e-1cb8-484d-b8dc-96fc92e5116b" control-id="pl-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="pl-4_stmt.a" uuid="e5e0e9e7-c650-4ca1-b915-4aea8a68cab1">
+      <statement statement-id="pl-4_stmt.a" uuid="699d1e3c-02f5-4759-bfef-a2365597c889">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.b" uuid="ef0a2300-0b75-4984-9676-69bfcf8e2cfc">
+      <statement statement-id="pl-4_stmt.b" uuid="f1b68add-198f-4afc-9b99-2aaf02d107ed">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.c" uuid="2b31be67-09f9-47f0-bb99-388626c247db">
+      <statement statement-id="pl-4_stmt.c" uuid="3e594af7-b368-418f-a42d-674231ab330c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="pl-4_stmt.d" uuid="f87aeb9d-e502-43c6-a53d-ff2715cc07f3">
+      <statement statement-id="pl-4_stmt.d" uuid="64efd3a8-c368-4211-973a-0317414a6548">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="445a89de-c5a6-4cc1-a117-af07d725dc6d" control-id="ps-1">
+    <implemented-requirement uuid="d2d0b82f-f79a-4c36-ac81-51641878169e" control-id="ps-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-1_stmt.a" uuid="ce33890f-9ac0-4fd1-98d2-1d9368df684e">
+      <statement statement-id="ps-1_stmt.a" uuid="dd1c803d-2b0d-42cc-9f1c-55708d9e52bd">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.1" uuid="dc155f46-7f0e-4820-a279-b523f09dee1f">
+      <statement statement-id="ps-1_stmt.a.1" uuid="27c1d5c5-c9b0-4692-a5e0-f2eea647ebeb">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.a.2" uuid="1dc8f988-1c45-442f-ba20-de7b9f829748">
+      <statement statement-id="ps-1_stmt.a.2" uuid="3ba0a346-5b01-4ae1-83dd-2e9ab13e0eab">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b" uuid="9b08b59c-c0e1-48ea-a518-07f628d502a2">
+      <statement statement-id="ps-1_stmt.b" uuid="e8dbb13d-50f5-4112-8c87-791d54e624ec">
         <description><p>Organizational reviews and updates to the personnel security policy
 and personnel security procedures at an organization-defined frequency
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.1" uuid="cf049f54-1dd4-4285-9992-4a8debdd2242">
+      <statement statement-id="ps-1_stmt.b.1" uuid="c706f142-87cf-4188-baa4-a0978ee95f4e">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-1_stmt.b.2" uuid="17db57b1-d807-4988-af82-17167ab10b27">
+      <statement statement-id="ps-1_stmt.b.2" uuid="5301fa80-fa74-43e4-bedc-6f1018332c72">
         <description><p>Organizational development, documentation, and dissemination of
 a personnel security policy to organization-defined personnel
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9184871b-f86e-4f5b-8ddc-3d8886d2407e" control-id="ps-2">
+    <implemented-requirement uuid="c6cbd7ac-da09-4af9-9bc0-719cda9a260c" control-id="ps-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-2_stmt.a" uuid="1916f183-075a-4f1c-9225-0df792a469f3">
+      <statement statement-id="ps-2_stmt.a" uuid="3eb494b1-62cf-4f49-8fdf-69a79a11b6a6">
         <description><p>Organizational assignment of a risk designation to all organizational
 positions is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.b" uuid="f2fa0a79-3833-4d25-b490-5bf71366661a">
+      <statement statement-id="ps-2_stmt.b" uuid="6bde74ae-091e-4516-bfaf-7f8c3811c898">
         <description><p>Organizational establishment of screening criteria for individuals
 filling those positions is outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-2_stmt.c" uuid="e246e55d-b4ca-4884-8e97-ec83c4158e6e">
+      <statement statement-id="ps-2_stmt.c" uuid="ae687e12-118e-4dc8-9bb7-cf0f7ab28b04">
         <description><p>Organizational review and updating of position risk
 designations at an organization-defined frequency is outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bb2e178f-d557-44e3-9b41-8f78045cf814" control-id="ps-3">
+    <implemented-requirement uuid="5cf52ead-0249-4e99-a77e-87705f96807e" control-id="ps-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-3_stmt.a" uuid="07f895fe-9be4-408f-a331-adb7028f2788">
+      <statement statement-id="ps-3_stmt.a" uuid="d156db3f-3d2c-4fa0-85a6-cdc6701924fb">
         <description><p>Organizational screening of individuals prior to authorizing access
 to the information system is outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-3_stmt.b" uuid="332ece96-c4da-408a-a72e-b8b6928de007">
+      <statement statement-id="ps-3_stmt.b" uuid="dc70f0a4-3e99-489c-9adb-6c2bb4af7ebd">
         <description><p>Organizational processes to rescreen individuals according to
 organization-defined conditions requiring rescreening and,
 where rescreening is so indicated, the frequency of such
@@ -1955,44 +1956,44 @@ configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0f1ba895-ec9f-4c84-852e-ff91b6a7b6b5" control-id="ps-4">
+    <implemented-requirement uuid="aadd4f18-f9c7-44ae-95dc-4957788c74b7" control-id="ps-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-4_stmt.a" uuid="5016c22f-9eb6-41df-b9c2-dd46e4413cd6">
+      <statement statement-id="ps-4_stmt.a" uuid="613068bb-dc72-44a3-b38e-baec307f0b4d">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, information system access is disabled within an
 organization-defined time period, are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.b" uuid="f4d357a7-e01d-465c-ae38-3e66024e9c99">
+      <statement statement-id="ps-4_stmt.b" uuid="08678872-7f68-41cf-9392-26e2267824e4">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, any authenticators/credentials associated with the individual
 are terminated/revoked, are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.c" uuid="baddc5a4-3f1d-4006-b537-23a0318e6e24">
+      <statement statement-id="ps-4_stmt.c" uuid="a2cd2dae-e1b1-4040-b362-bddea4dde577">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, exit interviews are conducted that include a discussion of
 organization-defined information security topics, are outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.d" uuid="cb3fff65-7bae-4877-9c21-8dfd1bcd6ba5">
+      <statement statement-id="ps-4_stmt.d" uuid="f099d34a-b27d-4cf0-9b21-acfae3c1471f">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, all security-related organizational information
 system-related property is retrieved, are outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.e" uuid="7c79560c-ed0d-4e19-8a62-83c8e8218945">
+      <statement statement-id="ps-4_stmt.e" uuid="6011d900-9148-490e-87be-02ae00367281">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization retains access to organizational
 information systems formerly controlled by the terminated individual,
 are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-4_stmt.f" uuid="fd603097-91eb-4635-835e-0f63442259a2">
+      <statement statement-id="ps-4_stmt.f" uuid="80f74e70-e7a7-4559-97b7-d7b456c90e83">
         <description><p>Organizational processes ensuring that, upon termination of individual
 employment, the organization notifies organization-defined personnel
 or roles within an organization-defined time period, are outside
@@ -2000,9 +2001,9 @@ the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0b13147d-36d8-4d6d-97ee-623cd75850e8" control-id="ps-5">
+    <implemented-requirement uuid="8cffaf3e-c8ac-47e6-b8e4-d422ae2d233f" control-id="ps-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-5_stmt.a" uuid="3fb017c9-bf0d-499f-9c14-b358265b65c7">
+      <statement statement-id="ps-5_stmt.a" uuid="f627cd16-9d77-4cb5-be8b-47f87806258a">
         <description><p>Organizational processes to review and confirm ongoing operational
 need for current logical and physical access authorizations to
 information systems/facilities when individuals are reassigned or
@@ -2010,79 +2011,79 @@ transferred to other positions within the organization are
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.b" uuid="9e8b66c0-f11c-4d89-a915-63783008f548">
+      <statement statement-id="ps-5_stmt.b" uuid="f672f3c8-a7c6-4c8e-aef3-2f2f259c220a">
         <description><p>Organizational processes to initiate organization-defined transfer
 or reassignment actions within organization-defined time period
 following the formal transfer action are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.c" uuid="af4041e8-752b-4626-a0ce-b9fc95565625">
+      <statement statement-id="ps-5_stmt.c" uuid="a12ae191-7a89-4831-8f81-977262e7b5e1">
         <description><p>Organizational processes to modify access authorizations as needed to
 correspond with any changes in oeprational need due to reassignment
 or transfer are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-5_stmt.d" uuid="34869983-99f9-44f5-b34c-6a084278c566">
+      <statement statement-id="ps-5_stmt.d" uuid="71db25cb-05b9-4f6b-be0c-15aaf593e6e9">
         <description><p>Organizational notifications of organization-defined personnel
 or roles within an organization-defined time period are outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="24e7426d-4e88-4ffa-b8d6-25715d252895" control-id="ps-6">
+    <implemented-requirement uuid="f1af69bc-c95b-4893-bf07-f63e2f34fe9f" control-id="ps-6">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-6_stmt.a" uuid="0202b72c-136e-49f8-8852-574c6f50881d">
+      <statement statement-id="ps-6_stmt.a" uuid="d1c85861-7f83-4e3a-976f-ad0d4b83442d">
         <description><p>Organizational process to develop and document access agreements for
 organizational information systems are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.b" uuid="3725c778-68ae-4941-938e-5caadabb1e05">
+      <statement statement-id="ps-6_stmt.b" uuid="d05480f7-6e33-42f2-b430-31d465d0302d">
         <description><p>Organizational reviews and updates to the access agreements at an
 organization-defined frequency are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c" uuid="6d2c2168-a49e-418d-b1b2-e654cd971613">
+      <statement statement-id="ps-6_stmt.c" uuid="2a6fef5c-d38c-454e-b569-9f342df7c182">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.1" uuid="f1f9e9a0-8dff-4fed-8e73-0818d524b40c">
+      <statement statement-id="ps-6_stmt.c.1" uuid="2b01ab16-a673-4276-a2d4-58aa199e8f12">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-6_stmt.c.2" uuid="2d5860aa-44a5-4723-bd48-57ad7220023f">
+      <statement statement-id="ps-6_stmt.c.2" uuid="38ab9762-cff3-479d-984c-5a9b8c7b1b69">
         <description><p>Organizational processes that ensure individuals requiring access to
 organizational information and information systems sign and re-sign
 access agreements are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="28f3d17d-8137-401a-b27f-51399410f4a4" control-id="ps-7">
+    <implemented-requirement uuid="288643e1-0918-4acb-b5ec-c0c29dd6d7f1" control-id="ps-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-7_stmt.a" uuid="8fc17368-dfb5-49ba-8015-e7e4b1db346e">
+      <statement statement-id="ps-7_stmt.a" uuid="c9ae4545-4a0e-4cfa-a91b-3f01dae54a40">
         <description><p>Organizational processes to establish security requirements including
 security roles and responsibilities for third-party providers are
 outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.b" uuid="d86068e6-6ee2-44c9-9f1b-53b0e51fd7d1">
+      <statement statement-id="ps-7_stmt.b" uuid="5787ce76-6c83-4983-9e9c-8c2cc6ed832b">
         <description><p>Organizational processes requiring third-party providers to comply
 with personnel security polocies and procedures established by
 the organization are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.c" uuid="a76c454c-dbd3-4976-a98b-a6ddecb0629d">
+      <statement statement-id="ps-7_stmt.c" uuid="907cb5a3-0639-4aff-b3b7-ec524285ed70">
         <description><p>Organizational processes to document presonnel security requirements
 are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.d" uuid="c8a8bfa9-5417-45f6-bba4-f3a133fa7c37">
+      <statement statement-id="ps-7_stmt.d" uuid="8f77d663-46aa-4070-a2fd-10cbb538dd71">
         <description><p>Organizational processes to require third-party providers to notify
 organization-defined personnel or roles of any personnel transfers or
 terminations of third-party personnel who possess organizational
@@ -2091,21 +2092,21 @@ within an organization-defined time period, are outside the
 scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-7_stmt.e" uuid="eb209e41-eb5d-451f-b14b-5dcdf7f58380">
+      <statement statement-id="ps-7_stmt.e" uuid="057f77dc-9f08-4f15-8b8d-4e3aa64e6ba5">
         <description><p>Organizational monitoring of provider compliance is outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c1893fd0-7ef1-4103-b39c-2cea115b126a" control-id="ps-8">
+    <implemented-requirement uuid="dfd990cc-6c47-4c5c-85c2-2ad5a9b54a50" control-id="ps-8">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ps-8_stmt.a" uuid="c163b0a8-09c4-4cf7-97e0-1f08ad9b8897">
+      <statement statement-id="ps-8_stmt.a" uuid="503082a2-fb55-47eb-9382-5a5631792745">
         <description><p>Organizational employment of a formal sanctions process for individuals
 failing to comply with established information security policies
 and procedures is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ps-8_stmt.b" uuid="c852ba62-74fa-4994-b9c1-01a12aca2b90">
+      <statement statement-id="ps-8_stmt.b" uuid="b7abf714-637a-4f62-8107-270101a5dc08">
         <description><p>Organizational notification of organization-defined personnel
 or roles within an organization-defined time period when a formal
 employee santions process is initiated, identifying the individual
@@ -2113,62 +2114,62 @@ sanctioned and the reason for the sanction.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a2cfc413-1cfc-40d0-8643-d54113b9d016" control-id="ra-1">
+    <implemented-requirement uuid="e15cad58-bf46-421f-90a6-38838b27af26" control-id="ra-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-1_stmt.a" uuid="c2d3f333-bb74-4762-a048-3f8770ddc8c2">
+      <statement statement-id="ra-1_stmt.a" uuid="fe77c8a0-9399-4012-9036-f4931c8c598d">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.a.1" uuid="3d0fce76-2464-44b2-b02a-f243b8630e9b">
+      <statement statement-id="ra-1_stmt.a.1" uuid="d84cdd91-5e42-4dfe-bc13-6c0536931440">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.a.2" uuid="6ce7eb40-04ec-4f4d-a3a8-dbc86f928043">
+      <statement statement-id="ra-1_stmt.a.2" uuid="afdc636c-e103-4252-8a07-c3668853b139">
         <description><p>Organizational development, documentation, and dissemination to
 organization-defined personnel or roles a risk assessment policy
 and procedures is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b" uuid="220b2aa2-f74e-4bee-b12f-f4fb1df8c28b">
+      <statement statement-id="ra-1_stmt.b" uuid="587d1b40-bcdb-4138-ab2e-5b9a8c7da305">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b.1" uuid="454b8f6c-d018-4db0-8bcc-bfe2ed5a14e7">
+      <statement statement-id="ra-1_stmt.b.1" uuid="d97b04d9-99bf-4cc2-b657-ed4e739d740d">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-1_stmt.b.2" uuid="87eff507-6e95-447b-9cbe-4f2f2b0cced5">
+      <statement statement-id="ra-1_stmt.b.2" uuid="f7bec1d9-ba02-4c37-a579-7aa8192e5e83">
         <description><p>Organizational review and updates to the risk assessment policy
 and risk assessment procedures is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="0198b3ae-59d6-47fe-bbb7-c657c284b454" control-id="ra-2">
+    <implemented-requirement uuid="bb1cb5e6-24e0-4ef1-958f-eb7fbc48190e" control-id="ra-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-2_stmt.a" uuid="05b5ab14-02f2-413a-ae08-3d6de71cfe95">
+      <statement statement-id="ra-2_stmt.a" uuid="89efaba9-db24-4b8d-afb1-e6d7fa85f1b2">
         <description><p>Organizational processes to categorize information and information
 systems in accordance with applicable federal laws, Executive
 Orders, directives, policies, regulations, standards, and
 guidance, are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-2_stmt.b" uuid="514e0835-312e-481e-af63-d5d3b19eeeb2">
+      <statement statement-id="ra-2_stmt.b" uuid="23b6747c-5ebe-4dad-ad6d-724a336bab28">
         <description><p>Organizational processes to document the security categorization
 results (including supporting rationale) in the security plan for
 the information system are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-2_stmt.c" uuid="afbfba5b-b9a5-493b-a5c3-162ba7898464">
+      <statement statement-id="ra-2_stmt.c" uuid="30e35439-644c-4349-931f-522f2f457dab">
         <description><p>Organizational processes to ensure that the authorizing official
 or authorizing official designated representative reviews and
 approved the security categorization decision are outside
@@ -2176,9 +2177,9 @@ the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="6fe22174-5c91-4647-92ef-fb4c1116a6e6" control-id="ra-3">
+    <implemented-requirement uuid="432ccc2c-9d85-4f51-8f4f-79eb4855e636" control-id="ra-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="ra-3_stmt.a" uuid="27b2cfce-d3e5-4c91-9001-71c3c7021c29">
+      <statement statement-id="ra-3_stmt.a" uuid="c774b465-d653-46b5-8e3d-707b911185c2">
         <description><p>Organizational processes to conduct an assessment of risk,
 including the likelihood and magnitude of harm, from the unauthorized
 access, use, disclosure, disruption, modification, or desctruction of
@@ -2186,25 +2187,25 @@ the information system and the information it processes, stores, or
 transmits, are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.b" uuid="25a48b7b-1734-4549-9a96-960954f41d02">
+      <statement statement-id="ra-3_stmt.b" uuid="37d39c15-0c90-47c7-9129-fa94ef053c9c">
         <description><p>Organizational processes to document risk assessment results in
 security plans, risk assessment reports, or organization-defined
 documents, are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.c" uuid="b364e7c5-5ab0-481e-a780-08be1c0ad29c">
+      <statement statement-id="ra-3_stmt.c" uuid="8b022f35-9604-4f3a-a1e4-f86462fe7e09">
         <description><p>Organizational processes to review risk assessment results at
 an organization-defined frequency are outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.d" uuid="a1d54e3b-8c55-4a61-aebd-e0900ab8fd48">
+      <statement statement-id="ra-3_stmt.d" uuid="8310d870-89fc-4245-89ae-63269880293e">
         <description><p>Organizational processes to disseminate risk assessment results to
 organization-defined personnel or roles are outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="ra-3_stmt.e" uuid="cdda33c5-40eb-4df7-a3e3-ffadb8542ec8">
+      <statement statement-id="ra-3_stmt.e" uuid="e5f7e4d0-b4ac-4f3b-b114-633c62a5ee7a">
         <description><p>Organizational processes to update the risk assessment at an
 organization-defined frequency or whenever there are significant
 changes to the information system or environment of operation
@@ -2214,31 +2215,31 @@ are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b97765bf-062a-4dda-914e-900837574049" control-id="ra-5">
+    <implemented-requirement uuid="bc1a7196-2ade-4b76-a2a4-80eb5c838e5c" control-id="ra-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="partial"></annotation>
-      <statement statement-id="ra-5_stmt.a" uuid="93b4fe30-4890-4fe5-b564-fc11b3747abf">
+      <statement statement-id="ra-5_stmt.a" uuid="a7fecbd3-0501-4f98-85a8-83396469dd68">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.b" uuid="30298af2-0c94-4a15-818f-9f25f547824c">
+      <statement statement-id="ra-5_stmt.b" uuid="d59c401d-a0ae-4496-a3ba-a15a4df6560a">
         <description><p>A control response is planned. Progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-352
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.c" uuid="56d02116-bc89-41b4-8eb0-887aaa0405f6">
+      <statement statement-id="ra-5_stmt.c" uuid="f40c168d-e799-400d-ab1f-304a71f3ba18">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.d" uuid="5cbc2971-4f44-4772-bdf8-070d9a0e636c">
+      <statement statement-id="ra-5_stmt.d" uuid="be747ce2-8522-488e-a7b7-838eb2390f97">
         <description><p>A control response is planned. Progress can be tracked via:
 
 https://issues.redhat.com/browse/CMP-352
 </p></description>
       </statement>
-      <statement statement-id="ra-5_stmt.e" uuid="7f130aca-ea1d-4723-82d5-6d7c31db19bb">
+      <statement statement-id="ra-5_stmt.e" uuid="1f5c4b01-68eb-48f4-b2a2-4b867fbc6176">
         <description><p>Organizational processes to share information obtained from the
 vulnerability scanning process and security control assessments
 with organization-defined personnel or roles to help eliminate
@@ -2248,58 +2249,58 @@ of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="32bf37b1-0fdf-43a6-b4ae-1450dd3ab96c" control-id="sa-1">
+    <implemented-requirement uuid="bdc20cfc-127d-4272-a283-20e8998ca46f" control-id="sa-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-1_stmt.a" uuid="4fde525c-ecfa-488c-9554-57fe5b750681">
+      <statement statement-id="sa-1_stmt.a" uuid="dc595668-35e1-4b54-8cb0-f60f76f581d3">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.a.1" uuid="d8757b6c-a0df-4af0-8a5f-c1c70e7455ba">
+      <statement statement-id="sa-1_stmt.a.1" uuid="0f96e090-81ac-4159-8b95-88e8a8745078">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.a.2" uuid="3b8443bf-09f6-48af-bc92-06ee28b8de6e">
+      <statement statement-id="sa-1_stmt.a.2" uuid="9d8e677d-3aa2-4720-9564-c16e03ee71ac">
         <description><p>Organizational processes to develop, document, and disseminate to
 organization-defined personnel or roles a system and services
 acquisition policy is outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b" uuid="886a4ef4-1472-4f1b-9713-5aa75681c3b6">
+      <statement statement-id="sa-1_stmt.b" uuid="a4fb0e12-dded-480f-ba6f-d69f8639e8ea">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b.1" uuid="c93db300-e0b4-47c9-924d-5449c75dafc9">
+      <statement statement-id="sa-1_stmt.b.1" uuid="dda24af0-05b4-4bea-b81f-c60c8c1af96f">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-1_stmt.b.2" uuid="186d2a7c-0f21-4a16-ba23-11860626f4db">
+      <statement statement-id="sa-1_stmt.b.2" uuid="70de8404-86d5-4a69-9eb6-2fb990023785">
         <description><p>Organizational review and updates to the current system and services
 acquisition policy and procedures at an organization-defined frequency
 is outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c14cfa82-3af6-4cfb-a328-bb4b97f81b81" control-id="sa-2">
+    <implemented-requirement uuid="6e9e2960-3ea9-4b81-9c5f-c72146a480f6" control-id="sa-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-2_stmt.a" uuid="4dd1c774-a4c3-4cb0-b45e-b87053b6ebd1">
+      <statement statement-id="sa-2_stmt.a" uuid="e17ba551-2676-4d31-8535-19fbc78a2f84">
         <description><p>Organizational processes to determine information security requirements
 for the information system or information system service in
 mission/business process planning are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-2_stmt.b" uuid="b5c8f7c6-f017-4a67-b698-c90ab771a9b1">
+      <statement statement-id="sa-2_stmt.b" uuid="5cbec774-d32e-445f-b7f1-adda4428ad6a">
         <description><p>Organizational processes to determine, document, and allocate the
 resources required to protect the information system or information
 system service as part of its capital planning and investment
@@ -2307,193 +2308,193 @@ control process are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-2_stmt.c" uuid="5dd28e49-d178-4743-beb2-81598114ba38">
+      <statement statement-id="sa-2_stmt.c" uuid="9dd96855-ed37-4245-bbd4-a4285f03dfbb">
         <description><p>Organizational processes to establish a discrete line item for
 information security in organizational programming and budgeting
 documentation are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="99f93b3f-31a5-4c1c-b7b4-f93d9f1d2b00" control-id="sa-3">
+    <implemented-requirement uuid="b6d02bd0-7376-4c22-b3ba-69e409371f44" control-id="sa-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-3_stmt.a" uuid="62c10e36-7af0-4de8-868a-70f1644824b1">
+      <statement statement-id="sa-3_stmt.a" uuid="f94fe8ac-64ff-4aec-bda3-242b350d256d">
         <description><p>Organizational processes to manage the information system using
 organization-defined system development life cycle that incorporates
 information security considerations are outside the scope
 of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.b" uuid="014f1acb-6039-4864-8b80-0fa6db8435a0">
+      <statement statement-id="sa-3_stmt.b" uuid="172c9bc5-ce69-4740-9bbd-f33927943f24">
         <description><p>Organizational processes to define and document information security
 roles and responsibilities throughout the system development
 life cycle are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.c" uuid="53e49a69-094c-474c-8c45-6ed6bb6d34f0">
+      <statement statement-id="sa-3_stmt.c" uuid="8961de1d-dd12-45fc-84f9-2adfb8ccf0bf">
         <description><p>Organizational processes to identify individuals having information
 security roles and responsibilities are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-3_stmt.d" uuid="46e0ade2-03b8-4386-9668-07bb3544c55d">
+      <statement statement-id="sa-3_stmt.d" uuid="1b870e74-b943-4ead-a519-888b7c7e6baa">
         <description><p>Organizational processes to integrate the organizational information
 security risk management process into system development life cycle
 activities are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="25adf337-ac5a-4275-9c20-3fe0dad30f8e" control-id="sa-4">
+    <implemented-requirement uuid="01315b77-0352-4320-a2fa-0c320fa99d59" control-id="sa-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-4_stmt.a" uuid="b70f54ed-3868-455d-9d6e-feaca2857722">
+      <statement statement-id="sa-4_stmt.a" uuid="9c1f5e00-3ab9-4a06-9d91-39384b616bda">
         <description><p>Organizational processes to include security functional requirements
 in acquisition contracts are outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.b" uuid="53def28f-d051-42dc-b86a-1590994224b7">
+      <statement statement-id="sa-4_stmt.b" uuid="970de8d0-c962-4ea5-9c1e-f7f2e608454a">
         <description><p>Organizational processes to include security strength requirements
 in acquisition contracts are outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.c" uuid="f641d20b-24a5-4b76-b09b-4f4972b0ffac">
+      <statement statement-id="sa-4_stmt.c" uuid="c9a240cd-200d-43ca-83f7-5b451909d585">
         <description><p>Organizational processes to include security assurance requirements
 in acquisition contracts are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.d" uuid="e5b22aee-0b40-47cb-9c72-062fa877aa7d">
+      <statement statement-id="sa-4_stmt.d" uuid="8d9c1728-3899-4984-8a9a-76a2328f4f18">
         <description><p>Organizational processes to include security-related documentation
 requirements in acquisition contracts are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.e" uuid="5beae089-f4c5-45a7-80d9-707bd5336bdb">
+      <statement statement-id="sa-4_stmt.e" uuid="8ecd3716-c092-4167-a916-69b7dec418d6">
         <description><p>Organizational processes to include requirements for protecting
 security-related documentation in acquisition contracts
 are outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.f" uuid="ccb7024b-49e3-4df7-b965-c979384bde67">
+      <statement statement-id="sa-4_stmt.f" uuid="729f6e1d-b4eb-44c1-ab29-b7b5cae47eb6">
         <description><p>Organizational processes to include a description of the information
 system development environment and environment in which the system is
 intended to operate in acqusition contracts are outside the scope of
 OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-4_stmt.g" uuid="4ff891d4-39a7-4b00-82db-b604ec6e0e9e">
+      <statement statement-id="sa-4_stmt.g" uuid="1c0b7310-02b0-4b58-b628-32c413cc3d42">
         <description><p>Organizational processes to include acceptance criteria in
 acqusition contracts are outside the scope of OpenShift
 configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9ae057a5-98c8-4821-989c-f355183f643a" control-id="sa-5">
+    <implemented-requirement uuid="9f9024ca-fadb-4af7-9e6d-5e8f184ce920" control-id="sa-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sa-5_stmt.a" uuid="39799ab5-0ead-4221-a524-3c464182978c">
+      <statement statement-id="sa-5_stmt.a" uuid="2db56fdf-8571-4d38-b10b-1a468c10119d">
         <description><p>A control response to SA-5(a) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.1" uuid="d1ee1189-540e-4208-b053-e3d34bb4f4f9">
+      <statement statement-id="sa-5_stmt.a.1" uuid="57f3a09d-f571-4192-9668-caca9b651402">
         <description><p>A control response to SA-5(a)(1) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.2" uuid="2ed9bcfd-989b-41e5-b295-9f3e1d9385fb">
+      <statement statement-id="sa-5_stmt.a.2" uuid="67808136-c093-4a2d-80b8-bd3f2bef849f">
         <description><p>A control response to SA-5(a)(2) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.a.3" uuid="4c4adb96-a864-4d09-b19c-66e867082e8e">
+      <statement statement-id="sa-5_stmt.a.3" uuid="23db1570-ef73-43d7-bbac-1a09c311dba0">
         <description><p>A control response to SA-5(a)(3) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b" uuid="40b1c23d-e596-463f-94bb-7ef42b4c64c2">
+      <statement statement-id="sa-5_stmt.b" uuid="95eb0aff-6c24-47cb-bb01-cdb6bf65e76b">
         <description><p>A control response to SA-5(b) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.1" uuid="2a3372ce-772b-493e-a8e1-23c5901d45b7">
+      <statement statement-id="sa-5_stmt.b.1" uuid="d8133ec1-55da-4e8f-96a3-db01e74f1f59">
         <description><p>A control response to SA-5(b)(1) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.2" uuid="aaf0392d-fdaa-4af4-8f1d-8e9978b9c511">
+      <statement statement-id="sa-5_stmt.b.2" uuid="c4628090-c26d-482a-b971-e9a4f2fbd08b">
         <description><p>A control response to SA-5(b)(2) is planned. Progress
 can be tracked at:
 
 https://issues.redhat.com/browse/CMP-367
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.b.3" uuid="3870ac84-ebd5-408c-8ba0-a49ae325eeb6">
+      <statement statement-id="sa-5_stmt.b.3" uuid="2b47c40c-d67d-4335-b2b8-1f6baff4062f">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.c" uuid="fd04ccf0-7aee-4289-b64d-2d894f006f90">
+      <statement statement-id="sa-5_stmt.c" uuid="331f6f6c-5489-4fad-bcca-d80f438ce835">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.d" uuid="f8f64c06-d094-4e69-9159-2f41026dad94">
+      <statement statement-id="sa-5_stmt.d" uuid="8f8699c5-b4ef-4bef-b256-771d85c70b09">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="sa-5_stmt.e" uuid="c62273de-df12-40a5-8dcc-4bb65505e17b">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to OpenShift configuration.
-</p></description>
-      </statement>
-    </implemented-requirement>
-    <implemented-requirement uuid="74028b1a-7c18-434e-a83d-3f58ec21c955" control-id="sa-9">
-      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sa-9_stmt.a" uuid="7f840514-3c49-440a-b652-f2469352d7d5">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to OpenShift configuration.
-</p></description>
-      </statement>
-      <statement statement-id="sa-9_stmt.b" uuid="8e9ced0c-8a72-4c00-9e65-9737069262f7">
-        <description><p>This control reflects organizational procedure/policy and is not
-applicable to OpenShift configuration.
-</p></description>
-      </statement>
-      <statement statement-id="sa-9_stmt.c" uuid="8aad9857-adce-4254-a1c3-c1a307194b5a">
+      <statement statement-id="sa-5_stmt.e" uuid="2c694a0e-0a4b-4375-8365-291375d8d027">
         <description><p>This control reflects organizational procedure/policy and is not
 applicable to OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="9d777443-b307-42f5-a9b9-b2e45c6c236e" control-id="sc-1">
+    <implemented-requirement uuid="c5ed061b-2bf6-41eb-9e79-b4b0676f87bf" control-id="sa-9">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sc-1_stmt.a" uuid="71f5ec3d-e0e0-4a90-a328-e7a320de7184">
+      <statement statement-id="sa-9_stmt.a" uuid="e5f7047b-ea15-4dca-af41-dfc1ffce06da">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to OpenShift configuration.
+</p></description>
+      </statement>
+      <statement statement-id="sa-9_stmt.b" uuid="b0c6dbe8-4553-4979-abf4-8738ab76bccc">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to OpenShift configuration.
+</p></description>
+      </statement>
+      <statement statement-id="sa-9_stmt.c" uuid="8de871f5-00e2-461b-9334-e62d70f5ed11">
+        <description><p>This control reflects organizational procedure/policy and is not
+applicable to OpenShift configuration.
+</p></description>
+      </statement>
+    </implemented-requirement>
+    <implemented-requirement uuid="decc2949-0523-416e-a4e6-8f1c4a3e9ffc" control-id="sc-1">
+      <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
+      <statement statement-id="sc-1_stmt.a" uuid="31e28518-edb0-4bbb-a9c5-fe58df5b9b56">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="sc-1_stmt.b" uuid="e8912263-c2ae-4371-b319-0d806588cb8d">
+      <statement statement-id="sc-1_stmt.b" uuid="4b5241d8-2709-4e0c-bb94-9a3e3d563e6c">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="07fe557f-881b-4711-a142-837733923e4b" control-id="sc-5">
+    <implemented-requirement uuid="f2fd9248-f880-4d7e-b337-981488616dcd" control-id="sc-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-5_stmt" uuid="e1b25e46-7788-4f4d-bc00-21da844af75c">
+      <statement statement-id="sc-5_stmt" uuid="3db668e8-8775-46e9-b336-1dc44458469d">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2501,23 +2502,23 @@ https://issues.redhat.com/browse/CMP-427
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c7ed242d-9a5c-41b7-a18e-3b4e82530747" control-id="sc-7">
+    <implemented-requirement uuid="07fd2174-2dce-4e5b-9dad-c21d482f553c" control-id="sc-7">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-7_stmt.a" uuid="8541c77c-0c9a-47ae-9ae0-f0bf09910b30">
+      <statement statement-id="sc-7_stmt.a" uuid="aba3c7b8-dddf-41a5-80c7-be989ba5404f">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
-      <statement statement-id="sc-7_stmt.b" uuid="dc3e8755-7607-4ab1-aa24-73c1300365d5">
+      <statement statement-id="sc-7_stmt.b" uuid="4720af67-f391-400e-b792-66cbcca92430">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
-      <statement statement-id="sc-7_stmt.c" uuid="b4f8a087-1675-4480-9144-3610b7de1b6a">
+      <statement statement-id="sc-7_stmt.c" uuid="9e9a218c-228f-44b4-a323-2eab6f078b29">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2525,9 +2526,9 @@ https://issues.redhat.com/browse/CMP-426
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b1e1cc6f-0da1-4b9f-a3e7-ea4a7cb73e0e" control-id="sc-12">
+    <implemented-requirement uuid="0ed43578-777e-4e62-ac46-cab42c19bdc5" control-id="sc-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-12_stmt" uuid="160fc3b7-03db-46c1-be62-c1a43d2b45c3">
+      <statement statement-id="sc-12_stmt" uuid="d3ab19e6-0132-4a21-a245-f02c15af4f57">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2535,9 +2536,9 @@ https://issues.redhat.com/browse/CMP-421
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="b976dd90-70ae-44c9-8dce-578df035df1b" control-id="sc-13">
+    <implemented-requirement uuid="4e888a4a-4a56-4859-993c-f631c270e1ef" control-id="sc-13">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-13_stmt" uuid="e1c9a89b-b416-4e69-b6ea-15230fba751d">
+      <statement statement-id="sc-13_stmt" uuid="7bf58bf8-3be9-40e5-83c0-49b123ceb455">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2545,16 +2546,16 @@ https://issues.redhat.com/browse/CMP-420
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="c06bd16e-91b1-4fa1-af93-1868c61a9858" control-id="sc-15">
+    <implemented-requirement uuid="7f350765-b843-42a2-9942-95bbc5008d49" control-id="sc-15">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="sc-15_stmt.a" uuid="e236c61d-10e9-47e6-aad5-cb7d6e304544">
+      <statement statement-id="sc-15_stmt.a" uuid="adf6f892-c6bd-47d7-8fad-b0037553dece">
         <description><p>Examples of collaborative computing devices include networked white
 boards, TV conference cameras, and remote video systems. This control
 is not applicable because Red Hat OpenShift Container Platform is not
 a collaborative computing device.
 </p></description>
       </statement>
-      <statement statement-id="sc-15_stmt.b" uuid="62032b65-f135-4bbd-ad75-a7c0727be01f">
+      <statement statement-id="sc-15_stmt.b" uuid="9efc95db-2c0d-471f-9f6d-7f7f241e99d7">
         <description><p>Examples of collaborative computing devices include networked white
 boards, TV conference cameras, and remote video systems. This control
 is not applicable because Red Hat OpenShift Container Platform is not
@@ -2562,9 +2563,9 @@ a collaborative computing device.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="82443d98-d76d-4274-8a13-cf0156c7b130" control-id="sc-20">
+    <implemented-requirement uuid="9ada2d9c-3693-42c5-887b-15cdc7c25ce4" control-id="sc-20">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-20_stmt.a" uuid="f82be102-1657-4e8e-945f-a8f4a78721dc">
+      <statement statement-id="sc-20_stmt.a" uuid="ac7940be-6321-43e6-9f17-b57e97c33870">
         <description><p>OpenShift administrators are responsible for providing
 origin authentication and integrity verification artifacts along
 with authoritative name resolution data returns in response. A
@@ -2577,7 +2578,7 @@ tracked via:
 https://issues.redhat.com/browse/CMP-417
 </p></description>
       </statement>
-      <statement statement-id="sc-20_stmt.b" uuid="0ebb47e0-c0b9-4ad4-a4b3-17d8500547ff">
+      <statement statement-id="sc-20_stmt.b" uuid="a3093dec-1859-465e-bf26-741dc851ab08">
         <description><p>OpenShift administrators are responsible for
 providing means to indicate the security status of child zones and
 enable verification of a chain of trust among parent and child domains.
@@ -2591,9 +2592,9 @@ https://issues.redhat.com/browse/CMP-417
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="ead30399-6f63-487b-ac41-e7ba566d3bdb" control-id="sc-21">
+    <implemented-requirement uuid="a2b5b892-9101-4ab4-a53e-e8cb0304e13b" control-id="sc-21">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-21_stmt" uuid="d723d442-0f93-42fe-b1cc-837848ab35fb">
+      <statement statement-id="sc-21_stmt" uuid="c8a745b7-3e56-4a2e-84e6-de7a9c8df2a1">
         <description><p>A complete control response is planned. Engineering progress can be
 tracked via:
 
@@ -2601,9 +2602,9 @@ https://issues.redhat.com/browse/CMP-410
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="a776aa28-7077-4b69-80b6-8e1674d6add2" control-id="sc-22">
+    <implemented-requirement uuid="15cc1054-a241-4481-8c60-736944d69609" control-id="sc-22">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="sc-22_stmt" uuid="9d4155c5-f394-4c37-9701-2c6425d2ffc2">
+      <statement statement-id="sc-22_stmt" uuid="52a54697-f625-4284-80ae-eacb69ff63bb">
         <description><p>OpenShift administrators are responsible for ensuring
 services are fault-tolerant and implement internal/external role
 separation.
@@ -2615,49 +2616,49 @@ https://issues.redhat.com/browse/CMP-409
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="f2d57084-e48c-4507-aa2e-43393c364b72" control-id="sc-39">
+    <implemented-requirement uuid="6c19187c-72a8-46d5-b0d3-e57e0365097b" control-id="sc-39">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="complete"></annotation>
-      <statement statement-id="sc-39_stmt" uuid="83758448-cf10-4e92-9b97-efefed31246d">
+      <statement statement-id="sc-39_stmt" uuid="3fed3144-06b7-4b67-b044-ecce2c198df7">
         <description><p>The control is met when SELinux and namespaces are enabled and used.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="2f58a06b-a056-4535-befd-fed7319711da" control-id="si-1">
+    <implemented-requirement uuid="f2d80253-bb39-4ea5-a11a-112ce813802d" control-id="si-1">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-1_stmt.a" uuid="5e52f57d-eab2-4d09-b09a-5b9137cdea00">
+      <statement statement-id="si-1_stmt.a" uuid="40a793b1-cb7b-439d-99a9-df93bbc20750">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.a.1" uuid="93fd635e-7dc7-42dc-8e99-578885d12087">
+      <statement statement-id="si-1_stmt.a.1" uuid="bb70a210-3fbd-43d6-827b-d45adb7e4949">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.a.2" uuid="304c707f-770e-4b28-81f9-178ad9f2ec21">
+      <statement statement-id="si-1_stmt.a.2" uuid="9d50d583-bede-437b-98dd-b1f65876ec97">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b" uuid="ee058379-91c0-4bac-bb08-0e5b6431374e">
+      <statement statement-id="si-1_stmt.b" uuid="cd30db4f-225c-42cc-a4c5-dca851dae601">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b.1" uuid="205fb577-893f-4443-9622-ddd6524a58b0">
+      <statement statement-id="si-1_stmt.b.1" uuid="b7815e53-4415-46f7-ad47-580a359fd445">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-1_stmt.b.2" uuid="89517030-bdcc-48b3-967a-171edcb7aaa2">
+      <statement statement-id="si-1_stmt.b.2" uuid="7e4676fb-c1a8-47b8-80d9-ae8a1a9c9a5b">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="d20113cb-d2aa-407c-a826-0aaf6a577986" control-id="si-2">
+    <implemented-requirement uuid="c0e0993c-8f16-42e7-9419-a1c0e468ab3f" control-id="si-2">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-2_stmt.a" uuid="5fbf3959-a630-4bce-a765-d6da79e999aa">
+      <statement statement-id="si-2_stmt.a" uuid="7b1fa028-5fbd-421e-8080-57b05eaa6c7f">
         <description><p>The customer will be responsible for analyzing their OpenShift deployment for
 flaws, reporting on those flaws, and correcting them. A successful
 control response will include a discussion of the process by which
@@ -2665,7 +2666,7 @@ flaws are discovered and remediated, as well as tools that are used to
 assist in detection and remediation.
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.b" uuid="199c194b-2720-46ff-abd8-4367d0eb7b70">
+      <statement statement-id="si-2_stmt.b" uuid="5602f8e2-1ca1-4e6e-be8f-65817129e5c9">
         <description><p>The customer will be responsible for testing OpenShift updates
 related to flaw remediation prior to installation. A successful
 control response will discuss the testing process (e.g. the
@@ -2673,20 +2674,20 @@ nature of the test environment, the types of testing performed,
 the tools in testing, etc.).
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.c" uuid="0dee86ec-a7e4-45de-9e67-3096eef8601b">
+      <statement statement-id="si-2_stmt.c" uuid="c876626f-5f2f-477a-a444-7d3b2763ffa3">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-2_stmt.d" uuid="04523b31-fb14-4c57-abff-4147df09597f">
+      <statement statement-id="si-2_stmt.d" uuid="1e98afb5-ac3e-46dd-b66b-5194fe950c17">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="7926f6c4-38e6-4790-889b-755f17b972d3" control-id="si-3">
+    <implemented-requirement uuid="770daf29-0b38-4579-b5fe-99c8e3d14335" control-id="si-3">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-3_stmt.a" uuid="94f1f536-7e4b-418a-ae36-753cea25cf44">
+      <statement statement-id="si-3_stmt.a" uuid="460e464c-e97d-4242-8797-7cf4acaf4a45">
         <description><p>The customer is responsible for ensuring that they employ malicious
 code protection at information system entry, and exit points to detect
 and eradicate malicious code. A successful control response will need
@@ -2696,19 +2697,19 @@ scripts). In regards to OpenShift, this is generally through
 the use of third party tools.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.b" uuid="154aa0f3-cf57-45e7-8642-7a15a873b38b">
+      <statement statement-id="si-3_stmt.b" uuid="fdf1cedd-f535-4a67-9da1-caae1fb8fb03">
         <description><p>Updating malicious code protection mechanisms whenever new releases
 are available in accordance with organizational configuration
 management policy and procedures is an organizational control outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c" uuid="ce6f7973-8262-45c8-a1ce-8a34f128f9c8">
+      <statement statement-id="si-3_stmt.c" uuid="35297f5b-6eed-4ea9-bde1-9e0a721bb023">
         <description><p>Configuring malicious code protection mechanisms is an organizational control outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c.1" uuid="2c786a77-ff3f-4f34-9418-683b60731997">
+      <statement statement-id="si-3_stmt.c.1" uuid="31650410-7b1b-4ee9-aeb8-d83836eddc72">
         <description><p>Performing periodic scans of the information system per organization-defined frequency
 and real-time scans of files from external sources via endpoints or network entry/exit
 points as the files are downloaded, opened, or executed in accordance with organizational
@@ -2716,92 +2717,92 @@ security policy is an organizational control outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.c.2" uuid="5c6c00d6-d01a-438f-b08b-c1e69d744b13">
+      <statement statement-id="si-3_stmt.c.2" uuid="764a1c50-937a-4e1b-825a-0ce6f3c9ae63">
         <description><p>Blocking malicious code, quarantining malicious code, sending alerts to administrator, or
 some other organization-defined action in response to malicious code detection is an organizational control outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-3_stmt.d" uuid="1ce27ed4-1f29-4254-b61a-58379c0e8933">
+      <statement statement-id="si-3_stmt.d" uuid="0c97e039-4a7f-4c7c-9f1a-8aaf6740e1fd">
         <description><p>Addressing the receipt of false positives during malicious code detection and eradication
 and the resulting potential impact on the availability of the information system is an organizational control outside
 the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="bc2015af-498c-442c-8909-885c9d77ab7c" control-id="si-4">
+    <implemented-requirement uuid="31cbc1ff-51f3-43c4-9027-3cf85125176e" control-id="si-4">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-4_stmt.a" uuid="0406d012-c438-45c1-a3d1-4e4de292a4e9">
+      <statement statement-id="si-4_stmt.a" uuid="18b2f726-53e4-492b-a23c-5343fdd8d0fc">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.a.1" uuid="9826dfcd-79f3-4646-944c-8801dae6b36b">
+      <statement statement-id="si-4_stmt.a.1" uuid="548db501-11e5-4edd-a12c-a8ab8d13c450">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.a.2" uuid="cecd8baf-ad72-42d7-8ae3-5b9fa1b6b11d">
+      <statement statement-id="si-4_stmt.a.2" uuid="36f2ed25-55aa-4371-826e-d5c0605c5eb4">
         <description><p>Monitoring the system to detect unauthorized local, network, and remote connections
 is an organizational control outside the scope of OpenShift configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.b" uuid="c22c439f-d78c-4498-993b-aebb77b25f60">
+      <statement statement-id="si-4_stmt.b" uuid="a7b15678-7ea9-4b8f-baa1-58b6bc5acf3f">
         <description><p>Identifying unauthorized use of the information system through organization-defined
 techniques and methods is an organizational control outside the scope
 of OpenShift configuration. Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c" uuid="e172a983-6fa2-42c0-bc3b-af4c3b522be1">
+      <statement statement-id="si-4_stmt.c" uuid="0f9843dd-ac7f-40e7-8482-8b25dc4c9a8b">
         <description><p>Deploying monitoring devices is an organizational control outside the scope of OpenShift configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c.1" uuid="850a94c5-fc46-4775-bbc8-617189658f4c">
+      <statement statement-id="si-4_stmt.c.1" uuid="4e02458d-f845-4e76-a72b-91e497176395">
         <description><p>Deploying monitoring devices strategically within the information system to collect organization-determined
 essential information is an organizational control outside the scope of OpenShift configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.c.2" uuid="3037fdac-52ba-4a97-b7d0-2c6b6c0f4121">
+      <statement statement-id="si-4_stmt.c.2" uuid="4605a553-b430-4cbb-a852-0e6cf00e34a2">
         <description><p>Deploying monitoring devices at ad hoc locations within the system to track specific types of transactions
 of interest to the organization is an organizational control outside the scope of OpenShift configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.d" uuid="60af4939-d326-4da8-b0fa-88ae2a116d2b">
+      <statement statement-id="si-4_stmt.d" uuid="49c11f5d-e9c2-4ac1-a518-327550843d65">
         <description><p>Protecting information obtained from intrusion-monitoring tools from unauthorized access,
 modification, and deletion is an organizational control outside the scope of OpenShift configuration.
 Functionality to meet this control can be provided by a third party vendor.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.e" uuid="5b64b1bb-b147-418b-8dff-4caa0f270cac">
+      <statement statement-id="si-4_stmt.e" uuid="37feb876-542a-43fb-a7f5-f41b9569f529">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.f" uuid="840b0dec-258d-4403-8ffb-881cd1d6d8ba">
+      <statement statement-id="si-4_stmt.f" uuid="ef6cba4a-4f27-4bdd-8371-4dc83d07eea6">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
-      <statement statement-id="si-4_stmt.g" uuid="3c4cacaf-a986-45ce-87d9-93c6b10283aa">
+      <statement statement-id="si-4_stmt.g" uuid="4b5ff6d3-f0f7-49a3-9f1b-ca190acfcf5f">
         <description><p>This control reflects organizational procedures/policies, and is not
 applicable to the configuration of OpenShift.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="8ef182ae-38df-4c3a-82ab-c2ea0d5ed4f6" control-id="si-5">
+    <implemented-requirement uuid="72a86f4c-1716-4214-9249-9a051185f98a" control-id="si-5">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-5_stmt.a" uuid="0003a4bf-83d4-4c76-b089-729aefb2eed7">
+      <statement statement-id="si-5_stmt.a" uuid="9f17a607-e269-475f-bbd2-020a49db8162">
         <description><p>A control response for SI-5(a) is planned. Engineering progress can be
 tracked via:
 
 https://issues.redhat.com/browse/CMP-396
 </p></description>
       </statement>
-      <statement statement-id="si-5_stmt.b" uuid="e983bd23-1c90-46d7-9c14-8eb804afd4dd">
+      <statement statement-id="si-5_stmt.b" uuid="c5d6fbca-04ad-47ed-9cc5-aa87e1806c0c">
         <description><p>Receiving information system security alerts, advisories, and directives from
 organization-defined external organizations on an ongoing basis is an
 organizational procedures/policies outside the scope of OpenShift configuration.
@@ -2812,23 +2813,23 @@ Hat specific products can be accomplished following the following documentation:
 https://access.redhat.com/security/updates/advisory
 </p></description>
       </statement>
-      <statement statement-id="si-5_stmt.c" uuid="a482f545-445f-4954-b0d1-034e123548e5">
+      <statement statement-id="si-5_stmt.c" uuid="b3c6d137-1036-4544-b7f7-7f0485fe3e5e">
         <description><p>Disseminating security alerts, advisories, and directives to organization-defined
 personnel or roles, organization-defined elements within the organization,
 organization-defined external organizations are organizational
 procedures/policies outside the scope of OpenShift configuration.
 </p></description>
       </statement>
-      <statement statement-id="si-5_stmt.d" uuid="cd94d650-ab01-40d1-bdad-e7612871ce92">
+      <statement statement-id="si-5_stmt.d" uuid="fdd8f8f9-2d08-4fdf-941f-cf901fe937f7">
         <description><p>Implementing security directives in accordance with established time frames or notifying
 the issuing organization of the degree of noncompliance is an organizational
 procedures/policies outside the scope of OpenShift configuration.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="1e5ea6cc-40f6-415f-947b-0f0718a5e850" control-id="si-12">
+    <implemented-requirement uuid="c08e65f7-2a4f-4d2b-999c-7568f24b10d7" control-id="si-12">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="planned"></annotation>
-      <statement statement-id="si-12_stmt" uuid="2119b39c-0bfc-4e1f-9384-77d7a4c17c44">
+      <statement statement-id="si-12_stmt" uuid="4e860c5e-6bff-4401-b341-d963d663c159">
         <description><p>The customer will be responsible for handling and retaining
 information within, or hosted by, OpenShift in
 accordance with applicable federal laws, Executive Orders,
@@ -2840,9 +2841,9 @@ are met.
 </p></description>
       </statement>
     </implemented-requirement>
-    <implemented-requirement uuid="05cfaf1d-2b6a-40e7-a831-ea522c363c0f" control-id="si-16">
+    <implemented-requirement uuid="827ff9ad-8d20-406b-af04-9bdb7a2eb0e5" control-id="si-16">
       <annotation name="implementation-status" ns="https://fedramp.gov/ns/oscal" value="not-applicable"></annotation>
-      <statement statement-id="si-16_stmt" uuid="744d0a43-6ec0-4146-84ca-45dfd384b5ea">
+      <statement statement-id="si-16_stmt" uuid="69021ccf-d81c-4d56-a7ae-dbf51ee38502">
         <description><p>Red Hat OpenShift Container Platform inherits memory protections
 provided by the underlying operating system. This control is not
 applicable to Red Hat OpenShift Container Platform.
